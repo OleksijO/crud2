@@ -1,12 +1,12 @@
 # crud1
 Java Simple CRUD based on servlets and plain JDBC
 
-Application database (PostgreSQL 9.4) represented hierarchical tree structure, like:
-   → Root category
-   → → Product
-   → → Category
-   → ... → Product
-   → ... → Category,
+Application database (PostgreSQL 9.4) represented hierarchical tree structure, like:<br>
+   → Root category<br>
+   → → Product<br>
+   → → Category<br>
+   → ... → Product<br>
+   → ... → Category,<br>
 - stored in two tables: 'product' and 'category', because poduct items has additional fields (price & quantity).
 
 Every category could include subcategories or products or both of them.
