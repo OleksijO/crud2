@@ -1,0 +1,20 @@
+2016.07.13 16:38:35	Application initiated...
+2016.07.13 16:38:35	HTTP	GET	 query string:	null
+2016.07.13 16:38:35	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 16:38:36	HTTP	GET	 query string:	mode=database-management
+2016.07.13 16:38:36	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 16:38:37	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 16:38:39	REFILLING DATABASE:	added categories - 67, products - 744. RESULT: OK
+2016.07.13 16:38:39	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.13 16:38:44	HTTP	GET	 query string:	mode=navi
+2016.07.13 16:38:44	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 16:38:47	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=60
+2016.07.13 16:38:47	MODEL:	DELETE ITEM: 'CATEGORY' id=60	RESULT: OK
+2016.07.13 16:38:47	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=60	SHOWN:	ItemDeleted
+2016.07.13 16:38:53	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 16:38:53	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 16:39:04	HTTP	GET	 query string:	mode=navi&page=1&parent-id=54
+2016.07.13 16:39:04	HTTP	GET	 query string:	mode=navi&page=1&parent-id=54	SHOWN:	NaviHeaderTab
+2016.07.13 16:39:16	HTTP	GET	 query string:	mode=navi&page=1&parent-id=54&edit-mode=deleted&edit-item-type=product&edit-item-id=702
+2016.07.13 16:39:16	MODEL:	DELETE ITEM: 'PRODUCT' id=702	RESULT: OK
+2016.07.13 16:39:16	HTTP	GET	 query string:	mode=navi&page=1&parent-id=54&edit-mode=deleted&edit-item-type=product&edit-item-id=702	SHOWN:	ItemDeleted

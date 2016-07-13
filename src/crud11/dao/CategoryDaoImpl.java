@@ -1,38 +1,20 @@
 package crud11.dao;
 
 import crud10.Constants;
-import crud11.entity.Category;
-import crud11.entity.Product;
+import crud11.entities.Category;
+import crud11.entities.Product;
 import org.hibernate.Criteria;
 import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
-import org.hibernate.transform.Transformers;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import static crud11.dao.SessionFactoryImpl.*;
 
-public class CategoryDaoImpl implements Dao<Category, Integer> {
+public class CategoryDaoImpl extends AbstractDaoImpl<Category>  {
 
-    @Override
-    public Integer create(Category newInstance) {
-        Session session = null;
-        try {
-            session = getSession();
-            session.beginTransaction();
-            session.save(newInstance);
-            session.getTransaction().commit();
-        } finally {
-            if (session != null) {
-                session.close();
-            }
-        }
-        return newInstance.getId();
 
-    }
 
     @Override
     public Category read(Integer id) {
@@ -41,6 +23,7 @@ public class CategoryDaoImpl implements Dao<Category, Integer> {
         Category category = null;
         try {
             session = getSession();
+            session.beginTransaction();
             category = (Category) session.get(Category.class, id);
             if (category == null) throw new ObjectNotFoundException(id, "Category");
             Criteria categoryCriteria = session.createCriteria(Category.class);
@@ -53,6 +36,9 @@ public class CategoryDaoImpl implements Dao<Category, Integer> {
             List<Product> listProduct = (List<Product>) productCriteria.addOrder(Order.desc("id")).list();
             category.setSubCategories(listCategory);
             category.setProducts(listProduct);
+
+            session.getTransaction().commit();
+            updateCounts(session);
         } finally {
             if (session != null) {
                 session.close();
@@ -62,24 +48,7 @@ public class CategoryDaoImpl implements Dao<Category, Integer> {
     }
 
     @Override
-    public void update(Category transientObject) {
-        Session session = null;
-        if (transientObject.getId() == null) throw new IllegalArgumentException("Id cannot be NULL while update!");
-        try {
-            session = getSession();
-            session.beginTransaction();
-            session.update(transientObject);
-            session.getTransaction().commit();
-        } finally {
-            if (session != null) {
-                session.close();
-            }
-        }
-    }
-
-    @Override
     public void delete(Integer id) {
-
         if ((id == null) || (id == Constants.ROOT_CATEGORY_ID)) throw new IllegalArgumentException();
         Session session = null;
         Category category;
@@ -89,6 +58,7 @@ public class CategoryDaoImpl implements Dao<Category, Integer> {
             session.beginTransaction();
             session.delete(category);
             session.getTransaction().commit();
+
         } finally {
             if (session != null) {
                 session.close();

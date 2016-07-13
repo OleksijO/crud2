@@ -1,9 +1,7 @@
 package crud11.dao;
 
-import crud11.entity.Category;
-
 import java.io.Serializable;
-import java.util.List;
+import java.util.Collection;
 
 public interface Dao<T, PrKey extends Serializable> {
     /**
@@ -26,5 +24,10 @@ public interface Dao<T, PrKey extends Serializable> {
      */
     void delete(PrKey id);
 
+    int getTotalCount(Class entityClass);
+
+    void createList(Collection list);
+
+    void recreateTables();
 }
 

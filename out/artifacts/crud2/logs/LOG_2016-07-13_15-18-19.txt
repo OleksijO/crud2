@@ -1,0 +1,10 @@
+2016.07.13 15:18:19	Application initiated...
+2016.07.13 15:18:19	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:18:20	RETRIEVE CATEGORY DATA:	java.math.BigInteger cannot be cast to java.lang.Long
+2016.07.13 15:18:20	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 15:18:23	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:18:23	RETRIEVE CATEGORY DATA:	java.math.BigInteger cannot be cast to java.lang.Long
+2016.07.13 15:18:23	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 15:18:25	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:18:25	RETRIEVE CATEGORY DATA:	java.math.BigInteger cannot be cast to java.lang.Long
+2016.07.13 15:18:25	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab

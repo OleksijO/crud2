@@ -1,0 +1,85 @@
+2016.07.13 17:36:30	Application initiated...
+2016.07.13 17:36:30	HTTP	GET	 query string:	null
+2016.07.13 17:36:30	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 17:36:31	HTTP	GET	 query string:	mode=navi
+2016.07.13 17:36:33	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 17:36:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35
+2016.07.13 17:36:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35	SHOWN:	NaviHeaderTab
+2016.07.13 17:36:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=53
+2016.07.13 17:36:45	MODEL:	DELETE ITEM: 'CATEGORY' id=53	RESULT: OK
+2016.07.13 17:36:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=53	SHOWN:	ItemDeleted
+2016.07.13 17:36:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=52
+2016.07.13 17:36:48	MODEL:	DELETE ITEM: 'CATEGORY' id=52	RESULT: OK
+2016.07.13 17:36:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=52	SHOWN:	ItemDeleted
+2016.07.13 17:36:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=51
+2016.07.13 17:36:50	MODEL:	DELETE ITEM: 'CATEGORY' id=51	RESULT: OK
+2016.07.13 17:36:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=51	SHOWN:	ItemDeleted
+2016.07.13 17:36:51	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=50
+2016.07.13 17:36:51	MODEL:	DELETE ITEM: 'CATEGORY' id=50	RESULT: OK
+2016.07.13 17:36:51	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=50	SHOWN:	ItemDeleted
+2016.07.13 17:36:52	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=49
+2016.07.13 17:36:52	MODEL:	DELETE ITEM: 'CATEGORY' id=49	RESULT: OK
+2016.07.13 17:36:52	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=49	SHOWN:	ItemDeleted
+2016.07.13 17:36:52	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=48
+2016.07.13 17:36:53	MODEL:	DELETE ITEM: 'CATEGORY' id=48	RESULT: OK
+2016.07.13 17:36:53	HTTP	GET	 query string:	mode=navi&page=1&parent-id=35&edit-mode=deleted&edit-item-type=category&edit-item-id=48	SHOWN:	ItemDeleted
+2016.07.13 17:36:54	HTTP	GET	 query string:	mode=navi&page=1&parent-id=47
+2016.07.13 17:36:54	HTTP	GET	 query string:	mode=navi&page=1&parent-id=47	SHOWN:	NaviHeaderTab
+2016.07.13 17:36:55	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 17:36:55	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 17:36:57	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 17:36:57	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 17:36:59	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1
+2016.07.13 17:36:59	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 17:37:01	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=10
+2016.07.13 17:37:01	MODEL:	DELETE ITEM: 'PRODUCT' id=10	RESULT: OK
+2016.07.13 17:37:01	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=10	SHOWN:	ItemDeleted
+2016.07.13 17:37:02	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=9
+2016.07.13 17:37:02	MODEL:	DELETE ITEM: 'PRODUCT' id=9	RESULT: OK
+2016.07.13 17:37:02	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=9	SHOWN:	ItemDeleted
+2016.07.13 17:37:03	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=8
+2016.07.13 17:37:03	MODEL:	DELETE ITEM: 'PRODUCT' id=8	RESULT: OK
+2016.07.13 17:37:03	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=8	SHOWN:	ItemDeleted
+2016.07.13 17:37:04	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=7
+2016.07.13 17:37:04	MODEL:	DELETE ITEM: 'PRODUCT' id=7	RESULT: OK
+2016.07.13 17:37:04	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=7	SHOWN:	ItemDeleted
+2016.07.13 17:37:04	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=6
+2016.07.13 17:37:04	MODEL:	DELETE ITEM: 'PRODUCT' id=6	RESULT: OK
+2016.07.13 17:37:04	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=6	SHOWN:	ItemDeleted
+2016.07.13 17:37:05	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=5
+2016.07.13 17:37:05	MODEL:	DELETE ITEM: 'PRODUCT' id=5	RESULT: OK
+2016.07.13 17:37:05	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=5	SHOWN:	ItemDeleted
+2016.07.13 17:37:06	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=4
+2016.07.13 17:37:06	MODEL:	DELETE ITEM: 'PRODUCT' id=4	RESULT: OK
+2016.07.13 17:37:06	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=4	SHOWN:	ItemDeleted
+2016.07.13 17:37:06	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=3
+2016.07.13 17:37:06	MODEL:	DELETE ITEM: 'PRODUCT' id=3	RESULT: OK
+2016.07.13 17:37:06	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=3	SHOWN:	ItemDeleted
+2016.07.13 17:37:07	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=2
+2016.07.13 17:37:07	MODEL:	DELETE ITEM: 'PRODUCT' id=2	RESULT: OK
+2016.07.13 17:37:07	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=2	SHOWN:	ItemDeleted
+2016.07.13 17:37:07	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=1
+2016.07.13 17:37:07	MODEL:	DELETE ITEM: 'PRODUCT' id=1	RESULT: OK
+2016.07.13 17:37:07	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=deleted&edit-item-type=product&edit-item-id=1	SHOWN:	ItemDeleted
+2016.07.13 17:37:10	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=category
+2016.07.13 17:37:10	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=category	SHOWN:	NaviHeaderTab
+2016.07.13 17:37:13	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=category
+2016.07.13 17:37:13	MODEL:	ADD ITEM: 'CATEGORY' id=0	RESULT: OK
+2016.07.13 17:37:13	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=category	SHOWN:	ItemAdded
+2016.07.13 17:37:14	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=category
+2016.07.13 17:37:14	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=category	SHOWN:	NaviHeaderTab
+2016.07.13 17:37:21	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=category
+2016.07.13 17:37:21	MODEL:	ADD ITEM: 'CATEGORY' id=0	RESULT: OK
+2016.07.13 17:37:21	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=category	SHOWN:	ItemAdded
+2016.07.13 17:37:24	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=product
+2016.07.13 17:37:24	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=product	SHOWN:	NaviHeaderTab
+2016.07.13 17:37:28	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=product
+2016.07.13 17:37:28	MODEL:	ADD ITEM: 'PRODUCT' id=0	RESULT: OK
+2016.07.13 17:37:28	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=product	SHOWN:	ItemAdded
+2016.07.13 17:37:32	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=product
+2016.07.13 17:37:32	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1&edit-mode=add-new&edit-item-type=product	SHOWN:	NaviHeaderTab
+2016.07.13 17:37:36	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=product
+2016.07.13 17:37:36	MODEL:	ADD ITEM: 'PRODUCT' id=0	RESULT: OK
+2016.07.13 17:37:36	HTTP	POST	 query string:	mode=navi&page=22&parent-id=1&edit-mode=added&edit-item-type=product	SHOWN:	ItemAdded
+2016.07.13 17:37:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 17:37:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab

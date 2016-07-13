@@ -1,0 +1,23 @@
+2016.07.13 15:38:59	Application initiated...
+2016.07.13 15:38:59	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 15:39:01	HTTP	GET	 query string:	null
+2016.07.13 15:39:01	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:39:01	REFILLING DATABASE:	added categories - 0, products - 0. RESULT: OK
+2016.07.13 15:39:01	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.13 15:39:04	HTTP	GET	 query string:	mode=database-management
+2016.07.13 15:39:04	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 15:39:05	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 15:39:05	REFILLING DATABASE:	added categories - 0, products - 0. RESULT: OK
+2016.07.13 15:39:05	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.13 15:39:15	HTTP	GET	 query string:	null
+2016.07.13 15:39:15	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:39:16	HTTP	GET	 query string:	mode=database-management
+2016.07.13 15:39:16	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 15:39:17	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 15:39:17	REFILLING DATABASE:	added categories - 0, products - 0. RESULT: OK
+2016.07.13 15:39:17	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.13 15:39:20	HTTP	GET	 query string:	null
+2016.07.13 15:39:20	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:39:22	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:39:22	RETRIEVE CATEGORY DATA:	No row with the given identifier exists: [Category#0]
+2016.07.13 15:39:22	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab

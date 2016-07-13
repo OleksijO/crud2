@@ -1,0 +1,11 @@
+2016.07.13 15:34:16	Application initiated...
+2016.07.13 15:34:16	HTTP	GET	 query string:	null
+2016.07.13 15:34:16	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:34:17	HTTP	GET	 query string:	mode=database-management
+2016.07.13 15:34:17	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 15:34:18	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 15:36:35	HTTP	GET	 query string:	null
+2016.07.13 15:36:35	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:36:37	HTTP	GET	 query string:	mode=database-management
+2016.07.13 15:36:37	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 15:36:39	HTTP	GET	 query string:	mode=database-management&renew=true

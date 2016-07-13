@@ -11,7 +11,7 @@ public interface Constants {
     int ROOT_CATEGORY_ID = 0;
     String ROOT_CATEGORY_NAME = "Root";
 
-    String SITE_HOME_ADDRESS = "/crud";
+    String SITE_HOME_ADDRESS = "/crud2";
     String SITE_CHAPTER_ADDRESS = SITE_HOME_ADDRESS + "/application";
     String PAGE_NOT_FOUND = "page-not-found";
 
@@ -37,6 +37,9 @@ public interface Constants {
     String QUERY_PARAMETER_EDIT_FORM_DESCRIPTION = "description";
     String QUERY_PARAMETER_EDIT_FORM_PRICE = "price";
     String QUERY_PARAMETER_EDIT_FORM_QUANTITY = "quantity";
+
+    int DATABASE_MANAGEMENT_REFILL_MAX_DEPTH=2;
+    int DATABASE_MANAGEMENT_REFILL_MAX_IN_CATEGORY=25;
 
 
 }

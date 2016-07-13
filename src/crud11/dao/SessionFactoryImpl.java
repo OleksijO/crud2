@@ -1,18 +1,12 @@
 package crud11.dao;
 
-import crud11.entity.Category;
+import crud11.entities.Category;
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.Session;
-import org.hibernate.Query;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.metadata.ClassMetadata;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 
 public class SessionFactoryImpl {

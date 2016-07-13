@@ -1,0 +1,238 @@
+2016.07.13 15:56:00	Application initiated...
+2016.07.13 15:56:00	HTTP	GET	 query string:	null
+2016.07.13 15:56:00	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:56:01	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:56:02	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 15:56:06	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:56:06	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:56:07	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:56:07	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:56:13	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:56:13	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:56:16	HTTP	GET	 query string:	null
+2016.07.13 15:56:16	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:56:17	HTTP	GET	 query string:	mode=database-management
+2016.07.13 15:56:17	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 15:56:18	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 15:56:18	REFILLING DATABASE:	added categories - 216, products - 0. RESULT: OK
+2016.07.13 15:56:18	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.13 15:56:23	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:56:23	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 15:56:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=60
+2016.07.13 15:56:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=60	SHOWN:	NaviHeaderTab
+2016.07.13 15:56:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:56:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=58
+2016.07.13 15:57:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=58	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:06	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:57:06	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:08	HTTP	GET	 query string:	null
+2016.07.13 15:57:08	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 15:57:09	HTTP	GET	 query string:	mode=navi
+2016.07.13 15:57:09	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:15	HTTP	GET	 query string:	mode=navi&page=1&parent-id=59
+2016.07.13 15:57:15	HTTP	GET	 query string:	mode=navi&page=1&parent-id=59	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:18	HTTP	GET	 query string:	mode=navi&page=1&parent-id=59&edit-mode=edit&edit-item-type=product&edit-item-id=671
+2016.07.13 15:57:18	HTTP	GET	 query string:	mode=navi&page=1&parent-id=59&edit-mode=edit&edit-item-type=product&edit-item-id=671	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:24	HTTP	POST	 query string:	mode=navi&page=1&parent-id=59&edit-mode=updated&edit-item-type=product&edit-item-id=671
+2016.07.13 15:57:24	MODEL:	UPDATE ITEM: 'PRODUCT' id=671	RESULT: OK
+2016.07.13 15:57:24	HTTP	POST	 query string:	mode=navi&page=1&parent-id=59&edit-mode=updated&edit-item-type=product&edit-item-id=671	SHOWN:	ItemUpdated
+2016.07.13 15:57:36	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:57:36	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:57:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=60
+2016.07.13 15:57:50	MODEL:	DELETE ITEM: 'CATEGORY' id=60	RESULT: OK
+2016.07.13 15:57:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=60	SHOWN:	ItemDeleted
+2016.07.13 15:57:58	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:57:58	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:00	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:00	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:00	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:00	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:01	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 15:58:03	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:08	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=59
+2016.07.13 15:58:08	MODEL:	DELETE ITEM: 'CATEGORY' id=59	RESULT: OK
+2016.07.13 15:58:08	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=59	SHOWN:	ItemDeleted
+2016.07.13 15:58:10	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=58
+2016.07.13 15:58:10	MODEL:	DELETE ITEM: 'CATEGORY' id=58	RESULT: OK
+2016.07.13 15:58:10	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=58	SHOWN:	ItemDeleted
+2016.07.13 15:58:11	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=35
+2016.07.13 15:58:11	MODEL:	DELETE ITEM: 'CATEGORY' id=35	RESULT: OK
+2016.07.13 15:58:11	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=35	SHOWN:	ItemDeleted
+2016.07.13 15:58:12	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=34
+2016.07.13 15:58:12	MODEL:	DELETE ITEM: 'CATEGORY' id=34	RESULT: OK
+2016.07.13 15:58:12	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=34	SHOWN:	ItemDeleted
+2016.07.13 15:58:14	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=32
+2016.07.13 15:58:14	MODEL:	DELETE ITEM: 'CATEGORY' id=32	RESULT: OK
+2016.07.13 15:58:14	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=32	SHOWN:	ItemDeleted
+2016.07.13 15:58:15	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=27
+2016.07.13 15:58:15	MODEL:	DELETE ITEM: 'CATEGORY' id=27	RESULT: OK
+2016.07.13 15:58:15	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=27	SHOWN:	ItemDeleted
+2016.07.13 15:58:17	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 15:58:17	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:41	HTTP	GET	 query string:	mode=navi&page=26&parent-id=1
+2016.07.13 15:58:41	HTTP	GET	 query string:	mode=navi&page=26&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:49	HTTP	GET	 query string:	mode=navi&page=10&parent-id=1
+2016.07.13 15:58:49	HTTP	GET	 query string:	mode=navi&page=10&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 15:58:51	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 15:58:51	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 15:59:54	HTTP	GET	 query string:	mode=navi&page=34&parent-id=1
+2016.07.13 15:59:54	HTTP	GET	 query string:	mode=navi&page=34&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:01	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1
+2016.07.13 16:00:01	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:04	HTTP	GET	 query string:	mode=navi&page=6&parent-id=1
+2016.07.13 16:00:04	HTTP	GET	 query string:	mode=navi&page=6&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:07	HTTP	GET	 query string:	mode=navi&page=10&parent-id=1
+2016.07.13 16:00:07	HTTP	GET	 query string:	mode=navi&page=10&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:07	HTTP	GET	 query string:	mode=navi&page=9&parent-id=1
+2016.07.13 16:00:07	HTTP	GET	 query string:	mode=navi&page=9&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:08	HTTP	GET	 query string:	mode=navi&page=8&parent-id=1
+2016.07.13 16:00:08	HTTP	GET	 query string:	mode=navi&page=8&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:09	HTTP	GET	 query string:	mode=navi&page=5&parent-id=1
+2016.07.13 16:00:09	HTTP	GET	 query string:	mode=navi&page=5&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:10	HTTP	GET	 query string:	mode=navi&page=4&parent-id=1
+2016.07.13 16:00:10	HTTP	GET	 query string:	mode=navi&page=4&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:13	HTTP	GET	 query string:	mode=navi&page=3&parent-id=1
+2016.07.13 16:00:13	HTTP	GET	 query string:	mode=navi&page=3&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:26	HTTP	GET	 query string:	mode=navi&page=36&parent-id=1
+2016.07.13 16:00:26	HTTP	GET	 query string:	mode=navi&page=36&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:29	HTTP	GET	 query string:	mode=navi&page=35&parent-id=1
+2016.07.13 16:00:29	HTTP	GET	 query string:	mode=navi&page=35&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:32	HTTP	GET	 query string:	mode=navi&page=34&parent-id=1
+2016.07.13 16:00:32	HTTP	GET	 query string:	mode=navi&page=34&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:34	HTTP	GET	 query string:	mode=navi&page=33&parent-id=1
+2016.07.13 16:00:34	HTTP	GET	 query string:	mode=navi&page=33&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:35	HTTP	GET	 query string:	mode=navi&page=32&parent-id=1
+2016.07.13 16:00:35	HTTP	GET	 query string:	mode=navi&page=32&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:36	HTTP	GET	 query string:	mode=navi&page=31&parent-id=1
+2016.07.13 16:00:36	HTTP	GET	 query string:	mode=navi&page=31&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:37	HTTP	GET	 query string:	mode=navi&page=29&parent-id=1
+2016.07.13 16:00:37	HTTP	GET	 query string:	mode=navi&page=29&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:39	HTTP	GET	 query string:	mode=navi&page=28&parent-id=1
+2016.07.13 16:00:39	HTTP	GET	 query string:	mode=navi&page=28&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:39	HTTP	GET	 query string:	mode=navi&page=27&parent-id=1
+2016.07.13 16:00:39	HTTP	GET	 query string:	mode=navi&page=27&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:40	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1
+2016.07.13 16:00:40	HTTP	GET	 query string:	mode=navi&page=22&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:40	HTTP	GET	 query string:	mode=navi&page=17&parent-id=1
+2016.07.13 16:00:40	HTTP	GET	 query string:	mode=navi&page=17&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:41	HTTP	GET	 query string:	mode=navi&page=14&parent-id=1
+2016.07.13 16:00:41	HTTP	GET	 query string:	mode=navi&page=14&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:41	HTTP	GET	 query string:	mode=navi&page=11&parent-id=1
+2016.07.13 16:00:41	HTTP	GET	 query string:	mode=navi&page=11&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:43	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1
+2016.07.13 16:00:43	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:43	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:00:43	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:47	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1
+2016.07.13 16:00:47	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:48	HTTP	GET	 query string:	mode=navi&page=3&parent-id=1
+2016.07.13 16:00:48	HTTP	GET	 query string:	mode=navi&page=3&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:49	HTTP	GET	 query string:	mode=navi&page=4&parent-id=1
+2016.07.13 16:00:49	HTTP	GET	 query string:	mode=navi&page=4&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:50	HTTP	GET	 query string:	mode=navi&page=6&parent-id=1
+2016.07.13 16:00:50	HTTP	GET	 query string:	mode=navi&page=6&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:50	HTTP	GET	 query string:	mode=navi&page=10&parent-id=1
+2016.07.13 16:00:50	HTTP	GET	 query string:	mode=navi&page=10&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:00:51	HTTP	GET	 query string:	mode=navi&page=12&parent-id=1
+2016.07.13 16:00:51	HTTP	GET	 query string:	mode=navi&page=12&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:04:55	HTTP	GET	 query string:	null
+2016.07.13 16:04:55	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 16:04:56	HTTP	GET	 query string:	null
+2016.07.13 16:04:56	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 16:04:57	HTTP	GET	 query string:	mode=navi
+2016.07.13 16:04:57	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:00	HTTP	GET	 query string:	null
+2016.07.13 16:05:00	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.13 16:05:02	HTTP	GET	 query string:	mode=database-management
+2016.07.13 16:05:02	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.13 16:05:03	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.13 16:05:03	REFILLING DATABASE:	added categories - 27, products - 709. RESULT: OK
+2016.07.13 16:05:03	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.13 16:05:10	HTTP	GET	 query string:	mode=navi
+2016.07.13 16:05:10	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:13	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 16:05:13	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:14	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 16:05:14	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:16	HTTP	GET	 query string:	mode=navi&page=1&parent-id=2
+2016.07.13 16:05:16	HTTP	GET	 query string:	mode=navi&page=1&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:18	HTTP	GET	 query string:	mode=navi&page=8&parent-id=2
+2016.07.13 16:05:18	HTTP	GET	 query string:	mode=navi&page=8&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:21	HTTP	GET	 query string:	mode=navi&page=17&parent-id=2
+2016.07.13 16:05:21	HTTP	GET	 query string:	mode=navi&page=17&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:22	HTTP	GET	 query string:	mode=navi&page=23&parent-id=2
+2016.07.13 16:05:22	HTTP	GET	 query string:	mode=navi&page=23&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:23	HTTP	GET	 query string:	mode=navi&page=35&parent-id=2
+2016.07.13 16:05:23	HTTP	GET	 query string:	mode=navi&page=35&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:24	HTTP	GET	 query string:	mode=navi&page=37&parent-id=2
+2016.07.13 16:05:24	HTTP	GET	 query string:	mode=navi&page=37&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:25	HTTP	GET	 query string:	mode=navi&page=10&parent-id=2
+2016.07.13 16:05:25	HTTP	GET	 query string:	mode=navi&page=10&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:25	HTTP	GET	 query string:	mode=navi&page=12&parent-id=2
+2016.07.13 16:05:25	HTTP	GET	 query string:	mode=navi&page=12&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:26	HTTP	GET	 query string:	mode=navi&page=15&parent-id=2
+2016.07.13 16:05:26	HTTP	GET	 query string:	mode=navi&page=15&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:05:30	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 16:05:30	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:14	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:06:14	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:16	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:06:16	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:17	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 16:06:17	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:18	HTTP	GET	 query string:	mode=navi&page=1&parent-id=2
+2016.07.13 16:06:18	HTTP	GET	 query string:	mode=navi&page=1&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:26	HTTP	GET	 query string:	mode=navi&page=14&parent-id=2
+2016.07.13 16:06:26	HTTP	GET	 query string:	mode=navi&page=14&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:30	HTTP	GET	 query string:	mode=navi&page=25&parent-id=2
+2016.07.13 16:06:30	HTTP	GET	 query string:	mode=navi&page=25&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:31	HTTP	GET	 query string:	mode=navi&page=32&parent-id=2
+2016.07.13 16:06:31	HTTP	GET	 query string:	mode=navi&page=32&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:37	HTTP	GET	 query string:	mode=navi&page=31&parent-id=2
+2016.07.13 16:06:37	HTTP	GET	 query string:	mode=navi&page=31&parent-id=2	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.13 16:06:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:46	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=2
+2016.07.13 16:06:46	MODEL:	DELETE ITEM: 'CATEGORY' id=2	RESULT: OK
+2016.07.13 16:06:46	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=2	SHOWN:	ItemDeleted
+2016.07.13 16:06:47	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:06:47	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:54	HTTP	GET	 query string:	mode=navi&page=3&parent-id=1
+2016.07.13 16:06:54	HTTP	GET	 query string:	mode=navi&page=3&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:55	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1
+2016.07.13 16:06:55	HTTP	GET	 query string:	mode=navi&page=2&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:06:56	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:06:56	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:07:30	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:07:30	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:07:31	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:07:31	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:07:31	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:07:31	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:07:32	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:07:32	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:07:32	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:07:32	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
+2016.07.13 16:07:32	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1
+2016.07.13 16:07:32	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1	SHOWN:	NaviHeaderTab
