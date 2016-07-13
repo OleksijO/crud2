@@ -7,39 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud10/dao/DAOService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud10/dao/DAOServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud10/dao/DatabasePropertiesLoader.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/AbstractController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/AbstractController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/DatabaseManagementController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/DatabaseManagementController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/MainController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/NavigationController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/NavigationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/Action.java" afterPath="$PROJECT_DIR$/src/crud10/dto/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/ActionDTO.java" afterPath="$PROJECT_DIR$/src/crud10/dto/ActionDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/Item.java" afterPath="$PROJECT_DIR$/src/crud10/dto/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/ItemDTO.java" afterPath="$PROJECT_DIR$/src/crud10/dto/ItemDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/PageParameters.java" afterPath="$PROJECT_DIR$/src/crud10/dto/PageParameters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/PageParametersDTO.java" afterPath="$PROJECT_DIR$/src/crud10/dto/PageParametersDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/utils/Helper.java" afterPath="$PROJECT_DIR$/src/crud10/utils/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/view/AbstractPageTemplate.java" afterPath="$PROJECT_DIR$/src/crud10/view/AbstractPageTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/view/navi/Body.java" afterPath="$PROJECT_DIR$/src/crud10/view/navi/Body.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/view/navi/decorators/NaviHeaderTab.java" afterPath="$PROJECT_DIR$/src/crud10/view/navi/decorators/NaviHeaderTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/ItemType.java" afterPath="$PROJECT_DIR$/src/crud12/model/ItemType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/Model.java" afterPath="$PROJECT_DIR$/src/crud12/model/Model.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/ModelAction.java" afterPath="$PROJECT_DIR$/src/crud12/model/ModelAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/RealModel11.java" afterPath="$PROJECT_DIR$/src/crud12/model/RealModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java" afterPath="$PROJECT_DIR$/src/crud12/model/TablesRefiller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/AbstractDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/AbstractDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/CategoryDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/CategoryDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/Dao.java" afterPath="$PROJECT_DIR$/src/crud12/dao/Dao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/DaoService.java" afterPath="$PROJECT_DIR$/src/crud12/dao/DaoService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/ProductDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/SessionFactoryImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entities/Category.java" afterPath="$PROJECT_DIR$/src/crud12/entities/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entities/DomainObject.java" afterPath="$PROJECT_DIR$/src/crud12/entities/DomainObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entities/Product.java" afterPath="$PROJECT_DIR$/src/crud12/entities/Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring-config.xml" />
     </list>
     <ignored path="CRUD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -221,6 +189,7 @@
         <option value="hibernate-main-4.0" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -384,6 +353,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1259,7 +1242,7 @@
       <workItem from="1468330959098" duration="1345000" />
       <workItem from="1468332358925" duration="168000" />
       <workItem from="1468332617477" duration="31800000" />
-      <workItem from="1468405607651" duration="15171000" />
+      <workItem from="1468405607651" duration="15317000" />
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -1271,7 +1254,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339123000" />
+    <option name="totallyTimeSpent" value="339269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -1287,6 +1270,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5264271" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32394367" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
