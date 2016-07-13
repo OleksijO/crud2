@@ -1,4 +1,4 @@
-package crud10.model;
+package crud12.model;
 
 /**
  * Created by User on 03.07.2016.

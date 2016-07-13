@@ -1,10 +1,10 @@
-package crud11.dao;
+package crud12.dao;
 
-import crud11.entities.Product;
+import crud12.entities.Product;
 import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
 
-import static crud11.dao.SessionFactoryImpl.getSession;
+import static crud12.dao.SessionFactoryImpl.getSession;
 
 public class ProductDaoImpl extends AbstractDaoImpl<Product> {
 

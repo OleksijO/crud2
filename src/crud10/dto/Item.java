@@ -1,6 +1,6 @@
 package crud10.dto;
 
-import crud10.model.ItemType;
+import crud12.model.ItemType;
 
 /**
  * Created by User on 30.06.2016.

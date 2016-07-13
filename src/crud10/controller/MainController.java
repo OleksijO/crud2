@@ -3,8 +3,8 @@ package crud10.controller;
 import crud10.Logger.Logger;
 import crud10.dto.PageParameters;
 import crud10.dto.PageParametersDTO;
-import crud10.model.RealModel11;
-import crud10.model.Model;
+import crud12.model.RealModel;
+import crud12.model.Model;
 import crud10.view.*;
 
 import javax.servlet.ServletException;
@@ -27,7 +27,7 @@ public class MainController extends javax.servlet.http.HttpServlet {
     public void init() throws ServletException {
         super.init();
         Logger.setServletContext(getServletContext());
-        model = RealModel11.getInstance();
+        model = RealModel.getInstance();
         Logger.log("Application initiated...");
     }
 

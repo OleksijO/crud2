@@ -1,7 +1,7 @@
-package crud11.dao;
+package crud12.dao;
 
-import crud11.entities.Category;
-import crud11.entities.Product;
+import crud12.entities.Category;
+import crud12.entities.Product;
 
 public class DaoService {
     public static Dao<Product,Integer> getProductDaoService (){

@@ -1,4 +1,4 @@
-package crud11.dao;
+package crud12.dao;
 
 import java.io.Serializable;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package crud10.model;
+package crud12.model;
 
 import crud10.dto.Action;
 import crud10.dto.Data;

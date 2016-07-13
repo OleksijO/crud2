@@ -1,21 +1,20 @@
-package crud10.model;
+package crud12.model;
 
-import crud11.dao.Dao;
-import crud11.dao.DaoService;
-import crud11.entities.Category;
-import crud11.entities.Product;
+import crud12.dao.Dao;
+import crud12.entities.Category;
+import crud12.entities.Product;
 
 import java.util.*;
 
 import static crud10.Constants.*;
 
-public class TablesRefiller11 {
+public class TablesRefiller {
     private Map<Integer, Product> products = new HashMap<>();
     private Map<Integer, Category> categories = new TreeMap<>();
     private Dao<Category, Integer> categoryDao;
     private Dao<Product, Integer> productDao;
 
-    public TablesRefiller11(Dao<Category, Integer> categoryDao, Dao<Product, Integer> productDao) {
+    public TablesRefiller(Dao<Category, Integer> categoryDao, Dao<Product, Integer> productDao) {
         this.categoryDao = categoryDao;
         this.productDao = productDao;
     }

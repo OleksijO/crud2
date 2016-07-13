@@ -1,4 +1,4 @@
-package crud11.entities;
+package crud12.entities;
 
 import javax.persistence.*;
 

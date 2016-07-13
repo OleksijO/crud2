@@ -1,8 +1,8 @@
-package crud11.dao;
+package crud12.dao;
 
 import crud10.Constants;
-import crud11.entities.Category;
-import crud11.entities.Product;
+import crud12.entities.Category;
+import crud12.entities.Product;
 import org.hibernate.Criteria;
 import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
@@ -10,7 +10,7 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import java.util.List;
 
-import static crud11.dao.SessionFactoryImpl.*;
+import static crud12.dao.SessionFactoryImpl.*;
 
 public class CategoryDaoImpl extends AbstractDaoImpl<Category>  {
 

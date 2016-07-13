@@ -1,6 +1,6 @@
 package crud10.dto;
 
-import crud10.model.ModelAction;
+import crud12.model.ModelAction;
 
 /**
  * Created by User on 03.07.2016.

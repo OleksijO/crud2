@@ -1,13 +1,13 @@
-package crud10.model;
+package crud12.model;
 
 import crud10.Constants;
 import crud10.Logger.Logger;
 import crud10.dto.*;
-import crud11.dao.Dao;
-import crud11.dao.DaoService;
-import crud11.entities.Category;
-import crud11.entities.DomainObject;
-import crud11.entities.Product;
+import crud12.dao.Dao;
+import crud12.dao.DaoService;
+import crud12.entities.Category;
+import crud12.entities.DomainObject;
+import crud12.entities.Product;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,13 +16,13 @@ import java.util.List;
 /**
  * Model implementation
  */
-public class RealModel11 implements Model {
-    private static Model instance = new RealModel11();
+public class RealModel implements Model {
+    private static Model instance = new RealModel();
 
     private Dao<Category, Integer> categoryDao;
     private Dao<Product, Integer> productDao;
 
-    private RealModel11() {
+    private RealModel() {
         categoryDao = DaoService.getCategoryDaoService();
         productDao = DaoService.getProductDaoService();
     }
@@ -56,7 +56,7 @@ public class RealModel11 implements Model {
             case DATABASE_RESTORE:
                 actionData = new DataDTO();
                 try {
-                    new TablesRefiller11(categoryDao,productDao).refillDatabase();
+                    new TablesRefiller(categoryDao,productDao).refillDatabase();
                     actionData.setTotalNumberOfCategories(categoryDao.getTotalCount(Category.class));
                     actionData.setTotalNumberOfProducts(categoryDao.getTotalCount(Product.class));
                     actionData.setStatusOK();

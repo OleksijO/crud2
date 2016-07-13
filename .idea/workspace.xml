@@ -7,179 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud11/dao/AbstractDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud11/dao/DaoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud11/dao/ProductDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud11/entities/DomainObject.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/Logger/Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/controller/AbstractController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/controller/DatabaseManagementController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/controller/MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/controller/NavigationController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/controller/NavigationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/controller/StartPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dao/DAOService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dao/DAOServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dao/DatabasePropertiesLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dao/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/ActionDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/DataDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/ItemDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/PageParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/dto/PageParametersDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/model/ItemType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/model/Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/model/ModelAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/model/RealModel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/model/RealModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/utils/CharsetFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/utils/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/AbstractPageTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/DatabaseMenegment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/PageTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/Start.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/Body.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/decorators/AbstractDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/decorators/AddItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/decorators/ItemAdded.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/decorators/ItemDeleted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/decorators/ItemUpdated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud1/view/navi/decorators/NaviHeaderTab.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/Logger/Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/controller/AbstractController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/controller/DatabaseManagementController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/controller/MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/controller/NavigationController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/controller/NavigationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/controller/StartPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dao/DAOService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dao/DAOServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dao/DatabasePropertiesLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/ActionDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/DataDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/ItemDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/PageParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/dto/PageParametersDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/model/ItemType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/model/Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/model/ModelAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/model/RealModel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/model/RealModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/utils/CharsetFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/utils/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/AbstractPageTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/DatabaseMenegment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/PageTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/Start.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/Body.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/decorators/AbstractDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/decorators/AddItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/decorators/ItemAdded.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/decorators/ItemDeleted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/decorators/ItemUpdated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud10/view/navi/decorators/NaviHeaderTab.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud11/dao/CategoryDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud11/dao/Dao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud11/dao/SessionFactoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud11/entity/Category.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/crud11/entity/Product.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/resources/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/classes/resources/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.annotation.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.ejb.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.jms.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.persistence.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.resource.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.servlet.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.servlet.jsp.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/javax.transaction.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/lib/postgresql-9.4.1208.jre7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/logs/LOG_2016-07-07_19-05-48.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/logs/LOG_2016-07-08_13-19-33.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/logs/LOG_2016-07-08_13-29-06.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud/properties/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/Logger/Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/controller/AbstractController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/controller/DatabaseManagementController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/controller/MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/controller/NavigationController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/controller/NavigationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/controller/StartPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dao/DAOService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dao/DAOServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dao/DatabasePropertiesLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dao/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/ActionDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/DataDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/ItemDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/PageParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/dto/PageParametersDTO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/model/ItemType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/model/Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/model/ModelAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/model/RealModel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/model/RealModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/utils/CharsetFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/utils/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/AbstractPageTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/DatabaseMenegment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/PageTemplate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/Start.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/Body.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/decorators/AbstractDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/decorators/AddItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/decorators/ItemAdded.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/decorators/ItemDeleted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/decorators/ItemUpdated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud1/view/navi/decorators/NaviHeaderTab.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/model/RealModel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/model/RealModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud11/entity/Category.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/crud11/entity/Product.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/Constants.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud10/Constants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/controller/MainController.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud10/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/view/AbstractPageTemplate.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud10/view/AbstractPageTemplate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/view/DatabaseMenegment.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud10/view/DatabaseMenegment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud11/dao/CategoryDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud11/dao/CategoryDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud11/dao/Dao.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud11/dao/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud11/dao/SessionFactoryImpl.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud11/dao/SessionFactoryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud10/dao/DAOService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud10/dao/DAOServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud10/dao/DatabasePropertiesLoader.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/CRUD/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/CRUD/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/Constants.java" afterPath="$PROJECT_DIR$/src/crud10/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/AbstractController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/AbstractController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/DatabaseManagementController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/DatabaseManagementController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/MainController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud11/dao/CategoryDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud11/dao/CategoryDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud11/dao/Dao.java" afterPath="$PROJECT_DIR$/src/crud11/dao/Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud11/dao/SessionFactoryImpl.java" afterPath="$PROJECT_DIR$/src/crud11/dao/SessionFactoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/NavigationController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/NavigationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/Action.java" afterPath="$PROJECT_DIR$/src/crud10/dto/Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/ActionDTO.java" afterPath="$PROJECT_DIR$/src/crud10/dto/ActionDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/Item.java" afterPath="$PROJECT_DIR$/src/crud10/dto/Item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/ItemDTO.java" afterPath="$PROJECT_DIR$/src/crud10/dto/ItemDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/PageParameters.java" afterPath="$PROJECT_DIR$/src/crud10/dto/PageParameters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/dto/PageParametersDTO.java" afterPath="$PROJECT_DIR$/src/crud10/dto/PageParametersDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/utils/Helper.java" afterPath="$PROJECT_DIR$/src/crud10/utils/Helper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/view/AbstractPageTemplate.java" afterPath="$PROJECT_DIR$/src/crud10/view/AbstractPageTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/view/navi/Body.java" afterPath="$PROJECT_DIR$/src/crud10/view/navi/Body.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/view/navi/decorators/NaviHeaderTab.java" afterPath="$PROJECT_DIR$/src/crud10/view/navi/decorators/NaviHeaderTab.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/crud.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/crud2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/RealModel.java" afterPath="$PROJECT_DIR$/src/crud10/model/RealModel11.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entity/Category.java" afterPath="$PROJECT_DIR$/src/crud11/entities/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entity/Product.java" afterPath="$PROJECT_DIR$/src/crud11/entities/Product.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/ItemType.java" afterPath="$PROJECT_DIR$/src/crud12/model/ItemType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/Model.java" afterPath="$PROJECT_DIR$/src/crud12/model/Model.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/ModelAction.java" afterPath="$PROJECT_DIR$/src/crud12/model/ModelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/RealModel11.java" afterPath="$PROJECT_DIR$/src/crud12/model/RealModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java" afterPath="$PROJECT_DIR$/src/crud12/model/TablesRefiller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/AbstractDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/AbstractDaoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/CategoryDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/CategoryDaoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/Dao.java" afterPath="$PROJECT_DIR$/src/crud12/dao/Dao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/DaoService.java" afterPath="$PROJECT_DIR$/src/crud12/dao/DaoService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/ProductDaoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/dao/SessionFactoryImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entities/Category.java" afterPath="$PROJECT_DIR$/src/crud12/entities/Category.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entities/DomainObject.java" afterPath="$PROJECT_DIR$/src/crud12/entities/DomainObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud11/entities/Product.java" afterPath="$PROJECT_DIR$/src/crud12/entities/Product.java" />
     </list>
     <ignored path="CRUD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -234,7 +94,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Dao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud11/dao/Dao.java">
+        <entry file="file://$PROJECT_DIR$/src/crud12/dao/Dao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
@@ -246,7 +106,7 @@
         </entry>
       </file>
       <file leaf-file-name="CategoryDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud11/dao/CategoryDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/crud12/dao/CategoryDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
@@ -258,29 +118,29 @@
         </entry>
       </file>
       <file leaf-file-name="AbstractDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud11/dao/AbstractDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/crud12/dao/AbstractDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-35.172413">
               <caret line="87" column="34" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1468421289085" expanded="true" signature="1918:1946" placeholder="SELECT COUNT... product" />
-                <marker date="1468421289085" expanded="true" signature="2040:2069" placeholder="SELECT COUNT... category" />
-                <marker date="1468421289085" expanded="true" signature="3008:3029" placeholder="DROP TABLE I... " />
-                <marker date="1468421289085" expanded="true" signature="3008:3036" placeholder="DROP TABLE I... " />
-                <marker date="1468421289085" expanded="true" signature="3093:3122" placeholder="DROP TABLE I... " />
-                <marker date="1468421289085" expanded="true" signature="3179:3570" placeholder="CREATE TABLE... category" />
-                <marker date="1468421289085" expanded="true" signature="3179:3571" placeholder="DROP TABLE I... " />
-                <marker date="1468421289085" expanded="true" signature="3648:4047" placeholder="CREATE TABLE... product" />
-                <marker date="1468421289085" expanded="true" signature="3648:4048" placeholder="DROP TABLE I... " />
-                <marker date="1468421289085" expanded="true" signature="4125:4238" placeholder="INSERT INTO category... " />
+                <marker date="1468421655151" expanded="true" signature="1918:1946" placeholder="SELECT COUNT... product" />
+                <marker date="1468421655151" expanded="true" signature="2040:2069" placeholder="SELECT COUNT... category" />
+                <marker date="1468421655151" expanded="true" signature="3008:3029" placeholder="DROP TABLE I... " />
+                <marker date="1468421655151" expanded="true" signature="3008:3036" placeholder="DROP TABLE I... " />
+                <marker date="1468421655151" expanded="true" signature="3093:3122" placeholder="DROP TABLE I... " />
+                <marker date="1468421655151" expanded="true" signature="3179:3570" placeholder="CREATE TABLE... category" />
+                <marker date="1468421655151" expanded="true" signature="3179:3571" placeholder="DROP TABLE I... " />
+                <marker date="1468421655151" expanded="true" signature="3648:4047" placeholder="CREATE TABLE... product" />
+                <marker date="1468421655151" expanded="true" signature="3648:4048" placeholder="DROP TABLE I... " />
+                <marker date="1468421655151" expanded="true" signature="4125:4238" placeholder="INSERT INTO category... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DomainObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud11/entities/DomainObject.java">
+        <entry file="file://$PROJECT_DIR$/src/crud12/entities/DomainObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -293,8 +153,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RealModel11.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud10/model/RealModel11.java">
+      <file leaf-file-name="RealModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crud12/model/RealModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
@@ -305,37 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAOServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud10/dao/DAOServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="270" column="140" selection-start-line="270" selection-start-column="24" selection-end-line="270" selection-end-column="140" />
-              <folding>
-                <marker date="1468333412695" expanded="true" signature="898:931" placeholder="DELETE FROM " />
-                <marker date="1468333412695" expanded="true" signature="1022:1054" placeholder="DELETE FROM " />
-                <marker date="1468333412695" expanded="true" signature="2013:2048" placeholder="SELECT * FRO... category" />
-                <marker date="1468333412695" expanded="true" signature="2139:2173" placeholder="SELECT * FRO... product" />
-                <marker date="1468333412695" expanded="true" signature="4087:4166" placeholder="INSERT INTO category... " />
-                <marker date="1468333412695" expanded="true" signature="4256:4350" placeholder="INSERT INTO product... " />
-                <marker date="1468333412695" expanded="true" signature="7341:7371" placeholder="SELECT COUNT... product" />
-                <marker date="1468333412695" expanded="true" signature="7395:7426" placeholder="SELECT COUNT... category" />
-                <marker date="1468333412695" expanded="true" signature="10510:10591" placeholder="INSERT INTO product... " />
-                <marker date="1468333412695" expanded="true" signature="10706:10770" placeholder="INSERT INTO category... " />
-                <marker date="1468333412695" expanded="true" signature="10851:10964" placeholder="INSERT INTO category... " />
-                <marker date="1468333412695" expanded="true" signature="13093:13162" placeholder="SELECT COUNT... category" />
-                <marker date="1468333412695" expanded="true" signature="13186:13254" placeholder="SELECT COUNT... product" />
-                <marker date="1468333412695" expanded="true" signature="13309:13470" placeholder="SELECT * FRO... category" />
-                <marker date="1468333412695" expanded="true" signature="13494:13654" placeholder="SELECT * FRO... product" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TablesRefiller11.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java">
+      <file leaf-file-name="TablesRefiller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/crud12/model/TablesRefiller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.65604025">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -344,7 +178,7 @@
         </entry>
       </file>
       <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud11/entities/Category.java">
+        <entry file="file://$PROJECT_DIR$/src/crud12/entities/Category.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -354,7 +188,7 @@
         </entry>
       </file>
       <file leaf-file-name="ProductDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud11/dao/ProductDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/crud12/dao/ProductDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
@@ -401,9 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/crud1/controller/Parameters.java" />
-        <option value="$PROJECT_DIR$/src/crud1/dao/DAOService.java" />
-        <option value="$PROJECT_DIR$/src/crud1/dao/DAOServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/crud1/dao/DatabasePropertiesLoader.java" />
         <option value="$PROJECT_DIR$/src/crud1/model/Model.java" />
         <option value="$PROJECT_DIR$/src/crud1/model/RealModel.java" />
@@ -452,6 +283,9 @@
         <option value="$PROJECT_DIR$/src/crud11/dao/Dao.java" />
         <option value="$PROJECT_DIR$/src/crud11/dao/AbstractDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java" />
+        <option value="$PROJECT_DIR$/src/crud11/model/TablesRefiller11.java" />
+        <option value="$PROJECT_DIR$/src/crud11/model/TablesRefiller.java" />
+        <option value="$PROJECT_DIR$/src/crud12/model/TablesRefiller.java" />
       </list>
     </option>
   </component>
@@ -585,7 +419,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crud11" />
+              <option name="myItemId" value="crud12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -607,7 +463,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crud11" />
+              <option name="myItemId" value="crud12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -630,28 +486,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="crud10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crud_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crud10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -674,28 +508,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crud_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crud10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -790,11 +602,11 @@
     <configuration default="false" name="SessionFactoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="crud11.dao.SessionFactoryImpl" />
+          <option name="PATTERN" value="crud12.dao.SessionFactoryImpl" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="crud11.dao.SessionFactoryImpl" />
+      <option name="MAIN_CLASS_NAME" value="crud12.dao.SessionFactoryImpl" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1447,7 +1259,7 @@
       <workItem from="1468330959098" duration="1345000" />
       <workItem from="1468332358925" duration="168000" />
       <workItem from="1468332617477" duration="31800000" />
-      <workItem from="1468405607651" duration="14805000" />
+      <workItem from="1468405607651" duration="15171000" />
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -1459,11 +1271,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338757000" />
+    <option name="totallyTimeSpent" value="339123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1474,12 +1286,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5264271" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32394367" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32394367" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15724947" sideWeight="0.6882068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15724947" sideWeight="0.6882068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15964173" sideWeight="0.3117932" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4914712" order="1" side_tool="false" content_ui="tabs" />
@@ -1542,14 +1354,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/crud11/dao/SessionFactoryImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/crud12/model/TablesRefiller.java</url>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
@@ -1608,21 +1420,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/model/ItemType.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/model/ItemType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/model/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/model/ModelAction.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/model/ModelAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
@@ -1741,16 +1553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/dao/DatabasePropertiesLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crud10/view/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1785,7 +1587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/entities/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/entities/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -1793,7 +1595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/dao/DaoService.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/dao/DaoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1831,7 +1633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/dao/SessionFactoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1863,30 +1665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/dao/DAOServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="270" column="140" selection-start-line="270" selection-start-column="24" selection-end-line="270" selection-end-column="140" />
-          <folding>
-            <marker date="1468333412695" expanded="true" signature="898:931" placeholder="DELETE FROM " />
-            <marker date="1468333412695" expanded="true" signature="1022:1054" placeholder="DELETE FROM " />
-            <marker date="1468333412695" expanded="true" signature="2013:2048" placeholder="SELECT * FRO... category" />
-            <marker date="1468333412695" expanded="true" signature="2139:2173" placeholder="SELECT * FRO... product" />
-            <marker date="1468333412695" expanded="true" signature="4087:4166" placeholder="INSERT INTO category... " />
-            <marker date="1468333412695" expanded="true" signature="4256:4350" placeholder="INSERT INTO product... " />
-            <marker date="1468333412695" expanded="true" signature="7341:7371" placeholder="SELECT COUNT... product" />
-            <marker date="1468333412695" expanded="true" signature="7395:7426" placeholder="SELECT COUNT... category" />
-            <marker date="1468333412695" expanded="true" signature="10510:10591" placeholder="INSERT INTO product... " />
-            <marker date="1468333412695" expanded="true" signature="10706:10770" placeholder="INSERT INTO category... " />
-            <marker date="1468333412695" expanded="true" signature="10851:10964" placeholder="INSERT INTO category... " />
-            <marker date="1468333412695" expanded="true" signature="13093:13162" placeholder="SELECT COUNT... category" />
-            <marker date="1468333412695" expanded="true" signature="13186:13254" placeholder="SELECT COUNT... product" />
-            <marker date="1468333412695" expanded="true" signature="13309:13470" placeholder="SELECT * FRO... category" />
-            <marker date="1468333412695" expanded="true" signature="13494:13654" placeholder="SELECT * FRO... product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.038462">
@@ -1895,7 +1673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/dao/ProductDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/dao/ProductDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
@@ -1905,7 +1683,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/entities/DomainObject.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/entities/DomainObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1917,7 +1695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/entities/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/entities/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1925,7 +1703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/dao/Dao.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
@@ -1935,7 +1713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/dao/CategoryDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/dao/CategoryDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
@@ -1945,27 +1723,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud11/dao/AbstractDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/dao/AbstractDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-35.172413">
           <caret line="87" column="34" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1468421289085" expanded="true" signature="1918:1946" placeholder="SELECT COUNT... product" />
-            <marker date="1468421289085" expanded="true" signature="2040:2069" placeholder="SELECT COUNT... category" />
-            <marker date="1468421289085" expanded="true" signature="3008:3029" placeholder="DROP TABLE I... " />
-            <marker date="1468421289085" expanded="true" signature="3008:3036" placeholder="DROP TABLE I... " />
-            <marker date="1468421289085" expanded="true" signature="3093:3122" placeholder="DROP TABLE I... " />
-            <marker date="1468421289085" expanded="true" signature="3179:3570" placeholder="CREATE TABLE... category" />
-            <marker date="1468421289085" expanded="true" signature="3179:3571" placeholder="DROP TABLE I... " />
-            <marker date="1468421289085" expanded="true" signature="3648:4047" placeholder="CREATE TABLE... product" />
-            <marker date="1468421289085" expanded="true" signature="3648:4048" placeholder="DROP TABLE I... " />
-            <marker date="1468421289085" expanded="true" signature="4125:4238" placeholder="INSERT INTO category... " />
+            <marker date="1468421655151" expanded="true" signature="1918:1946" placeholder="SELECT COUNT... product" />
+            <marker date="1468421655151" expanded="true" signature="2040:2069" placeholder="SELECT COUNT... category" />
+            <marker date="1468421655151" expanded="true" signature="3008:3029" placeholder="DROP TABLE I... " />
+            <marker date="1468421655151" expanded="true" signature="3008:3036" placeholder="DROP TABLE I... " />
+            <marker date="1468421655151" expanded="true" signature="3093:3122" placeholder="DROP TABLE I... " />
+            <marker date="1468421655151" expanded="true" signature="3179:3570" placeholder="CREATE TABLE... category" />
+            <marker date="1468421655151" expanded="true" signature="3179:3571" placeholder="DROP TABLE I... " />
+            <marker date="1468421655151" expanded="true" signature="3648:4047" placeholder="CREATE TABLE... product" />
+            <marker date="1468421655151" expanded="true" signature="3648:4048" placeholder="DROP TABLE I... " />
+            <marker date="1468421655151" expanded="true" signature="4125:4238" placeholder="INSERT INTO category... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/model/RealModel11.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/model/RealModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
@@ -1975,10 +1753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud10/model/TablesRefiller11.java">
+    <entry file="file://$PROJECT_DIR$/src/crud12/model/TablesRefiller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65604025">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

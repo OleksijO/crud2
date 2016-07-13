@@ -2,9 +2,9 @@ package crud10.controller;
 
 import crud10.Constants;
 import crud10.dto.*;
-import crud10.model.ItemType;
-import crud10.model.Model;
-import crud10.model.ModelAction;
+import crud12.model.ItemType;
+import crud12.model.Model;
+import crud12.model.ModelAction;
 import crud10.view.Page;
 import crud10.view.PageTemplate;
 import crud10.view.navi.Body;
@@ -13,7 +13,7 @@ import crud10.view.navi.decorators.*;
 import java.io.IOException;
 
 import static crud10.Constants.*;
-import static crud10.model.ModelAction.*;
+import static crud12.model.ModelAction.*;
 
 /**
  * Created by User on 03.07.2016.

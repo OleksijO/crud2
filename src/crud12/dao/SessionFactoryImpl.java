@@ -1,6 +1,6 @@
-package crud11.dao;
+package crud12.dao;
 
-import crud11.entities.Category;
+import crud12.entities.Category;
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.Session;

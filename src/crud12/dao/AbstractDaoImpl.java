@@ -1,15 +1,15 @@
-package crud11.dao;
+package crud12.dao;
 
 import crud10.Constants;
-import crud11.entities.Category;
-import crud11.entities.DomainObject;
-import crud11.entities.Product;
+import crud12.entities.Category;
+import crud12.entities.DomainObject;
+import crud12.entities.Product;
 import org.hibernate.Session;
 
 import java.math.BigInteger;
 import java.util.Collection;
 
-import static crud11.dao.SessionFactoryImpl.getSession;
+import static crud12.dao.SessionFactoryImpl.getSession;
 
 public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, Integer> {
     protected int productCount = -1;
