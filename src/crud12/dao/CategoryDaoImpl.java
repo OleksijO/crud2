@@ -10,8 +10,6 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import java.util.List;
 
-import static crud12.dao.SessionFactoryImpl.*;
-
 public class CategoryDaoImpl extends AbstractDaoImpl<Category>  {
 
 

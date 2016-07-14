@@ -1,0 +1,3 @@
+2016.07.14 14:48:10	SPRING:	context (re)loaded.
+2016.07.14 14:48:10	Application initiated...
+2016.07.14 14:48:10	HTTP	GET	 query string:	null

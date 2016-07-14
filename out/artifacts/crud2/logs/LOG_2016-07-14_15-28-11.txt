@@ -1,0 +1,15 @@
+2016.07.14 15:28:11	SPRING:	context (re)loaded.
+2016.07.14 15:28:11	Application initiated...
+2016.07.14 15:28:11	HTTP	GET	 query string:	null
+2016.07.14 15:28:11	SPRING:	loaded bean 'dao-category' [crud12.dao.CategoryDaoImpl@7ae2ce83]	OK.
+2016.07.14 15:28:11	SPRING:	loaded bean 'dao-product' [crud12.dao.ProductDaoImpl@29808222]	OK.
+2016.07.14 15:28:11	MODEL HAS BEEN LOADED.
+2016.07.14 15:28:11	SPRING:	loaded bean 'model' [crud12.model.RealModel@33df9b77]	OK.
+2016.07.14 15:28:11	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.14 15:28:12	HTTP	GET	 query string:	mode=navi
+2016.07.14 15:28:12	SPRING:	loaded bean 'dao-category' [crud12.dao.CategoryDaoImpl@78dca77]	OK.
+2016.07.14 15:28:12	SPRING:	loaded bean 'dao-product' [crud12.dao.ProductDaoImpl@12892419]	OK.
+2016.07.14 15:28:12	MODEL HAS BEEN LOADED.
+2016.07.14 15:28:12	SPRING:	loaded bean 'model' [crud12.model.RealModel@449ecfdd]	OK.
+2016.07.14 15:28:12	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@eded945]	OK.
+2016.07.14 15:28:13	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab

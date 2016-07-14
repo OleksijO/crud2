@@ -5,18 +5,23 @@ import crud12.entities.Category;
 import crud12.entities.DomainObject;
 import crud12.entities.Product;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 
 import java.math.BigInteger;
 import java.util.Collection;
 
-import static crud12.dao.SessionFactoryImpl.getSession;
-
 public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, Integer> {
     protected int productCount = -1;
     protected int categoryCount = -1;
+    protected SessionFactory sessionFactory;
 
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
-
+    protected Session getSession(){
+        return sessionFactory.openSession();
+    }
 
     @Override
     public Integer create(T newInstance) {

@@ -4,8 +4,6 @@ import crud12.entities.Product;
 import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
 
-import static crud12.dao.SessionFactoryImpl.getSession;
-
 public class ProductDaoImpl extends AbstractDaoImpl<Product> {
 
     @Override

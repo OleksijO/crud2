@@ -36,8 +36,7 @@ public class MainController extends javax.servlet.http.HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Logger.log("HTTP\t" + request.getMethod() + "\t query string:\t" + request.getQueryString());
         model = (Model) Context.getBean("model");
-        parameters = (PageParameters) Context.getBean("page-parameters");
-        parameters.init(request, response);
+        parameters = Context.getPageParameters(request,response);
         Page resultPage = null;
         switch (parameters.getMode()) {
             case MODE_START:

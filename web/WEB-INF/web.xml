@@ -42,7 +42,7 @@
     </listener>
     <context-param>
         <param-name> contextConfigLocation </param-name>
-        <param-value>classpath*:Beans.xml</param-value>
+        <param-value>WEB-INF/Beans.xml</param-value>
     </context-param>
 
 

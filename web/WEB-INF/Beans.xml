@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="model" class="crud12.model.RealModel" scope="request"/>
+
+    <bean id="refiller" class="crud12.model.TablesRefiller" lazy-init="true" scope="request">
+        <constructor-arg ref="dao-category"/>
+        <constructor-arg ref="dao-product"/>
+    </bean>
+
+    <bean id="dao-category" class="crud12.dao.CategoryDaoImpl" scope="request">
+        <property name="sessionFactory" ref="hibernate-session-factory"/>
+    </bean>
+
+    <bean id="dao-product" class="crud12.dao.ProductDaoImpl" scope="request">
+        <property name="sessionFactory" ref="hibernate-session-factory"/>
+    </bean>
+
+    <bean id="page-parameters" class="crud10.dto.PageParametersDTO"/>
+
+    <bean id="dataDTO" class="crud10.dto.DataDTO" scope="prototype"/>
+
+    <bean id="entity-category" class="crud12.entities.Category" scope="request"/>
+
+    <bean id="entity-product" class="crud12.entities.Product" scope="request"/>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>WEB-INF/properties/jdbc.properties</value>
+                <value>WEB-INF/properties/hibernate.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="hibernate-session-factory"
+          class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="annotatedClasses">
+            <list>
+                <value>crud12.entities.Category</value>
+                <value>crud12.entities.Product</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.connection.autocommit">${hibernate.connection.autocommit}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+                <prop key="hibernate.c3p0.min_size">${hibernate.c3p0.min_size}</prop>
+                <prop key="hibernate.c3p0.max_size">${hibernate.c3p0.max_size}</prop>
+                <prop key="hibernate.c3p0.timeout">${hibernate.c3p0.timeout}</prop>
+                <prop key="hibernate.c3p0.max_statements">${hibernate.c3p0.max_statements}</prop>
+                <prop key="hibernate.c3p0.idle_test_period">${hibernate.c3p0.idle_test_period}</prop>
+                <prop key="hibernate.current_session_context_class">${hibernate.current_session_context_class}</prop>
+
+            </props>
+        </property>
+    </bean>
+
+
+</beans>
