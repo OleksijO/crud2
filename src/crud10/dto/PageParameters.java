@@ -10,6 +10,8 @@ import java.io.PrintWriter;
  * Created by User on 07.07.2016.
  */
 public interface PageParameters {
+    void init(HttpServletRequest request, HttpServletResponse response);
+
     String getStringParameter(String param);
 
     int getIntParameter(String param);

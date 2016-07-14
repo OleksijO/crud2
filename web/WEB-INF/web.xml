@@ -32,6 +32,8 @@
         <res-type>javax.sql.DataSource</res-type>
         <res-auth>Application</res-auth>
     </resource-ref>
-
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
 
 </web-app>

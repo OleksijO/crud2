@@ -17,18 +17,13 @@ import java.util.List;
  * Model implementation
  */
 public class RealModel implements Model {
-    private static Model instance = new RealModel();
 
     private Dao<Category, Integer> categoryDao;
     private Dao<Product, Integer> productDao;
 
-    private RealModel() {
+    public RealModel() {
         categoryDao = DaoService.getCategoryDaoService();
         productDao = DaoService.getProductDaoService();
-    }
-
-    public static Model getInstance() {
-        return instance;
     }
 
     private void logExceptionAndSetResultStatusMessage(String serviceName, Data result, Exception e) {

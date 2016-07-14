@@ -11,8 +11,13 @@
       <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/postgresql-9.4.1208.jre7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-4.3.1.RELEASE.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-4.3.1.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-4.3.1.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

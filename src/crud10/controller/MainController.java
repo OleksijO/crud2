@@ -27,13 +27,15 @@ public class MainController extends javax.servlet.http.HttpServlet {
     public void init() throws ServletException {
         super.init();
         Logger.setServletContext(getServletContext());
-        model = RealModel.getInstance();
+
         Logger.log("Application initiated...");
     }
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        parameters = new PageParametersDTO(request, response);
+        model = new RealModel();
+        parameters = new PageParametersDTO();
+        parameters.init(request,response);
         Logger.log("HTTP\t"+request.getMethod()+"\t query string:\t"+request.getQueryString());
         Page resultPage = null;
         switch (parameters.getMode()) {

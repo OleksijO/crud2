@@ -26,7 +26,11 @@ public class PageParametersDTO implements PageParameters {
     private HttpServletResponse response;
     private PrintWriter out;
 
-    public PageParametersDTO(HttpServletRequest request, HttpServletResponse response) {
+    public PageParametersDTO() {
+    }
+
+    @Override
+    public void init(HttpServletRequest request, HttpServletResponse response) {
         this.request = request;
         this.response=response;
         try {
@@ -35,10 +39,6 @@ public class PageParametersDTO implements PageParameters {
             throw new RuntimeException("Can't get output stream!");
         }
         parametersMap = request.getParameterMap();
-        init();
-    }
-
-    protected void init() {
         mode = getStringParameter(QUERY_PARAMETER_MODE);
         if (mode == null) mode = MODE_START;
         itemsPerPage = getIntParameter(QUERY_PARAMETER_ITEMS_PER_PAGE);
