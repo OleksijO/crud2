@@ -3,9 +3,10 @@ Starting CRUD 2 developing
 
 Future implementations:
 - JPA (Hibernate) - DONE
-- IoC (SpringFramework) - NOW
-- JTA (by Spring)
-- Security Authentification
-- Logger (Log4j)
+- IoC (SpringFramework) - DONE
+- JTA (Spring, JTA, annotations) - NOW
 - JSF (Primefaces)
 - technical data informer
+- Security Authentification
+- Logger (Log4j)
+

@@ -7,46 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/Beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/properties/hibernate.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/properties/jdbc.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/resources/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/resources/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/resources/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/resources/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/resources/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/resources/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/database.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud10/controller/MainController.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud10/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/AbstractDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/AbstractDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/CategoryDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/CategoryDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/DaoService.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/DaoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/ProductDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/dao/ProductDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/spring/Context.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/spring/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/controller/MainController.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud10/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/AbstractDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/AbstractDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/CategoryDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/CategoryDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/DaoService.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/DaoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/ProductDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/dao/ProductDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/spring/Context.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/spring/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRUD.iml" afterPath="$PROJECT_DIR$/CRUD.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/MainController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/dao/AbstractDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/AbstractDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/dao/CategoryDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/CategoryDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/dao/DaoService.java" afterPath="$PROJECT_DIR$/src/crud12/dao/DaoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/ProductDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/spring/Context.java" afterPath="$PROJECT_DIR$/src/crud12/spring/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="CRUD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1315,7 +1276,7 @@
       <workItem from="1468332358925" duration="168000" />
       <workItem from="1468332617477" duration="31800000" />
       <workItem from="1468405607651" duration="15769000" />
-      <workItem from="1468479783433" duration="16674000" />
+      <workItem from="1468479783433" duration="17057000" />
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -1327,7 +1288,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356395000" />
+    <option name="totallyTimeSpent" value="356778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
