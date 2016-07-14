@@ -6,6 +6,7 @@ import crud12.entities.DomainObject;
 import crud12.entities.Product;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigInteger;
 import java.util.Collection;
@@ -19,47 +20,22 @@ public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, 
         this.sessionFactory = sessionFactory;
     }
 
-    protected Session getSession(){
-        return sessionFactory.openSession();
+    protected Session getSession() {
+        return sessionFactory.getCurrentSession();
     }
 
     @Override
+    @Transactional
     public Integer create(T newInstance) {
-        Session session = null;
-        try {
-            session = getSession();
-            session.beginTransaction();
-            session.save(newInstance);
-            session.getTransaction().commit();
-
-        } finally {
-            if (session != null) {
-                session.close();
-            }
-        }
-        return newInstance.getId();
-    }
-
-    @Override
-    public void update(T transientObject) {
-        Session session = null;
-        if (transientObject.getId() == null) throw new IllegalArgumentException("Id cannot be NULL while update!");
-        try {
-            session = getSession();
-            session.beginTransaction();
-            session.update(transientObject);
-            session.getTransaction().commit();
-
-        } finally {
-            if (session != null) {
-                session.close();
-            }
-        }
+        Session session = getSession();
+        session.save(newInstance);
+     return newInstance.getId();
     }
 
 
+
     @Override
-    public int getTotalCount(Class entityClass){
+    public int getTotalCount(Class entityClass) {
         if (entityClass.equals(Category.class)) {
             return categoryCount;
         } else if ((entityClass.equals(Product.class))) {
@@ -68,43 +44,34 @@ public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, 
         throw new IllegalArgumentException("No such class " + entityClass.getSimpleName() + " extending DomainObject");
     }
 
-    protected void updateCounts(Session session) {
-        session.beginTransaction();
+    @Transactional
+    protected void updateCounts() {
+        Session session = getSession();
         productCount = ((BigInteger) session.createSQLQuery("SELECT COUNT(*) FROM product;").uniqueResult()).intValue();
         categoryCount = ((BigInteger) session.createSQLQuery("SELECT COUNT(*) FROM category;").uniqueResult()).intValue();
-        session.getTransaction().commit();
+
     }
 
     @Override
+    @Transactional
     public void createList(Collection list) {
-        Session session = null;
-        try {
-            session = getSession();
-            session.beginTransaction();
-            int count = 0;
-            for (Object newInstance : list) {
-                session.save(newInstance);
-                if (++count % 25 == 0) {
-                    session.flush();
-                    session.clear();
-                }
+        Session session = getSession();
+        int count = 0;
+        for (Object newInstance : list) {
+            session.save(newInstance);
+            if (++count % 25 == 0) {
+                session.flush();
+                session.clear();
             }
-            session.getTransaction().commit();
-            updateCounts(session);
-           } finally {
-            if (session != null) {
-                session.close();
-            }
-
         }
+        updateCounts();
+
     }
 
     @Override
+    @Transactional
     public void recreateTables() {
-        Session session = null;
-        try {
-            session = getSession();
-            session.beginTransaction();
+        Session session = getSession();
             session.createSQLQuery("DROP TABLE IF EXISTS product;").executeUpdate();
             session.createSQLQuery("DROP TABLE IF EXISTS category;").executeUpdate();
             session.createSQLQuery("CREATE TABLE category(" +
@@ -127,12 +94,21 @@ public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, 
                     "quantity INT" +
                     ");")
                     .executeUpdate();
-            session.createSQLQuery("INSERT INTO category (id, parentid, name,description) VALUES (0, NULL ,'" + Constants.ROOT_CATEGORY_NAME + "','');").executeUpdate();
-            session.getTransaction().commit();
-        } finally {
-            if (session != null) {
-                session.close();
-            }
+            session.createSQLQuery("" +
+                    "INSERT INTO category (id, parentid, name,description)" +
+                    " VALUES (" + Constants.ROOT_CATEGORY_ID + ", NULL ,'" +
+                    Constants.ROOT_CATEGORY_NAME + "','');")
+                    .executeUpdate();
+
+
+    }
+
+    protected void copyFromTransientToDetached(DomainObject trans, DomainObject detach){
+        detach.setName(trans.getName());
+        detach.setDescription(trans.getDescription());
+        if ((trans instanceof Product)&&(detach instanceof Product)) {
+            ((Product)detach).setPrice(((Product)trans).getPrice());
+            ((Product)detach).setQuantity(((Product)trans).getQuantity());
         }
     }
 }

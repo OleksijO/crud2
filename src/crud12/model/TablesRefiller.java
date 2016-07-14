@@ -13,11 +13,11 @@ public class TablesRefiller {
     private Map<Integer, Product> products = new HashMap<>();
     private Map<Integer, Category> categories = new TreeMap<>();
     private Dao<Category, Integer> categoryDao;
-    private Dao<Product, Integer> productDao;
 
-    public TablesRefiller(Dao<Category, Integer> categoryDao, Dao<Product, Integer> productDao) {
+
+    public TablesRefiller(Dao<Category, Integer> categoryDao) {
         this.categoryDao = categoryDao;
-        this.productDao = productDao;
+
     }
 
     public void refillDatabase() {

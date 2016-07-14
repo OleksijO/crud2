@@ -53,7 +53,8 @@ public class RealModel implements Model {
             case DATABASE_RESTORE:
                 actionData = (Data) Context.getBean("dataDTO");
                 try {
-                    new TablesRefiller(categoryDao,productDao).refillDatabase();
+                    new TablesRefiller(categoryDao).refillDatabase();
+                    //((TablesRefiller) Context.getBean("refiller")).refillDatabase();
                     actionData.setTotalNumberOfCategories(categoryDao.getTotalCount(Category.class));
                     actionData.setTotalNumberOfProducts(categoryDao.getTotalCount(Product.class));
                     actionData.setStatusOK();

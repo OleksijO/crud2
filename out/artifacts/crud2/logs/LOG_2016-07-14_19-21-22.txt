@@ -1,0 +1,14 @@
+2016.07.14 19:21:22	SPRING:	context (re)loaded.
+2016.07.14 19:21:22	Application initiated...
+2016.07.14 19:21:22	HTTP	GET	 query string:	null
+2016.07.14 19:21:22	MODEL HAS BEEN LOADED.
+2016.07.14 19:21:22	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.14 19:21:26	HTTP	GET	 query string:	mode=navi
+2016.07.14 19:21:26	MODEL HAS BEEN LOADED.
+2016.07.14 19:21:26	RETRIEVE CATEGORY DATA:	No row with the given identifier exists: [Category#0]
+2016.07.14 19:21:26	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.14 19:21:33	HTTP	GET	 query string:	mode=database-management
+2016.07.14 19:21:33	MODEL HAS BEEN LOADED.
+2016.07.14 19:21:33	HTTP	GET	 query string:	mode=database-management	SHOWN:	DatabaseMenegment
+2016.07.14 19:21:34	HTTP	GET	 query string:	mode=database-management&renew=true
+2016.07.14 19:21:34	MODEL HAS BEEN LOADED.

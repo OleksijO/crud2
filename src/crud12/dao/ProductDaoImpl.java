@@ -1,8 +1,10 @@
 package crud12.dao;
 
+import crud12.entities.Category;
 import crud12.entities.Product;
 import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
+import org.springframework.transaction.annotation.Transactional;
 
 public class ProductDaoImpl extends AbstractDaoImpl<Product> {
 
@@ -24,6 +26,15 @@ public class ProductDaoImpl extends AbstractDaoImpl<Product> {
         return Product;
     }
 
+    @Override
+    @Transactional
+    public void update(Product transientObject) {
+        if (transientObject.getId() == null) throw new IllegalArgumentException("Id cannot be NULL while update!");
+        Session session = getSession();
+        Product detachedObject=(Product) session.load(transientObject.getClass(), transientObject.getId());
+        copyFromTransientToDetached(transientObject,detachedObject);
+        session.update(detachedObject);
+    }
 
     @Override
     public void delete(Integer id) {
@@ -33,9 +44,9 @@ public class ProductDaoImpl extends AbstractDaoImpl<Product> {
         try {
             session = getSession();
             Product = (Product) session.load(Product.class, id);
-            session.beginTransaction();
+
             session.delete(Product);
-            session.getTransaction().commit();
+
         } finally {
             if (session != null) {
                 session.close();
