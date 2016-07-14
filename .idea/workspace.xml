@@ -6,29 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/resources/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/Beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CRUD/resources/Beans.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud10/controller/MainController.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud10/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/model/RealModel$1.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/model/RealModel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/model/RealModel.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/model/RealModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/spring/Context.class" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/classes/crud12/spring/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud10/controller/MainController.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud10/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/model/RealModel$1.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/model/RealModel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/model/RealModel.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/model/RealModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CRUD/crud12/spring/Context.class" afterPath="$PROJECT_DIR$/out/production/CRUD/crud12/spring/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/crud2/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud10/controller/MainController.java" afterPath="$PROJECT_DIR$/src/crud10/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java" afterPath="$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/model/RealModel.java" afterPath="$PROJECT_DIR$/src/crud12/model/RealModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/model/TablesRefiller.java" afterPath="$PROJECT_DIR$/src/crud12/model/TablesRefiller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud12/spring/Context.java" afterPath="$PROJECT_DIR$/src/crud12/spring/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/Beans.xml" afterPath="$PROJECT_DIR$/src/resources/Beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="" />
     <ignored path="CRUD.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -129,21 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Beans.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Beans.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/Beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
+            <state vertical-scroll-proportion="0.50701755">
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionFactoryImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SessionFactoryImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5704698">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -1246,7 +1224,7 @@
       <workItem from="1468332358925" duration="168000" />
       <workItem from="1468332617477" duration="31800000" />
       <workItem from="1468405607651" duration="15769000" />
-      <workItem from="1468479783433" duration="8110000" />
+      <workItem from="1468479783433" duration="8288000" />
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -1258,10 +1236,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347831000" />
+    <option name="totallyTimeSpent" value="348009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1740,14 +1718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crud12/model/RealModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1770,8 +1740,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crud12/dao/SessionFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5704698">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50701755">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
