@@ -1,6 +1,6 @@
 package crud10.dto;
 
-import crud12.model.ItemType;
+import crud14.model.ItemType;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

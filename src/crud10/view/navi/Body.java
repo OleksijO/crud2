@@ -3,7 +3,7 @@ package crud10.view.navi;
 import crud10.dto.PageParameters;
 import crud10.dto.Data;
 import crud10.dto.Item;
-import crud12.model.*;
+import crud14.model.*;
 import crud10.utils.Helper;
 import crud10.view.AbstractPageTemplate;
 
@@ -71,11 +71,5 @@ public class Body extends AbstractPageTemplate {
         Helper.showEditForm(EDIT_MODE_ITEM_EDIT, item.getItemType(), parameters, item);
         print("<hr color=blue size=1>");
 
-    }
-
-
-    @Override
-    public void setData(Data data) {
-        this.data=data;
     }
 }

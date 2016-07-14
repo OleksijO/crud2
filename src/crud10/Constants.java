@@ -4,7 +4,7 @@ package crud10;
  * Defining constants of most used parameters and settings (to do: load from properties)
  */
 public interface Constants {
-    String TITLE = "Simple CRUD based on servlets and plain JDBC";
+    String TITLE = "Simple CRUD (ver.2) based on SpringFramework, Hibernate and PrimeFaces";
 
     int ITEMS_PER_PAGE = 10;
     int FIRST_PAGE_NUMBER = 1;

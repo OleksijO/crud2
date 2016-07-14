@@ -1,9 +1,10 @@
 package crud10.dto;
 
-import crud12.model.ItemType;
+import crud14.model.ItemType;
 
 /**
- * Created by User on 30.06.2016.
+ * Interface of Item, which can represent category or product for view.
+ * Some methods must return special not null values for categories
  */
 public interface Item {
     int getId();
@@ -16,8 +17,14 @@ public interface Item {
 
     ItemType getItemType();
 
+    /**
+     * Must return '-1' for categories
+     */
     long getPrice();
 
+    /**
+     * Must return '-1' for categories
+     */
     int getQuantity();
 
     void setId(int id);

@@ -3,7 +3,7 @@ package crud10.view;
 import crud10.Constants;
 import crud10.dto.PageParameters;
 import crud10.dto.Data;
-import crud12.model.ItemType;
+import crud14.model.ItemType;
 import crud10.utils.Helper;
 
 import javax.servlet.http.HttpServletRequest;
@@ -22,8 +22,6 @@ public abstract class AbstractPageTemplate implements PageTemplate {
     protected int pageNumber;
     protected int parentId;
     protected String editMode;
-
-
     protected int editId;
     protected HttpServletRequest request;
     protected PageParameters parameters;
@@ -69,7 +67,7 @@ public abstract class AbstractPageTemplate implements PageTemplate {
     }
 
     @Override
-    public void showBottom() {
+    public void showFooter() {
         out.println(
                 "        <hr>\n" +
                         "        <br\n" +
@@ -85,21 +83,23 @@ public abstract class AbstractPageTemplate implements PageTemplate {
     public void show() {
         showHeader();
         showBody();
-        showBottom();
+        showFooter();
     }
 
     protected void print(String text) {
         Helper.printDiv(out, text, "left");
     }
+
     protected void printError(String text) {
-        Helper.printDiv(out, "<font color=red>"+text+"</font>", "left");
+        Helper.printDiv(out, "<font color=red>" + text + "</font>", "left");
     }
 
     protected void printCenter(String text) {
         Helper.printDiv(out, text, "center");
     }
+
     protected void printCenterError(String text) {
-        Helper.printDiv(out,"<font color=red>"+text+"</font>", "center");
+        Helper.printDiv(out, "<font color=red>" + text + "</font>", "center");
     }
 
     @Override
@@ -110,11 +110,6 @@ public abstract class AbstractPageTemplate implements PageTemplate {
     @Override
     public Data getData() {
         return data;
-    }
-
-    @Override
-    public void setData(Data data) {
-        this.data = data;
     }
 
 }

@@ -22,3 +22,56 @@
 2016.07.14 21:53:11	MODEL HAS BEEN LOADED.
 2016.07.14 21:53:17	REFILLING DATABASE:	added categories - 1920, products - 22050. RESULT: OK
 2016.07.14 21:53:17	HTTP	GET	 query string:	mode=database-management&renew=true	SHOWN:	DatabaseMenegment
+2016.07.14 21:54:41	HTTP	GET	 query string:	mode=navi
+2016.07.14 21:54:41	MODEL HAS BEEN LOADED.
+2016.07.14 21:54:41	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.14 21:54:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=edit&edit-item-type=category&edit-item-id=1648
+2016.07.14 21:54:42	MODEL HAS BEEN LOADED.
+2016.07.14 21:54:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=edit&edit-item-type=category&edit-item-id=1648	SHOWN:	NaviHeaderTab
+2016.07.14 21:54:45	HTTP	POST	 query string:	mode=navi&page=1&parent-id=0&edit-mode=updated&edit-item-type=category&edit-item-id=1648
+2016.07.14 21:54:45	MODEL HAS BEEN LOADED.
+2016.07.14 21:54:45	MODEL:	UPDATE ITEM: 'CATEGORY' id=1648	RESULT: OK
+2016.07.14 21:54:45	HTTP	POST	 query string:	mode=navi&page=1&parent-id=0&edit-mode=updated&edit-item-type=category&edit-item-id=1648	SHOWN:	ItemUpdated
+2016.07.14 21:54:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=1648
+2016.07.14 21:54:48	MODEL HAS BEEN LOADED.
+2016.07.14 21:54:49	MODEL:	DELETE ITEM: 'CATEGORY' id=1648	RESULT: OK
+2016.07.14 21:54:49	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=1648	SHOWN:	ItemDeleted
+2016.07.14 21:54:57	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=1570
+2016.07.14 21:54:57	MODEL HAS BEEN LOADED.
+2016.07.14 21:54:57	MODEL:	DELETE ITEM: 'CATEGORY' id=1570	RESULT: OK
+2016.07.14 21:54:57	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=1570	SHOWN:	ItemDeleted
+2016.07.14 21:54:58	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1647
+2016.07.14 21:54:58	MODEL HAS BEEN LOADED.
+2016.07.14 21:54:58	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1647	SHOWN:	NaviHeaderTab
+2016.07.14 21:55:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1647&edit-mode=deleted&edit-item-type=product&edit-item-id=20026
+2016.07.14 21:55:02	MODEL HAS BEEN LOADED.
+2016.07.14 21:55:02	DAO:	Could not obtain transaction-synchronized Session for current thread
+2016.07.14 21:55:02	MODEL:	DELETE ITEM: 'PRODUCT' id=20026	RESULT: DAO:	Could not obtain transaction-synchronized Session for current thread
+2016.07.14 21:55:02	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1647&edit-mode=deleted&edit-item-type=product&edit-item-id=20026	SHOWN:	ItemDeleted
+2016.07.15 00:29:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1647
+2016.07.15 00:29:40	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=1647	SHOWN:	NaviHeaderTab
+2016.07.15 00:29:43	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.15 00:29:43	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:43	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.15 00:29:44	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=1312
+2016.07.15 00:29:44	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:44	MODEL:	DELETE ITEM: 'CATEGORY' id=1312	RESULT: OK
+2016.07.15 00:29:44	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=1312	SHOWN:	ItemDeleted
+2016.07.15 00:29:46	HTTP	GET	 query string:	mode=navi&page=2&parent-id=0
+2016.07.15 00:29:46	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:46	HTTP	GET	 query string:	mode=navi&page=2&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.15 00:29:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=242
+2016.07.15 00:29:48	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=242	SHOWN:	NaviHeaderTab
+2016.07.15 00:29:49	HTTP	GET	 query string:	mode=navi&page=1&parent-id=543
+2016.07.15 00:29:49	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:49	HTTP	GET	 query string:	mode=navi&page=1&parent-id=543	SHOWN:	NaviHeaderTab
+2016.07.15 00:29:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=549
+2016.07.15 00:29:50	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=549	SHOWN:	NaviHeaderTab
+2016.07.15 00:29:51	HTTP	GET	 query string:	mode=navi&page=1&parent-id=549&edit-mode=deleted&edit-item-type=product&edit-item-id=6539
+2016.07.15 00:29:51	MODEL HAS BEEN LOADED.
+2016.07.15 00:29:51	DAO:	Could not obtain transaction-synchronized Session for current thread
+2016.07.15 00:29:51	MODEL:	DELETE ITEM: 'PRODUCT' id=6539	RESULT: DAO:	Could not obtain transaction-synchronized Session for current thread
+2016.07.15 00:29:51	HTTP	GET	 query string:	mode=navi&page=1&parent-id=549&edit-mode=deleted&edit-item-type=product&edit-item-id=6539	SHOWN:	ItemDeleted

@@ -1,13 +1,14 @@
 package crud10.dto;
 
-import crud12.model.ItemType;
+import crud14.model.ItemType;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
 /**
- * Created by User on 07.07.2016.
+ * Interface of Data Object, which contains info from request and respond,
+ * necessary for controller and view
  */
 public interface PageParameters {
     void init(HttpServletRequest request, HttpServletResponse response);
