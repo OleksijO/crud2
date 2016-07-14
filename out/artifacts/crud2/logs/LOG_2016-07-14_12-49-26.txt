@@ -1,0 +1,228 @@
+2016.07.14 12:49:26	SPRING:	context (re)loaded.
+2016.07.14 12:49:26	Application initiated...
+2016.07.14 12:49:26	HTTP	GET	 query string:	null
+2016.07.14 12:49:26	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:26	SPRING:	loaded bean 'model' [crud12.model.RealModel@23bc54a]	OK.
+2016.07.14 12:49:26	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:26	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.14 12:49:28	HTTP	GET	 query string:	mode=navi
+2016.07.14 12:49:28	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:28	SPRING:	loaded bean 'model' [crud12.model.RealModel@7a56e935]	OK.
+2016.07.14 12:49:28	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:28	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@922a86d]	OK.
+2016.07.14 12:49:29	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
+2016.07.14 12:49:31	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101
+2016.07.14 12:49:31	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:31	SPRING:	loaded bean 'model' [crud12.model.RealModel@30fab7e]	OK.
+2016.07.14 12:49:31	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:31	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@a1978d4]	OK.
+2016.07.14 12:49:31	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101	SHOWN:	NaviHeaderTab
+2016.07.14 12:49:34	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101
+2016.07.14 12:49:34	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:34	SPRING:	loaded bean 'model' [crud12.model.RealModel@6595f7c1]	OK.
+2016.07.14 12:49:34	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:34	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@58bcd401]	OK.
+2016.07.14 12:49:34	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101	SHOWN:	NaviHeaderTab
+2016.07.14 12:49:36	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1154
+2016.07.14 12:49:36	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:36	SPRING:	loaded bean 'model' [crud12.model.RealModel@1df41249]	OK.
+2016.07.14 12:49:36	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:36	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@5be064db]	OK.
+2016.07.14 12:49:36	MODEL:	DELETE ITEM: 'PRODUCT' id=1154	RESULT: OK
+2016.07.14 12:49:36	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@67dc747d]	OK.
+2016.07.14 12:49:36	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1154	SHOWN:	ItemDeleted
+2016.07.14 12:49:37	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1155
+2016.07.14 12:49:37	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:37	SPRING:	loaded bean 'model' [crud12.model.RealModel@6e125809]	OK.
+2016.07.14 12:49:37	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:37	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@7651ef53]	OK.
+2016.07.14 12:49:37	MODEL:	DELETE ITEM: 'PRODUCT' id=1155	RESULT: OK
+2016.07.14 12:49:37	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@6c11f27d]	OK.
+2016.07.14 12:49:37	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1155	SHOWN:	ItemDeleted
+2016.07.14 12:49:39	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1153
+2016.07.14 12:49:39	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:39	SPRING:	loaded bean 'model' [crud12.model.RealModel@6d281c8d]	OK.
+2016.07.14 12:49:39	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:39	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@646aa4f7]	OK.
+2016.07.14 12:49:39	MODEL:	DELETE ITEM: 'PRODUCT' id=1153	RESULT: OK
+2016.07.14 12:49:39	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@69088e5d]	OK.
+2016.07.14 12:49:39	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1153	SHOWN:	ItemDeleted
+2016.07.14 12:49:39	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1152
+2016.07.14 12:49:39	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:39	SPRING:	loaded bean 'model' [crud12.model.RealModel@2a88788f]	OK.
+2016.07.14 12:49:39	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:39	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@65a30a19]	OK.
+2016.07.14 12:49:39	MODEL:	DELETE ITEM: 'PRODUCT' id=1152	RESULT: OK
+2016.07.14 12:49:39	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@7e6f715b]	OK.
+2016.07.14 12:49:39	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1152	SHOWN:	ItemDeleted
+2016.07.14 12:49:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1087
+2016.07.14 12:49:40	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:40	SPRING:	loaded bean 'model' [crud12.model.RealModel@247608ab]	OK.
+2016.07.14 12:49:40	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:40	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@41332540]	OK.
+2016.07.14 12:49:40	MODEL:	DELETE ITEM: 'PRODUCT' id=1087	RESULT: OK
+2016.07.14 12:49:40	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@7c43bbf2]	OK.
+2016.07.14 12:49:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1087	SHOWN:	ItemDeleted
+2016.07.14 12:49:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1086
+2016.07.14 12:49:40	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:40	SPRING:	loaded bean 'model' [crud12.model.RealModel@bac2f6b]	OK.
+2016.07.14 12:49:40	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:40	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@555d1fc9]	OK.
+2016.07.14 12:49:40	MODEL:	DELETE ITEM: 'PRODUCT' id=1086	RESULT: OK
+2016.07.14 12:49:40	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@72561fc]	OK.
+2016.07.14 12:49:40	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1086	SHOWN:	ItemDeleted
+2016.07.14 12:49:41	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1085
+2016.07.14 12:49:41	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:41	SPRING:	loaded bean 'model' [crud12.model.RealModel@3d1ff8dc]	OK.
+2016.07.14 12:49:41	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:41	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@5ec17361]	OK.
+2016.07.14 12:49:41	MODEL:	DELETE ITEM: 'PRODUCT' id=1085	RESULT: OK
+2016.07.14 12:49:41	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@4c93568d]	OK.
+2016.07.14 12:49:41	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1085	SHOWN:	ItemDeleted
+2016.07.14 12:49:41	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1084
+2016.07.14 12:49:41	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:41	SPRING:	loaded bean 'model' [crud12.model.RealModel@490f7fc5]	OK.
+2016.07.14 12:49:41	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:41	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@188d83fc]	OK.
+2016.07.14 12:49:41	MODEL:	DELETE ITEM: 'PRODUCT' id=1084	RESULT: OK
+2016.07.14 12:49:41	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@33b0d7bd]	OK.
+2016.07.14 12:49:41	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1084	SHOWN:	ItemDeleted
+2016.07.14 12:49:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1083
+2016.07.14 12:49:42	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:42	SPRING:	loaded bean 'model' [crud12.model.RealModel@6c1775ed]	OK.
+2016.07.14 12:49:42	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:42	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@783f520b]	OK.
+2016.07.14 12:49:42	MODEL:	DELETE ITEM: 'PRODUCT' id=1083	RESULT: OK
+2016.07.14 12:49:42	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@76ce83ca]	OK.
+2016.07.14 12:49:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1083	SHOWN:	ItemDeleted
+2016.07.14 12:49:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1082
+2016.07.14 12:49:42	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:42	SPRING:	loaded bean 'model' [crud12.model.RealModel@5c18f0b7]	OK.
+2016.07.14 12:49:42	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:42	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@6963ad9d]	OK.
+2016.07.14 12:49:42	MODEL:	DELETE ITEM: 'PRODUCT' id=1082	RESULT: OK
+2016.07.14 12:49:42	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@4d6dd21c]	OK.
+2016.07.14 12:49:42	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1082	SHOWN:	ItemDeleted
+2016.07.14 12:49:43	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1081
+2016.07.14 12:49:43	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:43	SPRING:	loaded bean 'model' [crud12.model.RealModel@6915ecdd]	OK.
+2016.07.14 12:49:43	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:43	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@1e71d711]	OK.
+2016.07.14 12:49:43	MODEL:	DELETE ITEM: 'PRODUCT' id=1081	RESULT: OK
+2016.07.14 12:49:43	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@701c8cd8]	OK.
+2016.07.14 12:49:43	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1081	SHOWN:	ItemDeleted
+2016.07.14 12:49:44	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1080
+2016.07.14 12:49:44	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:44	SPRING:	loaded bean 'model' [crud12.model.RealModel@736f27ad]	OK.
+2016.07.14 12:49:44	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:44	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@6960a10]	OK.
+2016.07.14 12:49:44	MODEL:	DELETE ITEM: 'PRODUCT' id=1080	RESULT: OK
+2016.07.14 12:49:44	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@5accaf2e]	OK.
+2016.07.14 12:49:44	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1080	SHOWN:	ItemDeleted
+2016.07.14 12:49:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1079
+2016.07.14 12:49:45	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:45	SPRING:	loaded bean 'model' [crud12.model.RealModel@be919c2]	OK.
+2016.07.14 12:49:45	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:45	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@749a15a9]	OK.
+2016.07.14 12:49:45	MODEL:	DELETE ITEM: 'PRODUCT' id=1079	RESULT: OK
+2016.07.14 12:49:45	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@41cf4dc0]	OK.
+2016.07.14 12:49:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1079	SHOWN:	ItemDeleted
+2016.07.14 12:49:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1078
+2016.07.14 12:49:45	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:45	SPRING:	loaded bean 'model' [crud12.model.RealModel@101d5db]	OK.
+2016.07.14 12:49:45	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:45	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@1f7f1d61]	OK.
+2016.07.14 12:49:45	MODEL:	DELETE ITEM: 'PRODUCT' id=1078	RESULT: OK
+2016.07.14 12:49:45	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@6feceb55]	OK.
+2016.07.14 12:49:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1078	SHOWN:	ItemDeleted
+2016.07.14 12:49:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1077
+2016.07.14 12:49:45	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:45	SPRING:	loaded bean 'model' [crud12.model.RealModel@29541264]	OK.
+2016.07.14 12:49:45	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:45	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@4e83786e]	OK.
+2016.07.14 12:49:45	MODEL:	DELETE ITEM: 'PRODUCT' id=1077	RESULT: OK
+2016.07.14 12:49:45	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@1d923336]	OK.
+2016.07.14 12:49:45	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1077	SHOWN:	ItemDeleted
+2016.07.14 12:49:46	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1076
+2016.07.14 12:49:46	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:46	SPRING:	loaded bean 'model' [crud12.model.RealModel@55038eb6]	OK.
+2016.07.14 12:49:46	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:46	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@5c8e7a54]	OK.
+2016.07.14 12:49:46	MODEL:	DELETE ITEM: 'PRODUCT' id=1076	RESULT: OK
+2016.07.14 12:49:46	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@765b02d5]	OK.
+2016.07.14 12:49:46	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1076	SHOWN:	ItemDeleted
+2016.07.14 12:49:46	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1075
+2016.07.14 12:49:46	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:46	SPRING:	loaded bean 'model' [crud12.model.RealModel@16edb067]	OK.
+2016.07.14 12:49:46	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:46	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@4ed845f3]	OK.
+2016.07.14 12:49:46	MODEL:	DELETE ITEM: 'PRODUCT' id=1075	RESULT: OK
+2016.07.14 12:49:46	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@10bc5ebf]	OK.
+2016.07.14 12:49:46	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1075	SHOWN:	ItemDeleted
+2016.07.14 12:49:47	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1074
+2016.07.14 12:49:47	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:47	SPRING:	loaded bean 'model' [crud12.model.RealModel@99b7036]	OK.
+2016.07.14 12:49:47	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:47	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@3be3ee27]	OK.
+2016.07.14 12:49:47	MODEL:	DELETE ITEM: 'PRODUCT' id=1074	RESULT: OK
+2016.07.14 12:49:47	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@9fedbcf]	OK.
+2016.07.14 12:49:47	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1074	SHOWN:	ItemDeleted
+2016.07.14 12:49:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1073
+2016.07.14 12:49:48	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:48	SPRING:	loaded bean 'model' [crud12.model.RealModel@3f34b28]	OK.
+2016.07.14 12:49:48	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:48	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@59cb311e]	OK.
+2016.07.14 12:49:48	MODEL:	DELETE ITEM: 'PRODUCT' id=1073	RESULT: OK
+2016.07.14 12:49:48	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@267f81c2]	OK.
+2016.07.14 12:49:48	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1073	SHOWN:	ItemDeleted
+2016.07.14 12:49:49	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1157
+2016.07.14 12:49:49	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:49	SPRING:	loaded bean 'model' [crud12.model.RealModel@74ff5edf]	OK.
+2016.07.14 12:49:49	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:49	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@29adbe7b]	OK.
+2016.07.14 12:49:49	MODEL:	DELETE ITEM: 'PRODUCT' id=1157	RESULT: OK
+2016.07.14 12:49:49	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@269de602]	OK.
+2016.07.14 12:49:49	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1157	SHOWN:	ItemDeleted
+2016.07.14 12:49:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1072
+2016.07.14 12:49:50	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:50	SPRING:	loaded bean 'model' [crud12.model.RealModel@6c43c882]	OK.
+2016.07.14 12:49:50	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:50	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@56210655]	OK.
+2016.07.14 12:49:50	MODEL:	DELETE ITEM: 'PRODUCT' id=1072	RESULT: OK
+2016.07.14 12:49:50	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@1f16c76c]	OK.
+2016.07.14 12:49:50	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101&edit-mode=deleted&edit-item-type=product&edit-item-id=1072	SHOWN:	ItemDeleted
+2016.07.14 12:49:52	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.14 12:49:52	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:52	SPRING:	loaded bean 'model' [crud12.model.RealModel@1f705dc9]	OK.
+2016.07.14 12:49:52	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:52	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@a1d473f]	OK.
+2016.07.14 12:49:52	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.14 12:49:54	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101
+2016.07.14 12:49:54	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:54	SPRING:	loaded bean 'model' [crud12.model.RealModel@17f38f14]	OK.
+2016.07.14 12:49:54	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:54	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@77367654]	OK.
+2016.07.14 12:49:54	HTTP	GET	 query string:	mode=navi&page=1&parent-id=101	SHOWN:	NaviHeaderTab
+2016.07.14 12:49:55	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0
+2016.07.14 12:49:55	MODEL HAS BEEN LOADED.
+2016.07.14 12:49:55	SPRING:	loaded bean 'model' [crud12.model.RealModel@53fddddb]	OK.
+2016.07.14 12:49:55	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:49:55	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@3ff07ff1]	OK.
+2016.07.14 12:49:55	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0	SHOWN:	NaviHeaderTab
+2016.07.14 12:50:00	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=101
+2016.07.14 12:50:00	MODEL HAS BEEN LOADED.
+2016.07.14 12:50:00	SPRING:	loaded bean 'model' [crud12.model.RealModel@29c76a62]	OK.
+2016.07.14 12:50:00	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:50:00	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@63195d5b]	OK.
+2016.07.14 12:50:00	MODEL:	DELETE ITEM: 'CATEGORY' id=101	RESULT: OK
+2016.07.14 12:50:00	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@3f254816]	OK.
+2016.07.14 12:50:00	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=101	SHOWN:	ItemDeleted
+2016.07.14 12:50:29	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=101
+2016.07.14 12:50:29	MODEL HAS BEEN LOADED.
+2016.07.14 12:50:29	SPRING:	loaded bean 'model' [crud12.model.RealModel@697d8906]	OK.
+2016.07.14 12:50:29	SPRING:	loaded bean 'page-parameters' [crud10.dto.PageParametersDTO@22157e6b]	OK.
+2016.07.14 12:50:29	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@30af1f05]	OK.
+2016.07.14 12:50:29	DAO:	No row with the given identifier exists: [crud12.entities.Category#101]
+2016.07.14 12:50:29	MODEL:	DELETE ITEM: 'CATEGORY' id=101	RESULT: DAO:	No row with the given identifier exists: [crud12.entities.Category#101]
+2016.07.14 12:50:29	SPRING:	loaded bean 'dataDTO' [crud10.dto.DataDTO@4955aabe]	OK.
+2016.07.14 12:50:29	HTTP	GET	 query string:	mode=navi&page=1&parent-id=0&edit-mode=deleted&edit-item-type=category&edit-item-id=101	SHOWN:	ItemDeleted

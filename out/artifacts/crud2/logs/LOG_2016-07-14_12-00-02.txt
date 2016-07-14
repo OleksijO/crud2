@@ -1,0 +1,5 @@
+2016.07.14 12:00:02	Application initiated...
+2016.07.14 12:00:02	HTTP	GET	 query string:	null
+2016.07.14 12:00:02	HTTP	GET	 query string:	null	SHOWN:	Start
+2016.07.14 12:00:05	HTTP	GET	 query string:	mode=navi
+2016.07.14 12:00:06	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab

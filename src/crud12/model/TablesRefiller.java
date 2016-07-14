@@ -3,6 +3,7 @@ package crud12.model;
 import crud12.dao.Dao;
 import crud12.entities.Category;
 import crud12.entities.Product;
+import crud12.spring.Context;
 
 import java.util.*;
 
@@ -28,7 +29,7 @@ public class TablesRefiller {
 
     private void fillFakeTables(int maxDepth, int maxInList) {
         categories.clear();
-        Category cat = new Category();
+        Category cat = (Category) Context.getBean("entity-category");
         cat.setId(ROOT_CATEGORY_ID);
         cat.setParent(null);
         cat.setName(ROOT_CATEGORY_NAME);
@@ -47,7 +48,7 @@ public class TablesRefiller {
     private void fillCategoryListByCategories(Category parentCategory, int maxDepth, int maxInList) {
         int numberOfCategories = (int) (Math.random() * (maxInList + 1));
         for (int i = 0; i < numberOfCategories; i++) {
-            Category cat = new Category();
+            Category cat = (Category) Context.getBean("entity-category");
             cat.setId(categories.size() + 1);
             cat.setParent(parentCategory);
             cat.setName("Category of products  id=" + cat.getId());
@@ -73,7 +74,7 @@ public class TablesRefiller {
     private void fillCategoryListByProducts(Category parentCategory, int maxInList) {
         int numberOfProducts = (int) (Math.random() * (maxInList + 1));
         for (int i = 0; i < numberOfProducts; i++) {
-            Product product = new Product();
+            Product product = (Product) Context.getBean("entity-product");
             product.setId(products.size() + 1);
             product.setParent(parentCategory);
             product.setName("Product name - " + generateRandomString());

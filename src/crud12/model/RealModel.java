@@ -8,6 +8,7 @@ import crud12.dao.DaoService;
 import crud12.entities.Category;
 import crud12.entities.DomainObject;
 import crud12.entities.Product;
+import crud12.spring.Context;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,6 +25,7 @@ public class RealModel implements Model {
     public RealModel() {
         categoryDao = DaoService.getCategoryDaoService();
         productDao = DaoService.getProductDaoService();
+        Logger.log("MODEL HAS BEEN LOADED.");
     }
 
     private void logExceptionAndSetResultStatusMessage(String serviceName, Data result, Exception e) {
@@ -49,7 +51,7 @@ public class RealModel implements Model {
                 actionData = updateItem(action.getItem());
                 break;
             case DATABASE_RESTORE:
-                actionData = new DataDTO();
+                actionData = (Data) Context.getBean("dataDTO");
                 try {
                     new TablesRefiller(categoryDao,productDao).refillDatabase();
                     actionData.setTotalNumberOfCategories(categoryDao.getTotalCount(Category.class));
@@ -79,10 +81,10 @@ public class RealModel implements Model {
 
 
     private Data deleteItem(Item item) {
-        Data data = new DataDTO();
+        Data data = (Data) Context.getBean("dataDTO");
         data.setEditedItemId(item.getId());
         if ((item.getItemType() == ItemType.CATEGORY) && (item.getId() == 0)) {
-            Data result = new DataDTO();
+            Data result = (Data) Context.getBean("dataDTO");
             result.setStatus("MODEL: CAN'T DELETE '" + Constants.ROOT_CATEGORY_NAME + "'");
             Logger.log("MODEL: CAN'T DELETE '" + Constants.ROOT_CATEGORY_NAME + "'");
             return result;
@@ -106,18 +108,18 @@ public class RealModel implements Model {
     }
 
     private Data addNewItem(Item item) {
-        Data data = new DataDTO();
+        Data data = (Data) Context.getBean("dataDTO");
         if (checkInputData(item)) {
             try {
                 if (item.getItemType() == ItemType.PRODUCT) {
-                    Product product = new Product();
+                    Product product = (Product) Context.getBean("entity-product");
                     copyDataFromViewItemToEntity(item, product);
                     product.setPrice(item.getPrice());
                     product.setQuantity(item.getQuantity());
                     data.setEditedItemId(productDao.create(product));
                     data.setStatusOK();
                 } else if (item.getItemType() == ItemType.CATEGORY) {
-                    Category category = new Category();
+                    Category category = (Category) Context.getBean("entity-category");
                     copyDataFromViewItemToEntity(item, category);
                     data.setEditedItemId(categoryDao.create(category));
                     data.setStatusOK();
@@ -142,19 +144,19 @@ public class RealModel implements Model {
     }
 
     private Data updateItem(Item item) {
-        Data data = new DataDTO();
+        Data data = (Data) Context.getBean("dataDTO");
         data.setEditedItemId(item.getId());
         if (checkInputData(item)) {
             try {
                 if (item.getItemType() == ItemType.PRODUCT) {
-                    Product product = new Product();
+                    Product product = (Product) Context.getBean("entity-product");
                     copyDataFromViewItemToEntity(item, product);
                     product.setPrice(item.getPrice());
                     product.setQuantity(item.getQuantity());
                     productDao.update(product);
                     data.setStatusOK();
                 } else if (item.getItemType() == ItemType.CATEGORY) {
-                    Category category = new Category();
+                    Category category = (Category) Context.getBean("entity-category");
                     copyDataFromViewItemToEntity(item, category);
                     categoryDao.update(category);
                     data.setStatusOK();
@@ -183,7 +185,7 @@ public class RealModel implements Model {
 
 
     private Data getCategoryData(int id, int startFromSequenceItemNumber, int itemQuantity) {
-        Data data = new DataDTO();
+        Data data = (Data) Context.getBean("dataDTO");
 
         try {
             Category currentCategory = categoryDao.read(id);

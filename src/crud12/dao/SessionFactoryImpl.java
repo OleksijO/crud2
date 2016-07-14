@@ -1,6 +1,7 @@
 package crud12.dao;
 
 import crud12.entities.Category;
+import crud12.spring.Context;
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.Session;
@@ -49,7 +50,7 @@ public class SessionFactoryImpl {
             session.close();
         }*/
         Dao<Category,Integer> service=new CategoryDaoImpl();
-        Category cat=new Category();
+        Category cat=(Category) Context.getBean("entity-category");
         cat.setName("Category 1");
         cat.setDescription("dfe");
         cat.setId(3);

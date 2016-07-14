@@ -2,6 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
     <bean id="model" class="crud12.model.RealModel" scope="request"/>
     <bean id="refiller" class="crud12.model.TablesRefiller" lazy-init="true" scope="request">
         <constructor-arg ref="dao-category"/>
@@ -10,4 +11,8 @@
     <bean id="dao-category" class="crud12.dao.CategoryDaoImpl" scope="request"/>
     <bean id="dao-product" class="crud12.dao.ProductDaoImpl" scope="request"/>
     <bean id="page-parameters" class="crud10.dto.PageParametersDTO"/>
+    <bean id="dataDTO" class="crud10.dto.DataDTO" scope="prototype"/>
+    <bean id="entity-category" class="crud12.entities.Category" scope="request"/>
+    <bean id="entity-product" class="crud12.entities.Product" scope="request"/>
+
 </beans>
