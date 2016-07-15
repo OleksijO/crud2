@@ -1,6 +1,6 @@
 package crud14.view.beans;
 
-import crud10.Constants;
+import crud14.Constants;
 import crud14.entities.Category;
 import crud14.entities.DomainObject;
 import crud14.service.dao.Dao;

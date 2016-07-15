@@ -39,7 +39,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web/properties" type="java-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/src/crud14/service/model" />
+      <excludeFolder url="file://$MODULE_DIR$/src/crud10" />
       <excludeFolder url="file://$MODULE_DIR$/src/todo" />
     </content>
     <orderEntry type="inheritedJdk" />

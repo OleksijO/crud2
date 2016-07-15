@@ -3,7 +3,7 @@ package crud10.view.navi.decorators;
 import crud10.utils.Helper;
 import crud10.view.PageTemplate;
 
-import static crud10.Constants.*;
+import static crud14.Constants.*;
 
 /**
  * Shows  'create item'  form.

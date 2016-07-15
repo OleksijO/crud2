@@ -1,6 +1,6 @@
 package crud10.controller;
 
-import crud10.Constants;
+import crud14.Constants;
 import crud10.dto.*;
 import crud14.service.model.ItemType;
 import crud14.service.model.Model;
@@ -12,7 +12,7 @@ import crud10.view.navi.decorators.*;
 
 import java.io.IOException;
 
-import static crud10.Constants.*;
+import static crud14.Constants.*;
 import static crud14.service.model.ModelAction.*;
 
 /**

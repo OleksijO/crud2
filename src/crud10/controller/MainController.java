@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static crud10.Constants.*;
+import static crud14.Constants.*;
 
 /**
  * Page MainController - calls show method on requeried page

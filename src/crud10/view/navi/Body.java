@@ -9,9 +9,9 @@ import crud14.service.model.ItemType;
 
 import java.util.Locale;
 
-import static crud10.Constants.EDIT_MODE_ITEM_DELETED;
-import static crud10.Constants.EDIT_MODE_ITEM_EDIT;
-import static crud10.Constants.MODE_NAVI;
+import static crud14.Constants.EDIT_MODE_ITEM_DELETED;
+import static crud14.Constants.EDIT_MODE_ITEM_EDIT;
+import static crud14.Constants.MODE_NAVI;
 import static crud10.utils.Helper.href;
 import static crud10.utils.Helper.queryBuilder;
 

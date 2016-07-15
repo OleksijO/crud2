@@ -7,7 +7,7 @@ import crud14.spring.Context;
 
 import java.util.*;
 
-import static crud10.Constants.*;
+import static crud14.Constants.*;
 
 public class TablesRefiller {
     private Map<Integer, Product> products = new HashMap<>();

@@ -1,6 +1,6 @@
 package crud10.view;
 
-import crud10.Constants;
+import crud14.Constants;
 import crud10.dto.PageParameters;
 import crud10.dto.Data;
 import crud14.service.model.ItemType;

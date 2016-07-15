@@ -6,7 +6,7 @@ import crud10.view.PageTemplate;
 
 import java.util.List;
 
-import static crud10.Constants.*;
+import static crud14.Constants.*;
 import static crud10.utils.Helper.href;
 import static crud10.utils.Helper.queryBuilder;
 

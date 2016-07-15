@@ -7,7 +7,7 @@ import crud14.service.model.ItemType;
 import java.io.PrintWriter;
 import java.util.Locale;
 
-import static crud10.Constants.*;
+import static crud14.Constants.*;
 
 /**
  *  HTML code helper generator
