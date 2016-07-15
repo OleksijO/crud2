@@ -1,10 +1,10 @@
-package crud14.model;
+package crud14.service.model;
 
 import crud10.Constants;
 import crud10.Logger.Logger;
 import crud10.dto.*;
-import crud14.dao.Dao;
-import crud14.dao.DaoService;
+import crud14.service.dao.Dao;
+import crud14.service.dao.DaoService;
 import crud14.entities.Category;
 import crud14.entities.DomainObject;
 import crud14.entities.Product;
@@ -139,7 +139,7 @@ public class RealModel implements Model {
 
     private void copyDataFromViewItemToEntity(Item item, DomainObject domainObject) {
         domainObject.setId(item.getId());
-        domainObject.setParent(categoryDao.read(item.getParentId()));
+        domainObject.setParent(categoryDao.retrieve(item.getParentId()));
         domainObject.setName(item.getName());
         domainObject.setDescription(item.getDescription());
     }
@@ -189,7 +189,7 @@ public class RealModel implements Model {
         Data data = (Data) Context.getBean("dataDTO");
 
         try {
-            Category currentCategory = categoryDao.read(id);
+            Category currentCategory = categoryDao.retrieve(id);
             data.setTotalNumberOfProducts(categoryDao.getTotalCount(Product.class));
             data.setTotalNumberOfCategories(categoryDao.getTotalCount(Category.class));
             List<Item> pathList = new ArrayList<>();

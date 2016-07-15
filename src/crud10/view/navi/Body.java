@@ -3,9 +3,9 @@ package crud10.view.navi;
 import crud10.dto.PageParameters;
 import crud10.dto.Data;
 import crud10.dto.Item;
-import crud14.model.*;
 import crud10.utils.Helper;
 import crud10.view.AbstractPageTemplate;
+import crud14.service.model.ItemType;
 
 import java.util.Locale;
 

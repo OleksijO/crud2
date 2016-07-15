@@ -1,6 +1,6 @@
-package crud14.model;
+package crud14.service.model;
 
-import crud14.dao.Dao;
+import crud14.service.dao.Dao;
 import crud14.entities.Category;
 import crud14.entities.Product;
 import crud14.spring.Context;
@@ -12,19 +12,19 @@ import static crud10.Constants.*;
 public class TablesRefiller {
     private Map<Integer, Product> products = new HashMap<>();
     private Map<Integer, Category> categories = new TreeMap<>();
-    private Dao<Category, Integer> categoryDao;
+    private Dao<Category, Integer> daoService;
 
 
-    public TablesRefiller(Dao<Category, Integer> categoryDao) {
-        this.categoryDao = categoryDao;
+    public TablesRefiller(Dao<Category, Integer> daoService) {
+        this.daoService = daoService;
 
     }
 
     public void refillDatabase() {
         fillFakeTables(DATABASE_MANAGEMENT_REFILL_MAX_DEPTH, DATABASE_MANAGEMENT_REFILL_MAX_IN_CATEGORY);
-        categoryDao.recreateTables();
-        categoryDao.createList(categories.values());
-        categoryDao.createList(products.values());
+        daoService.recreateTables();
+        daoService.createList(categories.values());
+        daoService.createList(products.values());
     }
 
     private void fillFakeTables(int maxDepth, int maxInList) {

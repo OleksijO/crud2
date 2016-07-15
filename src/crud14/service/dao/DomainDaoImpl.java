@@ -1,17 +1,24 @@
-package crud14.dao;
+package crud14.service.dao;
 
 import crud10.Constants;
+
 import crud14.entities.Category;
 import crud14.entities.DomainObject;
+
 import crud14.entities.Product;
+import org.hibernate.Criteria;
+import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigInteger;
 import java.util.Collection;
+import java.util.List;
 
-public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, Integer> {
+public class DomainDaoImpl implements DomainDao {
     protected int productCount = -1;
     protected int categoryCount = -1;
     protected SessionFactory sessionFactory;
@@ -26,12 +33,55 @@ public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, 
 
     @Override
     @Transactional
-    public Integer create(T newInstance) {
+    public Integer create(DomainObject newInstance) {
         Session session = getSession();
         session.save(newInstance);
         return newInstance.getId();
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public DomainObject retrieve(DomainObject transientObject) {
+        if (transientObject.getId() == null) throw new IllegalArgumentException();
+        Session session = getSession();
+        DomainObject detach = (DomainObject) session.get(transientObject.getClass(), transientObject.getId());
+        if (detach == null) throw new ObjectNotFoundException(transientObject.getId(), transientObject.getClass().getSimpleName());
+        if (detach instanceof Category) {
+            Category category = (Category) detach;
+            Criteria categoryCriteria = session.createCriteria(Category.class);
+            Criteria productCriteria = session.createCriteria(Product.class);
+            productCriteria.add(Restrictions.eq("parent", detach));
+            categoryCriteria.add(Restrictions.eq("parent", detach));
+            @SuppressWarnings("unchecked")
+            List<Category> listCategory = (List<Category>) categoryCriteria.addOrder(Order.desc("id")).list();
+            @SuppressWarnings("unchecked")
+            List<Product> listProduct = (List<Product>) productCriteria.addOrder(Order.desc("id")).list();
+            category.setSubCategories(listCategory);
+            category.setProducts(listProduct);
+            detach = category;
+        }
+        updateCounts();
+        return detach;
+    }
+
+    @Override
+    @Transactional
+    public void update(DomainObject transientObject) {
+        if (transientObject.getId() == null) throw new IllegalArgumentException("Can't update item with id = NULL!");
+        Session session = getSession();
+        DomainObject detachedObject = (Category) session.load(transientObject.getClass(), transientObject.getId());
+        copyFromTransientToDetached(transientObject, detachedObject);
+        session.update(detachedObject);
+    }
+
+    @Override
+    @Transactional
+    public void delete(DomainObject transientObject) {
+        if (transientObject.getId() == null) throw new IllegalArgumentException("Can't delete item with id = NULL!");
+        Session session = getSession();
+        Product product = (Product) session.load(transientObject.getClass(), transientObject.getId());
+        session.delete(product);
+    }
 
     @Override
     public int getTotalCount(Class entityClass) {
@@ -63,7 +113,7 @@ public abstract class AbstractDaoImpl<T extends DomainObject> implements Dao<T, 
             }
         }
         updateCounts();
- }
+    }
 
     @Override
     @Transactional

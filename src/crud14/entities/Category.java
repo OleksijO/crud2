@@ -10,6 +10,13 @@ public class Category extends  DomainObject implements Serializable {
     private List<Category> subCategories;
     private List<Product> products;
 
+    public Category() {
+    }
+
+    public Category(Integer id) {
+        super(id);
+    }
+
     @Transient
     public List<Category> getSubCategories() {
         return subCategories;

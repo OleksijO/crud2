@@ -2,15 +2,24 @@ package crud14.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @MappedSuperclass
-public class DomainObject implements Serializable{
+public class DomainObject implements Serializable {
     private static final long serialVersionUID = 1L;
 
     protected Integer id;
     protected String name;
     protected String description;
     private Category parent;
+
+    public DomainObject() {
+    }
+
+    public DomainObject(Integer id) {
+        this.id = id;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -44,12 +53,24 @@ public class DomainObject implements Serializable{
     }
 
     @ManyToOne
-    @JoinColumn(name="parentid")
+    @JoinColumn(name = "parentid")
     public Category getParent() {
         return parent;
     }
 
     public void setParent(Category parent) {
         this.parent = parent;
+    }
+
+    @Transient
+    public List<Category> getPathList() {
+        List<Category> pathList = new ArrayList<>();
+        if (this instanceof Category) pathList.add((Category) this);
+        Category parent = this.getParent();
+        while (parent != null) {
+            pathList.add(parent);
+            parent = parent.getParent();
+        }
+        return pathList;
     }
 }

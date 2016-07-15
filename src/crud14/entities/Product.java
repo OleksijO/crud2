@@ -9,6 +9,13 @@ public class Product extends DomainObject {
     private Long price;
     private Integer quantity;
 
+    public Product() {
+    }
+
+    public Product(Integer id) {
+        super(id);
+    }
+
     @Basic
     @Column(name = "price")
     public Long getPrice() {

@@ -33,27 +33,21 @@
         </fileset>
       </configuration>
     </facet>
-    <facet type="web" name="Web2">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/lib/dom4j-1.6.1.jar" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/lib" relative="/WEB-INF" />
-        </webroots>
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web/properties" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/src/crud14/service/model" />
+      <excludeFolder url="file://$MODULE_DIR$/src/todo" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="Hibernate 4.2.2-4.2.2" level="project" />
     <orderEntry type="library" name="Spring-4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="PrimeFaces-5.2" level="project" />
+    <orderEntry type="library" name="Mojarra-2.2.1" level="project" />
   </component>
 </module>

@@ -1,6 +1,6 @@
 package crud10.dto;
 
-import crud14.model.ItemType;
+import crud14.service.model.ItemType;
 
 /**
  * Interface of Item, which can represent category or product for view.

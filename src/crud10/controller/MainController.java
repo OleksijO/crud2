@@ -2,7 +2,7 @@ package crud10.controller;
 
 import crud10.Logger.Logger;
 import crud10.dto.PageParameters;
-import crud14.model.Model;
+import crud14.service.model.Model;
 import crud10.view.*;
 import crud14.spring.Context;
 

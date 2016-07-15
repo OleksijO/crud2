@@ -1,18 +1,18 @@
-package crud14.dao;
+package crud14.service.dao;
 
 import java.io.Serializable;
 import java.util.Collection;
 
 public interface Dao<T, PrKey extends Serializable> {
     /**
-     * Save newInstance in database (DB)
+     * Save new entity object in database (DB)
      */
-    PrKey create(T newInstance);
+    PrKey create(T transientObject);
 
     /**
      * Extract object from DB by id
      */
-    T read(PrKey id);
+    T retrieve(T transientObject);
 
     /**
      * Update object in DB
@@ -22,7 +22,7 @@ public interface Dao<T, PrKey extends Serializable> {
     /**
      * Delete object from DB
      */
-    void delete(PrKey id);
+    void delete(T transientObject);
 
     /**
      * Get total count of selected class entities

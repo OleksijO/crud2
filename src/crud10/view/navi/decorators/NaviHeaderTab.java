@@ -1,7 +1,7 @@
 package crud10.view.navi.decorators;
 
 import crud10.dto.Item;
-import crud14.model.ItemType;
+import crud14.service.model.ItemType;
 import crud10.view.PageTemplate;
 
 import java.util.List;

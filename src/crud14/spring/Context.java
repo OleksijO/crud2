@@ -36,4 +36,7 @@ public class Context {
         obj.init(request,response);
         return obj;
     }
+    public static Object getBean(String beanId, Object... args){
+        return context.getBean(beanId, args);
+    }
 }

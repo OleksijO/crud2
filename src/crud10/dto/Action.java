@@ -1,6 +1,6 @@
 package crud10.dto;
 
-import crud14.model.ModelAction;
+import crud14.service.model.ModelAction;
 
 /**
  * Declares methods of Action DTO

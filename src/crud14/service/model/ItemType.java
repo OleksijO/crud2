@@ -1,4 +1,4 @@
-package crud14.model;
+package crud14.service.model;
 
 /**
  * Created by User on 28.06.2016.

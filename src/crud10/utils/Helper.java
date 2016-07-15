@@ -2,7 +2,7 @@ package crud10.utils;
 
 import crud10.dto.PageParameters;
 import crud10.dto.Item;
-import crud14.model.ItemType;
+import crud14.service.model.ItemType;
 
 import java.io.PrintWriter;
 import java.util.Locale;

@@ -3,7 +3,7 @@ package crud10.view;
 import crud10.Constants;
 import crud10.dto.PageParameters;
 import crud10.dto.Data;
-import crud14.model.ItemType;
+import crud14.service.model.ItemType;
 import crud10.utils.Helper;
 
 import javax.servlet.http.HttpServletRequest;
