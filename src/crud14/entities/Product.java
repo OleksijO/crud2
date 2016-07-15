@@ -47,9 +47,8 @@ public class Product extends DomainObject {
         if (name != null ? !name.equals(product.name) : product.name != null) return false;
         if (description != null ? !description.equals(product.description) : product.description != null) return false;
         if (price != null ? !price.equals(product.price) : product.price != null) return false;
-        if (quantity != null ? !quantity.equals(product.quantity) : product.quantity != null) return false;
+        return quantity != null ? quantity.equals(product.quantity) : product.quantity == null;
 
-        return true;
     }
 
     @Override

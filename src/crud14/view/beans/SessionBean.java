@@ -35,7 +35,7 @@ public class SessionBean {
         //daoService =  Context.getBean("dao-service");
         //current = Context.getBean("entity-category");
         current.setId(Constants.ROOT_CATEGORY_ID);
-        current = (Category) daoService.retrieve(current);
+        current = daoService.retrieve(current);
 
     }
 

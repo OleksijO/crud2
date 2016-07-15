@@ -29,7 +29,7 @@ public class TablesRefiller {
 
     private void fillFakeTables(int maxDepth, int maxInList) {
         categories.clear();
-        Category cat = (Category) Context.getBean("entity-category");
+        Category cat = Context.getBean("entity-category");
         cat.setId(ROOT_CATEGORY_ID);
         cat.setParent(null);
         cat.setName(ROOT_CATEGORY_NAME);
@@ -48,7 +48,7 @@ public class TablesRefiller {
     private void fillCategoryListByCategories(Category parentCategory, int maxDepth, int maxInList) {
         int numberOfCategories = (int) (Math.random() * (maxInList + 1));
         for (int i = 0; i < numberOfCategories; i++) {
-            Category cat = (Category) Context.getBean("entity-category");
+            Category cat = Context.getBean("entity-category");
             cat.setId(categories.size() + 1);
             cat.setParent(parentCategory);
             cat.setName("Category of products  id=" + cat.getId());
@@ -61,7 +61,7 @@ public class TablesRefiller {
         }
     }
 
-    public int getPathListDepth(int itemId) {
+    private int getPathListDepth(int itemId) {
         int depth = 0;
         while (itemId != 0) {
             itemId = categories.get(itemId).getParent().getId();
@@ -74,7 +74,7 @@ public class TablesRefiller {
     private void fillCategoryListByProducts(Category parentCategory, int maxInList) {
         int numberOfProducts = (int) (Math.random() * (maxInList + 1));
         for (int i = 0; i < numberOfProducts; i++) {
-            Product product = (Product) Context.getBean("entity-product");
+            Product product = Context.getBean("entity-product");
             product.setId(products.size() + 1);
             product.setParent(parentCategory);
             product.setName("Product name - " + generateRandomString());
