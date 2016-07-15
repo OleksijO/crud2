@@ -6,6 +6,25 @@
       xmlns:p="http://primefaces.org/ui">
 <body>
 <p:outputLabel value="JournalDev - JSF2/Primefaces Tutorial"/>
-
+<p:dataTable value="#{sessionBean.current.subCategories}" var="subCategories">
+    <p:column>
+        <f:facet name="header">
+            <h:outputText value="Id"/>
+        </f:facet>
+        <h:outputText value="#{subCategories.id}"/>
+    </p:column>
+    <p:column>
+        <f:facet name="header">
+            <h:outputText value="Name"/>
+        </f:facet>
+        <h:outputText value="#{subCategories.name}"/>
+    </p:column>
+    <p:column>
+        <f:facet name="header">
+            <h:outputText value="description"/>
+        </f:facet>
+        <h:outputText value="#{subCategories.description}"/>
+    </p:column>
+</p:dataTable>
 </body>
 </html>

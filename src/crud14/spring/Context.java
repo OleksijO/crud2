@@ -1,13 +1,10 @@
 package crud14.spring;
 
-import crud10.Logger.Logger;
-import crud10.dto.PageParameters;
+import crud14.Logger.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 public class Context {
     private static ServletContext servletContext;
@@ -31,11 +28,7 @@ public class Context {
         Logger.log("SPRING:\tloaded bean '"+beanId+"' ["+obj.toString()+"]\tOK.");
         return obj;
     }
-    public static PageParameters getPageParameters(HttpServletRequest request, HttpServletResponse response){
-        PageParameters obj=(PageParameters) getBean("page-parameters");
-        obj.init(request,response);
-        return obj;
-    }
+
     public static Object getBean(String beanId, Object... args){
         return context.getBean(beanId, args);
     }
