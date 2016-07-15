@@ -12,7 +12,7 @@ public interface Dao<T, PrKey extends Serializable> {
     /**
      * Extract object from DB by id
      */
-    T retrieve(T transientObject);
+    <K> K retrieve(K transientObject);
 
     /**
      * Update object in DB

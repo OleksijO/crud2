@@ -41,24 +41,24 @@ public class DomainDaoImpl implements DomainDao {
 
     @Override
     @Transactional(readOnly = true)
-    public DomainObject retrieve(DomainObject transientObject) {
-        if (transientObject.getId() == null) throw new IllegalArgumentException();
+    @SuppressWarnings("unchecked")
+    public <T> T retrieve(T transientObject) {
+        DomainObject trans=(DomainObject) transientObject;
+        if (trans.getId() == null) throw new IllegalArgumentException();
         Session session = getSession();
-        DomainObject detach = (DomainObject) session.get(transientObject.getClass(), transientObject.getId());
-        if (detach == null) throw new ObjectNotFoundException(transientObject.getId(), transientObject.getClass().getSimpleName());
+        T detach = (T) session.get(trans.getClass(), trans.getId());
+        if (detach == null) throw new ObjectNotFoundException(trans.getId(), trans.getClass().getSimpleName());
         if (detach instanceof Category) {
             Category category = (Category) detach;
             Criteria categoryCriteria = session.createCriteria(Category.class);
             Criteria productCriteria = session.createCriteria(Product.class);
             productCriteria.add(Restrictions.eq("parent", detach));
             categoryCriteria.add(Restrictions.eq("parent", detach));
-            @SuppressWarnings("unchecked")
             List<Category> listCategory = (List<Category>) categoryCriteria.addOrder(Order.desc("id")).list();
-            @SuppressWarnings("unchecked")
             List<Product> listProduct = (List<Product>) productCriteria.addOrder(Order.desc("id")).list();
             category.setSubCategories(listCategory);
             category.setProducts(listProduct);
-            detach = category;
+            detach = (T) category;
         }
         updateCounts();
         return detach;

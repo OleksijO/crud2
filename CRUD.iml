@@ -22,7 +22,6 @@
           <unit-entry name="main:resources:hibernate.cfg.xml" value="64011456-bf1d-4db9-b5ff-52f98895c9e4" />
         </datasource-map>
         <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/web/WEB-INF/hibernate.cfg.xml" />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">

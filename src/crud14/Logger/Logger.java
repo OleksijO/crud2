@@ -1,5 +1,7 @@
 package crud14.Logger;
 
+import crud14.spring.Context;
+
 import javax.servlet.ServletContext;
 import java.io.File;
 import java.io.FileWriter;
@@ -14,7 +16,7 @@ import java.util.Date;
  * Logs most general operations
  */
 public class Logger {
-    private static ServletContext servletContext;
+
     private static File logfile = null;
     private static final SimpleDateFormat dataFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
     private static final SimpleDateFormat logFileNameFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
@@ -22,8 +24,7 @@ public class Logger {
     private static final int logFileMaxSize =100000;
 
     public static void setServletContext(ServletContext servletContext) {
-        Logger.servletContext = servletContext;
-        checkLogfile();
+                checkLogfile();
     }
 
     public static void log(String message) {
@@ -55,7 +56,7 @@ public class Logger {
     }
 
     private static Path getLogsDir() {
-        Path logDir = Paths.get(servletContext.getRealPath("/") + "/logs");
+        Path logDir = Paths.get(Context.getExternalContext().getRealPath("/") + "/logs");
         if (!logDir.toFile().exists()) {
             try {
                 Files.createDirectory(logDir);

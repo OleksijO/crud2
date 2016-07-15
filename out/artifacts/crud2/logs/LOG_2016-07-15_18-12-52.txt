@@ -1,0 +1,2 @@
+2016.07.15 18:12:52	SPRING:	context (re)loaded.
+2016.07.15 18:12:52	SPRING:	loaded bean 'entity-category' [crud14.entities.Category@0]	OK.

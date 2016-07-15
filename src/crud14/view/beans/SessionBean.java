@@ -4,9 +4,10 @@ import crud14.Constants;
 import crud14.entities.Category;
 import crud14.entities.DomainObject;
 import crud14.service.dao.Dao;
-import crud14.spring.Context;
 
+import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
 
 @ManagedBean
@@ -14,14 +15,12 @@ import javax.faces.bean.SessionScoped;
 
 public class SessionBean {
 
-    @SuppressWarnings("unchecked cast")
-    private Dao<DomainObject, Integer> daoService = (Dao<DomainObject, Integer>) Context.getBean("dao-service");
-    private Category current =(Category) daoService
-            .retrieve((Category) Context.getBean("entity-category-with-id", Constants.ROOT_CATEGORY_ID));
-
-public Integer getId() {
-        return current.getId();
-    }
+    //@SuppressWarnings("unchecked cast")
+    @ManagedProperty("#{dao}")
+    private Dao<DomainObject, Integer> daoService;
+    @ManagedProperty("#{category}")
+    private Category current;// = (Category) daoService
+    // .retrieve((Category) Context.getBean("entity-category-with-id", Constants.ROOT_CATEGORY_ID));
 
     public Category getCurrent() {
         return current;
@@ -30,4 +29,23 @@ public Integer getId() {
     public void setCurrent(Category current) {
         this.current = current;
     }
+
+    @PostConstruct
+    public void init() {
+        //daoService =  Context.getBean("dao-service");
+        //current = Context.getBean("entity-category");
+        current.setId(Constants.ROOT_CATEGORY_ID);
+        current = (Category) daoService.retrieve(current);
+
+    }
+
+    public Dao<DomainObject, Integer> getDaoService() {
+        return daoService;
+    }
+
+    public void setDaoService(Dao<DomainObject, Integer> daoService) {
+        this.daoService = daoService;
+    }
+
+
 }

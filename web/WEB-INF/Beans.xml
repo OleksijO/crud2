@@ -6,25 +6,17 @@
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
 
-    <bean id="model" class="crud14.service.model.RealModel" scope="request"/>
+
 
     <bean id="refiller" class="crud14.service.model.TablesRefiller" lazy-init="true" scope="request">
         <constructor-arg ref="dao-service"/>
     </bean>
 
-    <bean id="dao-service" class="crud14.service.dao.DomainDaoImpl" scope="request">
+    <bean id="dao-service" name="dao" class="crud14.service.dao.DomainDaoImpl" scope="request">
         <property name="sessionFactory" ref="hibernate-session-factory"/>
     </bean>
 
-    <bean id="page-parameters" class="crud10.dto.PageParametersDTO"/>
-
-    <bean id="dataDTO" class="crud10.dto.DataDTO" scope="prototype"/>
-
-    <bean id="entity-category" class="crud14.entities.Category" scope="prototype"/>
-
-    <bean id="entity-category-with-id" class="crud14.entities.Category" scope="prototype">
-        <constructor-arg value="0"/> <!-- Dummy -->
-    </bean>
+    <bean id="entity-category" name="category" class="crud14.entities.Category" scope="prototype"/>
 
     <bean id="entity-product" class="crud14.entities.Product" scope="prototype"/>
 

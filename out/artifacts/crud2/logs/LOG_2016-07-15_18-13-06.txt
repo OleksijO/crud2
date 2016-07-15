@@ -1,0 +1,3 @@
+2016.07.15 18:13:06	SPRING:	context (re)loaded.
+2016.07.15 18:13:06	SPRING:	loaded bean 'dao-service' [crud14.service.dao.DomainDaoImpl@3dedca63]	OK.
+2016.07.15 18:13:06	SPRING:	loaded bean 'entity-category' [crud14.entities.Category@0]	OK.
