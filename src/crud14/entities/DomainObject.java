@@ -3,6 +3,7 @@ package crud14.entities;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @MappedSuperclass
@@ -62,15 +63,5 @@ public class DomainObject implements Serializable {
         this.parent = parent;
     }
 
-    @Transient
-    public List<Category> getPathList() {
-        List<Category> pathList = new ArrayList<>();
-        if (this instanceof Category) pathList.add((Category) this);
-        Category parent = this.getParent();
-        while (parent != null) {
-            pathList.add(parent);
-            parent = parent.getParent();
-        }
-        return pathList;
-    }
+
 }

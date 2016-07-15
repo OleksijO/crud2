@@ -1,30 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:p="http://primefaces.org/ui">
-<body>
-<p:outputLabel value="JournalDev - JSF2/Primefaces Tutorial"/>
-<p:dataTable value="#{sessionBean.current.subCategories}" var="subCategories">
-    <p:column>
-        <f:facet name="header">
-            <h:outputText value="Id"/>
-        </f:facet>
-        <h:outputText value="#{subCategories.id}"/>
-    </p:column>
-    <p:column>
-        <f:facet name="header">
-            <h:outputText value="Name"/>
-        </f:facet>
-        <h:outputText value="#{subCategories.name}"/>
-    </p:column>
-    <p:column>
-        <f:facet name="header">
-            <h:outputText value="description"/>
-        </f:facet>
-        <h:outputText value="#{subCategories.description}"/>
-    </p:column>
-</p:dataTable>
-</body>
+<h:head>
+</h:head>
+<h:body style="background: #CAEAFF">
+
+    <div align="center">
+        <div align="center" style="width: 70%">
+            <p:dataTable value="#{sessionBean.pathList}" var="pathItem">
+                <p:column>
+                    <h:form> <h:commandLink action="#{sessionBean.doAction(pathItem)}"
+                                            value="&rarr;&nbsp;#{pathItem.name}"/></h:form>
+                </p:column>
+            </p:dataTable>
+
+        </div>
+        <div align="center" style="width: 70%">
+
+            <p:dataTable value="#{sessionBean.current.subCategories}" var="subCategory"
+                         rendered="#{sessionBean.hasSubcategories}">
+                <p:column width="10%">
+                    <f:facet name="header">
+                        <h:outputText value="Id"/>
+                    </f:facet>
+                    <h:outputText value="#{subCategory.id}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputText value="Category's Name / Description"/>
+                    </f:facet>
+                    <h:form>
+                        <h:commandLink action="#{sessionBean.doAction(subCategory)}" value="#{subCategory.name}">
+                        </h:commandLink><br/>
+                        <h:outputText value="#{subCategory.description}"/>
+                    </h:form>
+                </p:column>
+
+            </p:dataTable>
+            <p:dataTable value="#{sessionBean.current.products}" var="product" rendered="#{sessionBean.hasProducts}">
+                <p:column width="10%">
+                    <f:facet name="header">
+                        <h:outputText value="Id"/>
+                    </f:facet>
+                    <h:outputText value="#{product.id}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputText value="Product's Name / Description"/>
+                    </f:facet>
+                    <b><h:outputText value="#{product.name}"/></b><br/>
+                    <h:outputText value="#{product.description}"/>
+                </p:column>
+                <p:column width="10%">
+                    <f:facet name="header">
+                        <h:outputText value="Price, USD"/>
+                    </f:facet>
+                    <h:outputText value="#{product.price/100}">
+                        <f:convertNumber groupingUsed="true" minFractionDigits="2"/></h:outputText>
+                </p:column>
+                <p:column width="10%">
+                    <f:facet name="header">
+                        <h:outputText value="Quantity, pcs"/>
+                    </f:facet>
+                    <h:outputText value="#{product.quantity}"/>
+                </p:column>
+            </p:dataTable>
+            <p:panel rendered="#{sessionBean.noSubItems}">
+            <h:outputText value="No items in this category...."/>
+            </p:panel>
+            <h:form rendered="#{sessionBean.notRoot}">
+                <p:panel>
+                    <h:commandLink
+                            action="#{sessionBean.doAction(sessionBean.current.parent)}"
+                            value="&uarr;&nbsp;back to parent category"/>
+                </p:panel>
+            </h:form>
+        </div>
+        <br/>
+
+    </div>
+</h:body>
 </html>

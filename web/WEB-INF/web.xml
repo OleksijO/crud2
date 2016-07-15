@@ -3,6 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <display-name>C R U D - 2</display-name>
+    <welcome-file-list>
+    <welcome-file>index.xhtml</welcome-file>
+    </welcome-file-list>
 
     <filter>
         <filter-name>CharsetFilter</filter-name>
@@ -10,11 +14,12 @@
         <init-param>
             <param-name>codepage</param-name>
             <param-value>UTF8</param-value>
+
         </init-param>
     </filter>
     <filter-mapping>
         <filter-name>CharsetFilter</filter-name>
-        <url-pattern>/faces/*</url-pattern>
+        <url-pattern>/application/*</url-pattern>
     </filter-mapping>
 
     <servlet>
@@ -22,12 +27,17 @@
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
-
-
-
+    <context-param>
+        <param-name>javax.faces.DEFAULT_SUFFIX</param-name>
+        <param-value>.xhtml</param-value>
+    </context-param>
+    <context-param>
+        <param-name>primefaces.THEME</param-name>
+        <param-value>bootstrap</param-value>
+    </context-param>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
-        <url-pattern>/faces/*</url-pattern>
+        <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
 
 
@@ -63,6 +73,9 @@
         <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
         <param-value>resources.application</param-value>
     </context-param>
-
+    <context-param>
+        <param-name>javax.faces.PROJECT_STAGE</param-name>
+        <param-value>Development</param-value>
+    </context-param>
 
 </web-app>

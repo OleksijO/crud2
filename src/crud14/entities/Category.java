@@ -2,6 +2,8 @@ package crud14.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Entity
@@ -55,5 +57,17 @@ public class Category extends  DomainObject implements Serializable {
         result = 31 * result + (name != null ? name.hashCode() : 0);
         result = 31 * result + (description != null ? description.hashCode() : 0);
         return result;
+    }
+    @Transient
+    public List<Category> getPathList() {
+        List<Category> pathList = new ArrayList<>();
+        if (this instanceof Category) pathList.add((Category) this);
+        Category parent = this.getParent();
+        while (parent != null) {
+            pathList.add(parent);
+            parent = parent.getParent();
+        }
+        Collections.reverse(pathList);
+        return pathList;
     }
 }

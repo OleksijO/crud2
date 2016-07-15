@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="primefaces">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/lib/all-themes-1.0.8.jar!/" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

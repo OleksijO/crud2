@@ -48,5 +48,6 @@
     <orderEntry type="library" name="Spring-4.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="PrimeFaces-5.2" level="project" />
     <orderEntry type="library" name="Mojarra-2.2.1" level="project" />
+    <orderEntry type="library" name="primefaces" level="project" />
   </component>
 </module>

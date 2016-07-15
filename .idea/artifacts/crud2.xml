@@ -13,6 +13,7 @@
           <element id="library" level="project" name="Spring-4.3.1.RELEASE" />
           <element id="library" level="project" name="Mojarra-2.2.1" />
           <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/all-themes-1.0.8.jar" />
         </element>
       </element>
     </root>
