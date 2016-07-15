@@ -48,6 +48,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="Beans.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3140351">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="e#1484#1509#0" expanded="true" />
+                <element signature="e#1547#1560#0" expanded="true" />
+                <element signature="e#1603#1621#0" expanded="true" />
+                <element signature="e#1664#1682#0" expanded="true" />
+                <element signature="n#prop#0;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#1;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#2;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#3;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#4;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#5;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#6;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#7;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#8;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
       <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crud14/entities/Category.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,7 +109,11 @@
         <entry file="file://$PROJECT_DIR$/src/crud14/service/dao/DomainDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
               <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+=======
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1178#1208#0" expanded="true" />
@@ -958,7 +989,11 @@
       <workItem from="1468590453202" duration="50000" />
       <workItem from="1468590675073" duration="70000" />
       <workItem from="1468590762220" duration="1732000" />
+<<<<<<< HEAD
       <workItem from="1468592850088" duration="4511000" />
+=======
+      <workItem from="1468592850088" duration="3969000" />
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -970,11 +1005,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="382320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
+=======
+    <option name="totallyTimeSpent" value="381778000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1364,6 +1407,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/crud14/service/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1410,6 +1454,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
     <entry file="file://$PROJECT_DIR$/src/crud14/view/beans/SessionBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1458,7 +1504,11 @@
     <entry file="file://$PROJECT_DIR$/src/crud14/service/dao/DomainDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+=======
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1178#1208#0" expanded="true" />
@@ -1473,6 +1523,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/crud14/entities/DomainObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1486,6 +1537,27 @@
         <state vertical-scroll-proportion="0.62357414">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3140351">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#1484#1509#0" expanded="true" />
+            <element signature="e#1547#1560#0" expanded="true" />
+            <element signature="e#1603#1621#0" expanded="true" />
+            <element signature="e#1664#1682#0" expanded="true" />
+            <element signature="n#prop#0;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#1;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#2;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#3;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#4;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#5;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#6;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#7;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#8;n#props#0;n#property#2;n#bean#6;n#beans#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> bb77e7fdfdac268593461d6653f332989785aa4a
         </state>
       </provider>
     </entry>
