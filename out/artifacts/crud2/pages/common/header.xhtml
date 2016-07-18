@@ -8,13 +8,37 @@
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:p="http://primefaces.org/ui">
 
-<!-- Body-impl for welcome page-->
+<!-- Header-impl for any page-->
 
 <ui:composition>
 
-    <p:panel>
-        This is implementation of header element
+    <p:panel >
+
+        <table width="100%" cellpadding="5" cellspacing="0">
+            <tr>
+                <td width="80%">
+
+                    <h3>#{titleBean.title}</h3>
+
+                </td>
+                <td width="20%" align="right">
+                    <h:form>
+                    <p:commandButton action="home"
+                                     style="width: 200px; height: 35px; margin-right: 2px" value="Home" label="Welcome"/>
+                    <br/>
+                    <p:commandButton action="navi"
+                                     style="width: 200px; height: 35px; margin-top: 2px; margin-right: 2px" value="Navigation"/>
+                    <br/>
+                    <p:commandButton action="db-manage"
+                                     style="width: 200px; height: 35px; margin-top: 2px; margin-right: 2px; "
+                                     value="DB Management"/>
+                    </h:form>
+                    <br/>
+                </td>
+            </tr>
+        </table>
     </p:panel>
+
 
 </ui:composition>
 

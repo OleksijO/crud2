@@ -60,7 +60,11 @@ public class SessionBean implements Serializable {
         System.out.println(current.getName() + " --> " + category.getName());
         setCurrent(daoService.retrieve(category));
         renew();
-        return null;
+        return "navi";
+    }
+    public String doAction(String dest) {
+        System.out.println(dest);
+        return dest;
     }
 
     public boolean isHasProducts() {

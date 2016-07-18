@@ -10,22 +10,10 @@
 
 <ui:composition xmlns="http://www.w3.org/1999/xhtml"
                 xmlns:ui="http://java.sun.com/jsf/facelets"
-                template="/pages/templates/commonTemplate.xhtml">
+                template="/pages/templates/common.xhtml">
 
-    <ui:define name="header">
-        <ui:include src="/pages/common/header.xhtml"/>
-    </ui:define>
-
-    <ui:define name="login-info">
-        <ui:include src="/pages/common/login.xhtml"/>
-    </ui:define>
-
-    <ui:define name="tech-info">
-        <ui:include src="/pages/common/tech-info.xhtml"/>
-    </ui:define>
-
-    <ui:define name="footer">
-        <ui:include src="/pages/common/tech-info.xhtml"/>
+    <ui:define name="body-impl">
+        <ui:include src="/pages/db-management/db-manage-body-impl.xhtml"/>
     </ui:define>
 
 </ui:composition>

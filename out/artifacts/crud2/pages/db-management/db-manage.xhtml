@@ -8,14 +8,13 @@
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:p="http://primefaces.org/ui">
 
-<!-- Footer-impl for any page-->
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/pages/templates/common.xhtml">
 
-<ui:composition>
-
-    <p:panel>
-        This is implementation of footer element
-    </p:panel>
+    <ui:define name="body-impl">
+        <ui:include src="/pages/db-management/db-manage-body-impl.xhtml"/>
+    </ui:define>
 
 </ui:composition>
-
 </html>
