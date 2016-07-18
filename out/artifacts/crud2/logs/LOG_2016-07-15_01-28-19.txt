@@ -1,9 +1,0 @@
-2016.07.15 01:28:19	SPRING:	context (re)loaded.
-2016.07.15 01:28:19	Application initiated...
-2016.07.15 01:28:19	HTTP	GET	 query string:	null
-2016.07.15 01:28:19	MODEL HAS BEEN LOADED.
-2016.07.15 01:28:19	HTTP	GET	 query string:	null	SHOWN:	Start
-2016.07.15 01:28:20	HTTP	GET	 query string:	mode=navi
-2016.07.15 01:28:20	MODEL HAS BEEN LOADED.
-2016.07.15 01:28:20	RETRIEVE CATEGORY DATA:	get is not valid without active transaction
-2016.07.15 01:28:20	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab

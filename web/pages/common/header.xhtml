@@ -12,28 +12,28 @@
 
 <ui:composition>
 
-    <p:panel >
+    <p:panel>
 
-        <table width="100%" cellpadding="5" cellspacing="0">
+        <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
-                <td width="80%">
-
-                    <h3>#{titleBean.title}</h3>
-
+                <td width="75%">
+                    <h3>#{titleBean.title}<br/>
+                        #{titleBean.additionalTitle}</h3>
                 </td>
-                <td width="20%" align="right">
+                <td width="25%" align="right">
                     <h:form>
-                    <p:commandButton action="home"
-                                     style="width: 200px; height: 35px; margin-right: 2px" value="Home" label="Welcome"/>
-                    <br/>
-                    <p:commandButton action="navi"
-                                     style="width: 200px; height: 35px; margin-top: 2px; margin-right: 2px" value="Navigation"/>
-                    <br/>
-                    <p:commandButton action="db-manage"
-                                     style="width: 200px; height: 35px; margin-top: 2px; margin-right: 2px; "
-                                     value="DB Management"/>
+                        <p:commandButton action="home"
+                                         style="width: 200px; height: 35px; margin-right: 2px" value="Home"
+                                         label="Welcome"/>
+
+                        <p:commandButton action="navi"
+                                         style="width: 200px; height: 35px; margin-top: 2px; margin-right: 2px"
+                                         value="Navigation"/>
+
+                        <p:commandButton action="db-manage"
+                                         style="width: 200px; height: 35px; margin-top: 2px; margin-right: 2px; "
+                                         value="DB Management"/>
                     </h:form>
-                    <br/>
                 </td>
             </tr>
         </table>

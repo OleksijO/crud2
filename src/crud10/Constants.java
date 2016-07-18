@@ -1,11 +1,11 @@
-package crud14;
+package crud10;
 
 /**
  * Defining constants of most used parameters and settings (to do: load from properties)
  */
 public interface Constants {
-    String TITLE = "Simple CRUD (ver.2).";
-    String PROGRAM_NAME = "Based on SpringFramework, Hibernate and PrimeFaces";
+    String TITLE = "Simple CRUD based on servlets and plain JDBC";
+
     int ITEMS_PER_PAGE = 10;
     int FIRST_PAGE_NUMBER = 1;
     int ROOT_CATEGORY_ID = 0;
@@ -38,8 +38,8 @@ public interface Constants {
     String QUERY_PARAMETER_EDIT_FORM_PRICE = "price";
     String QUERY_PARAMETER_EDIT_FORM_QUANTITY = "quantity";
 
-    int DATABASE_MANAGEMENT_REFILL_MAX_DEPTH = 3;
-    int DATABASE_MANAGEMENT_REFILL_MAX_IN_CATEGORY = 25;
+    int DATABASE_MANAGEMENT_REFILL_MAX_DEPTH=3;
+    int DATABASE_MANAGEMENT_REFILL_MAX_IN_CATEGORY=25;
 
 
 }

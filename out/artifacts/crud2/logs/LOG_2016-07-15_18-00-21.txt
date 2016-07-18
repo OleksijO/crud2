@@ -1,1 +1,0 @@
-2016.07.15 18:00:21	SPRING:	loaded bean 'entity-category' [0]	OK.

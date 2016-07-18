@@ -1,6 +1,0 @@
-2016.07.13 15:16:55	Application initiated...
-2016.07.13 15:16:55	HTTP	GET	 query string:	null
-2016.07.13 15:16:55	HTTP	GET	 query string:	null	SHOWN:	Start
-2016.07.13 15:16:58	HTTP	GET	 query string:	mode=navi
-2016.07.13 15:16:59	RETRIEVE CATEGORY DATA:	product is not mapped [SELECT COUNT(*) FROM product]
-2016.07.13 15:16:59	HTTP	GET	 query string:	mode=navi	SHOWN:	NaviHeaderTab
