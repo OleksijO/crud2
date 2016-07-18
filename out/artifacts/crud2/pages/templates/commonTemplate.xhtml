@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <title>Title</title>
+</h:head>
+<h:body style="background: #CAEAFF; margin:0; padding: 0">
+    <div align="center" style="min-width: 960px; max-width: 75%; margin: 0 auto; padding: 0">
+        <div id="header-holder" align="center" style="min-width: 960px; max-width: 1400px; padding: 0">
+            <table border="0" cellspacing="0" cellpadding="1" >
+                <tr valign="top">
+                    <td colspan="2" width="100%" >
+
+                            <ui:insert name="header">
+                                Unredefined header
+                            </ui:insert>
+
+                    </td>
+                </tr>
+                <tr  valign="top">
+                    <td width="15%">
+                        <div style="width: 100%; height: auto; margin-top: 0px">
+                            <ui:insert name="login-info">
+                                <p:panel>Unredefined login</p:panel>
+                            </ui:insert>
+                        </div>
+
+                        <div style="width: 100%; height: auto; margin-top: 2px">
+                            <ui:insert name="tech-info" >
+                                <p:panel>Unredefined tech info</p:panel>
+                            </ui:insert>
+                        </div>
+
+                    </td>
+                    <td width="85%">
+
+                            <ui:insert name="body">
+                                <p:panel>Unredefined body</p:panel>
+                            </ui:insert>
+
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td width="100%" colspan="2">
+
+                            <ui:insert name="footer">
+                                <p:panel> Unredefined footer</p:panel>
+                            </ui:insert>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</h:body>
+
+</html>
