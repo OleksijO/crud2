@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud14/Constants.java" afterPath="$PROJECT_DIR$/src/crud14/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud14/view/beans/SessionBean.java" afterPath="$PROJECT_DIR$/src/crud14/view/beans/SessionBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud14/view/beans/navi/AddCategoryBean.java" afterPath="$PROJECT_DIR$/src/crud14/view/beans/navi/AddCategoryBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crud14/view/beans/navi/NavigationBean.java" afterPath="$PROJECT_DIR$/src/crud14/view/beans/navi/NavigationBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/navi.xhtml" afterPath="$PROJECT_DIR$/web/navi.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/add-buttons.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/add-buttons.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/templates/common.xhtml" afterPath="$PROJECT_DIR$/web/pages/templates/common.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml" afterPath="$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/pages/navigation/navi-message.xhtml" afterPath="$PROJECT_DIR$/web/pages/common/messages.xhtml" />
     </list>
     <ignored path="CRUD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +46,7 @@
       <file leaf-file-name="add-category-dialog.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.26923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding />
             </state>
@@ -68,7 +56,7 @@
       <file leaf-file-name="navi-body-impl.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
@@ -92,7 +80,7 @@
       <file leaf-file-name="navi-tree.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding />
             </state>
@@ -102,8 +90,8 @@
       <file leaf-file-name="AddCategoryBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crud14/view/beans/navi/AddCategoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78595316">
-              <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.6588629">
+              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -160,7 +148,7 @@
       <file leaf-file-name="navi-add-product-impl.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-add-product-impl.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
@@ -293,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -652,6 +639,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1331,6 +1319,7 @@
       <workItem from="1468913809462" duration="727000" />
       <workItem from="1468915159683" duration="27292000" />
       <workItem from="1469043171353" duration="12798000" />
+      <workItem from="1469056247477" duration="186000" />
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -1342,7 +1331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477647000" />
+    <option name="totallyTimeSpent" value="477833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -1409,6 +1398,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-add-product-impl.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/crud10/view/navi/Body.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1663,7 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1671,7 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307">
           <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1687,7 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1695,7 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
           <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1703,7 +1695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1721,7 +1712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.26923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding />
         </state>
@@ -1761,7 +1752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-add-product-impl.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
@@ -1769,7 +1760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
@@ -1777,7 +1768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding />
         </state>
@@ -1793,8 +1784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crud14/view/beans/navi/AddCategoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78595316">
-          <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.6588629">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -45,8 +45,6 @@ public class AddCategoryBean implements Serializable {
             closeDialogAndShowMessageAndResetCategory(FacesMessage.SEVERITY_ERROR, "Can't add category. " + e.getMessage(), null);
             return;
         }
-
-
         closeDialogAndShowMessageAndResetCategory(FacesMessage.SEVERITY_INFO, "Category with id = " + id + " added to database", null);
     }
 
@@ -82,7 +80,6 @@ public class AddCategoryBean implements Serializable {
     private void closeDialogAndShowMessageAndResetCategory(FacesMessage.Severity severity, String summaryMessage, String detailMessage) {
         RequestContext.getCurrentInstance().execute("PF('add-category-dialog').hide();");
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
-        System.out.println(current.getSubCategories().size());
         if (current.getSubCategories().size() != 0) {
             current.getSubCategories().add(0, category);
         }else{
