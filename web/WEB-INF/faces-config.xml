@@ -39,5 +39,16 @@
         </navigation-case>
     </navigation-rule>
 
+    <navigation-rule>
+        <from-view-id>/*</from-view-id>
+
+        <navigation-case>
+            <display-name>navi</display-name>
+            <from-outcome>navi-add-category</from-outcome>
+            <to-view-id>/navi-add-category.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+    </navigation-rule>
+
 
 </faces-config>

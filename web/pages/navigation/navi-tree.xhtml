@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:body style="background: #CAEAFF">
+
+    <ui:composition>
+
+        <div align="center" style="width: 100%">
+            <p:dataTable value="#{navigationBean.pathList}" var="pathItem">
+                <p:column>
+                    <h:form> <h:commandLink action="#{navigationBean.renew()}" value="&rarr;&nbsp;#{pathItem.name}">
+                        <f:setPropertyActionListener target="#{sessionBean.currentId}" value="#{pathItem.id}"/>
+                    </h:commandLink></h:form>
+                </p:column>
+            </p:dataTable>
+
+        </div>
+
+    </ui:composition>
+
+</h:body>
+</html>

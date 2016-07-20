@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:body style="background: #CAEAFF">
+    <ui:composition>
+        <p:dialog header="Add new category" widgetVar="add-category-dialog" showEffect="clip" hideEffect="clip" >
+            <h:form id="form">
+                <table width="100%" cellpadding="10">
+                    <tr>
+                        <td width="15%">
+                            <p:outputLabel value="Name: "/>
+                        </td>
+                        <td width="50%">
+                            <p:inputText id="name" value="#{addCategoryBean.category.name}" style="width: 100%"
+                                         required="true" requiredMessage="Please, enter name" maxlength="255"
+                                         validatorMessage="Name must contain only letters">
+                                <f:validateRegex pattern="[A-Za-zА-Яа-я]+"/>
+                            </p:inputText>
+                        </td>
+
+                        <td>
+                            <h:message for="name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="15%">
+                            <p:outputLabel value="Description: "/>
+                        </td>
+                        <td width="300px">
+                            <p:inputTextarea id="descr" value="#{addCategoryBean.category.name}" style="width: 100%"
+                                             required="true" requiredMessage="Please, enter description"
+                                             maxlength="255"/>
+                        </td>
+                        <td>
+                            <h:message for="descr"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div align="center" style="width: 100%">
+                                <p:commandButton value="Cancel" immediate="true" onclick="PF('add-category-dialog').hide();"/>
+                                <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                                <p:commandButton action="#{addCategoryBean.add()}" value="Add category" update="form" actionListener="#{navigationBean.mes()}"/>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </h:form>
+        </p:dialog>
+    </ui:composition>
+</h:body>
+</html>

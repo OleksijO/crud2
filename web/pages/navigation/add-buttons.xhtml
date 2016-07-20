@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:body style="background: #CAEAFF">
+
+    <ui:composition>
+        <div align="center" style="width: 100%">
+            <p:panel style="width:100%; text-align: center; padding: 0" >
+                <h:form>
+                    <p:commandButton value="Add new category" type="button" onclick="PF('add-category-dialog').show();"/>
+                    <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                    <p:commandButton action="navi-add-product" value="Add new product"/>
+                    <p:commandButton action="#{navigationBean.mes()}" value="show message"/>
+                </h:form>
+            </p:panel>
+        </div>
+    <ui:include src="add-category-dialog.xhtml"/>
+
+    </ui:composition>
+
+</h:body>
+</html>

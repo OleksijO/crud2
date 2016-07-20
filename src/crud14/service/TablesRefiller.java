@@ -1,4 +1,4 @@
-package crud14.service.model;
+package crud14.service;
 
 import crud14.service.dao.Dao;
 import crud14.entities.Category;

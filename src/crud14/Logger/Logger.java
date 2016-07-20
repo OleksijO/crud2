@@ -2,7 +2,6 @@ package crud14.Logger;
 
 import crud14.spring.Context;
 
-import javax.servlet.ServletContext;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -23,11 +22,7 @@ public class Logger {
     private static boolean logON=true;
     private static final int logFileMaxSize =100000;
 
-    public static void setServletContext(ServletContext servletContext) {
-                checkLogfile();
-    }
-
-    public static void log(String message) {
+    public static synchronized void log(String message) {
         if (!logON) return;
         checkLogfile();
         try (
@@ -37,6 +32,9 @@ public class Logger {
             e.printStackTrace();
             logOFF();
         }
+    }
+    public static synchronized void log(Message mes){
+        log("JSF: "+ mes.getSeverity()+"\t"+mes.getSummary()+"\t"+mes.getMessage());
     }
 
     private static void checkLogfile() {
