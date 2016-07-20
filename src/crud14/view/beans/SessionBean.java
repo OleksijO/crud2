@@ -12,28 +12,17 @@ public class SessionBean implements Serializable {
     private static final long serialVersionUID = 1L;
     private int currentId = ROOT_CATEGORY_ID;
 
-
-
     public int getCurrentId() {
         return currentId;
     }
 
     public void setCurrentId(int currentId) {
         this.currentId = currentId;
-        System.out.println("sessionBean.currentId=" + currentId);
-    }
-
-
-    public String goToCategoryWithId(int id) {
-        currentId = id;
-        return "navi";
     }
 
     public SessionBean getInstance() {
         return this;
     }
-
-
 
 
 }

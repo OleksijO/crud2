@@ -44,8 +44,6 @@ public class NavigationBean implements Serializable {
         pathList = current.getPathList();
         notRoot = current.getId() != 0;
         noSubItems = !hasProducts && !hasSubcategories;
-
-
     }
 
     public DomainDao getDaoService() {

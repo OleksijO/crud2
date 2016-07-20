@@ -11,8 +11,8 @@ public interface Constants {
     int ROOT_CATEGORY_ID = 0;
     String ROOT_CATEGORY_NAME = "Root";
 
-    String SITE_HOME_ADDRESS = "/crud2";
-    String SITE_CHAPTER_ADDRESS = SITE_HOME_ADDRESS + "/application";
+    String SITE_HOME_ADDRESS = "";
+    String SITE_CHAPTER_ADDRESS = SITE_HOME_ADDRESS + "/crud2";
     String PAGE_NOT_FOUND = "page-not-found";
 
     String MODE_START = "start";

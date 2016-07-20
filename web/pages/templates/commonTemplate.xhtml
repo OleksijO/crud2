@@ -15,7 +15,7 @@
         </title>
     </ui:insert>
 </h:head>
-<h:body style="background: #CAEAFF; margin:0; padding: 0">
+<h:body style="background: #E4F5FF; margin:0; padding: 0">
     <div align="center" style="min-width: 960px; max-width: 75%; margin: 0 auto; padding: 0">
         <div id="header-holder" align="center" style="min-width: 960px; max-width: 1400px; padding: 0">
             <table border="0" cellspacing="0" cellpadding="1" width="100%">
@@ -40,6 +40,9 @@
                         </div>
                     </td>
                     <td width="85%">
+                        <ui:insert name="messages">
+                            <p:panel>Unredefined body</p:panel>
+                        </ui:insert>
                         <ui:insert name="body">
                             <p:panel>Unredefined body</p:panel>
                         </ui:insert>

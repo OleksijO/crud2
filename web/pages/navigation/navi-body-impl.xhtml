@@ -8,73 +8,87 @@
 
 <h:body style="background: #CAEAFF">
 
-    <ui:composition >
+    <ui:composition>
+        <h:panelGroup id="body">
+            <div align="center" style="width: 100%">
 
-        <div align="center" style="width: 100%">
-
-            <p:dataTable id="body1" value="#{navigationBean.current.subCategories}" var="subCategory"
-                         rendered="#{navigationBean.hasSubcategories}">
-                <p:column width="10%">
-                    <f:facet name="header">
-                        <h:outputText value="Id"/>
-                    </f:facet>
-                    <h:outputText value="#{subCategory.id}"/>
-                </p:column>
-                <p:column>
-                    <f:facet name="header">
-                        <h:outputText value="Category's Name / Description"/>
-                    </f:facet>
-                    <h:form>
-                        <h:commandLink action="#{navigationBean.renew()}" value="#{subCategory.name}">
-                            <f:setPropertyActionListener target="#{sessionBean.currentId}" value="#{subCategory.id}"/>
-                        </h:commandLink><br/>
-                        <h:outputText value="#{subCategory.description}"/>
-                    </h:form>
-                </p:column>
-
-            </p:dataTable>
-            <p:dataTable id="body2" value="#{navigationBean.current.products}" var="product"
-                         rendered="#{navigationBean.hasProducts}">
-                <p:column width="10%">
-                    <f:facet name="header">
-                        <h:outputText value="Id"/>
-                    </f:facet>
-                    <h:outputText value="#{product.id}"/>
-                </p:column>
-                <p:column>
-                    <f:facet name="header">
-                        <h:outputText value="Product's Name / Description"/>
-                    </f:facet>
-                    <b><h:outputText value="#{product.name}"/></b><br/>
-                    <h:outputText value="#{product.description}"/>
-                </p:column>
-                <p:column width="10%">
-                    <f:facet name="header">
-                        <h:outputText value="Price, USD"/>
-                    </f:facet>
-                    <h:outputText value="#{product.price/100}">
-                        <f:convertNumber groupingUsed="true" minFractionDigits="2"/></h:outputText>
-                </p:column>
-                <p:column width="10%">
-                    <f:facet name="header">
-                        <h:outputText value="Quantity, pcs"/>
-                    </f:facet>
-                    <h:outputText value="#{product.quantity}"/>
-                </p:column>
-            </p:dataTable>
-            <p:panel rendered="#{navigationBean.noSubItems}">
-                <h:outputText value="No items in this category...."/>
-            </p:panel>
-            <h:form rendered="#{navigationBean.notRoot}">
-                <p:panel>
-                    <h:commandButton action="#{navigationBean.renew()}" value="&uarr;&nbsp;back to parent category">
-                        <f:setPropertyActionListener target="#{sessionBean.currentId}"
-                                                     value="#{navigationBean.current.parent.id}"/>
-                    </h:commandButton>
+                <p:dataTable value="#{navigationBean.current.subCategories}" var="subCategory"
+                             rendered="#{navigationBean.hasSubcategories}">
+                    <p:column width="10%" style="text-align: center">
+                        <f:facet name="header">
+                            <h:outputText value="Id"/>
+                        </f:facet>
+                        <h:outputText value="#{subCategory.id}"/>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Category's Name / Description"/>
+                        </f:facet>
+                        <h:form>
+                            <h:commandLink value="#{subCategory.name}" update="body">
+                                <f:setPropertyActionListener target="#{sessionBean.currentId}"
+                                                             value="#{subCategory.id}"/>
+                                <f:actionListener binding="#{navigationBean.renew()}"/>
+                            </h:commandLink><br/>
+                            <h:outputText value="#{subCategory.description}"/>
+                        </h:form>
+                    </p:column>
+                    <p:column width="20%" style="text-align: center">
+                        <h:form>
+                        <p:commandButton value="Edit"  type="button"/>
+                        <p:commandButton value="Remove" type="button"/>
+                        </h:form>
+                    </p:column>
+                </p:dataTable>
+                <p:dataTable value="#{navigationBean.current.products}" var="product"
+                             rendered="#{navigationBean.hasProducts}">
+                    <p:column width="10%" style="text-align: center">
+                        <f:facet name="header">
+                            <h:outputText value="Id"/>
+                        </f:facet>
+                        <h:outputText value="#{product.id}"/>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Product's Name / Description"/>
+                        </f:facet>
+                        <b><h:outputText value="#{product.name}"/></b><br/>
+                        <h:outputText value="#{product.description}"/>
+                    </p:column>
+                    <p:column width="10%" style="text-align: right">
+                        <f:facet name="header">
+                            <h:outputText value="Price, USD"/>
+                        </f:facet>
+                        <h:outputText value="#{product.price/100}">
+                            <f:convertNumber groupingUsed="true" minFractionDigits="2"/></h:outputText>
+                    </p:column>
+                    <p:column width="10%" style="text-align: right">
+                        <f:facet name="header">
+                            <h:outputText value="Quantity, pcs"/>
+                        </f:facet>
+                        <h:outputText value="#{product.quantity}"/>
+                    </p:column>
+                    <p:column width="20%" style="text-align: center">
+                        <h:form>
+                        <p:commandButton value="Edit" type="button"/>
+                        <p:commandButton value="Remove" type="button"/>
+                        </h:form>
+                    </p:column>
+                </p:dataTable>
+                <p:panel rendered="#{navigationBean.noSubItems}">
+                    <h:outputText value="No items in this category...."/>
                 </p:panel>
-            </h:form>
-        </div>
-
+                <h:form rendered="#{navigationBean.notRoot}">
+                    <p:panel>
+                        <h:commandButton value="&uarr;&nbsp;back to parent category">
+                            <f:setPropertyActionListener target="#{sessionBean.currentId}"
+                                                         value="#{navigationBean.current.parent.id}"/>
+                            <f:actionListener binding="#{navigationBean.renew()}"/>
+                        </h:commandButton>
+                    </p:panel>
+                </h:form>
+            </div>
+        </h:panelGroup>
     </ui:composition>
 
 </h:body>
