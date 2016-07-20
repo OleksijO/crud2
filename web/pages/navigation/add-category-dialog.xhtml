@@ -45,7 +45,7 @@
                             <div align="center" style="width: 100%">
                                 <p:commandButton value="Cancel" immediate="true" onclick="PF('add-category-dialog').hide();"/>
                                 <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
-                                <p:commandButton action="#{addCategoryBean.add()}" value="Add category" update="form" actionListener="#{navigationBean.mes()}"/>
+                                <p:commandButton actionListener="#{addCategoryBean.add}" value="Add category" update="form messages body1 body2"/>
                             </div>
                         </td>
                     </tr>

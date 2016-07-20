@@ -8,11 +8,11 @@
 
 <h:body style="background: #CAEAFF">
 
-    <ui:composition>
+    <ui:composition >
 
         <div align="center" style="width: 100%">
 
-            <p:dataTable value="#{navigationBean.current.subCategories}" var="subCategory"
+            <p:dataTable id="body1" value="#{navigationBean.current.subCategories}" var="subCategory"
                          rendered="#{navigationBean.hasSubcategories}">
                 <p:column width="10%">
                     <f:facet name="header">
@@ -33,7 +33,7 @@
                 </p:column>
 
             </p:dataTable>
-            <p:dataTable value="#{navigationBean.current.products}" var="product"
+            <p:dataTable id="body2" value="#{navigationBean.current.products}" var="product"
                          rendered="#{navigationBean.hasProducts}">
                 <p:column width="10%">
                     <f:facet name="header">

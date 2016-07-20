@@ -33,9 +33,6 @@ public class Logger {
             logOFF();
         }
     }
-    public static synchronized void log(Message mes){
-        log("JSF: "+ mes.getSeverity()+"\t"+mes.getSummary()+"\t"+mes.getMessage());
-    }
 
     private static void checkLogfile() {
         if (logfile == null) {

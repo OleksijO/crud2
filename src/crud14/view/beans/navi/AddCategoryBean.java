@@ -1,6 +1,5 @@
 package crud14.view.beans.navi;
 
-import crud14.Logger.Message;
 import crud14.entities.Category;
 import crud14.service.dao.DomainDao;
 import crud14.view.beans.SessionBean;
@@ -10,6 +9,7 @@ import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
 import java.io.Serializable;
 
 @ManagedBean
@@ -33,24 +33,18 @@ public class AddCategoryBean implements Serializable {
         this.category = category;
     }
 
-    public String add() {
+    public void add() {
         int id = -1;
         category.setParent(current);
         try {
             id = daoService.create(category);
         } catch (Exception e) {
-            sessionBean.saveMessage(new Message(FacesMessage.SEVERITY_ERROR, "Can't add category.",e.getMessage() ));
-            return null;
-
+            closeDialogAndShowMessage(FacesMessage.SEVERITY_ERROR, "Can't add category. "+e.getMessage(),null);
+            //RequestContext.getCurrentInstance().execute("PF('messages').update();");
+            return;
         }
-        RequestContext.getCurrentInstance().execute("PF('add-category-dialog').hide();");
-        try {
-            Thread.currentThread();
-            Thread.sleep(350);
-        } catch (InterruptedException ignored) {
-        }
-        sessionBean.saveMessage(new Message(FacesMessage.SEVERITY_INFO, "Info ", "Category with id = " + id + " added to database"));
-        return "navi";
+        current.getSubCategories().add(0,category);
+        closeDialogAndShowMessage(FacesMessage.SEVERITY_INFO, "Category with id = " + id + " added to database",null);
     }
 
 
@@ -80,5 +74,10 @@ public class AddCategoryBean implements Serializable {
 
     public void setSessionBean(SessionBean sessionBean) {
         this.sessionBean = sessionBean;
+    }
+
+    private void closeDialogAndShowMessage(FacesMessage.Severity severity, String summaryMessage, String detailMessage){
+        RequestContext.getCurrentInstance().execute("PF('add-category-dialog').hide();");
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
     }
 }
