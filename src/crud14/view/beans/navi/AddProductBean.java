@@ -23,8 +23,9 @@ public class AddProductBean implements Serializable {
     private Category current;
     @ManagedProperty("#{dao}")
     private DomainDao daoService;
-    @ManagedProperty("#{product}")
+    @ManagedProperty("#{productEntity}")
     private Product product;
+    private Double price=0.0;
 
     public Product getProduct() {
         return product;
@@ -37,6 +38,7 @@ public class AddProductBean implements Serializable {
     public void add() {
         int id = -1;
         product.setParent(current);
+        product.setPrice((long)(double) (price*100));
         try {
             id = daoService.create(product);
         } catch (Exception e) {
@@ -46,7 +48,19 @@ public class AddProductBean implements Serializable {
         closeDialogAndShowMessageAndResetProduct(FacesMessage.SEVERITY_INFO, "Product with id = " + id + " added to database", null);
     }
 
-
+    private void closeDialogAndShowMessageAndResetProduct(FacesMessage.Severity severity, String summaryMessage, String detailMessage) {
+        RequestContext.getCurrentInstance().execute("PF('add-product-dialog').hide();");
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
+        if (current.getProducts().size() == 0) {
+            try {
+                Context.getExternalContext().redirect(Constants.SITE_CHAPTER_ADDRESS + "/navi.xhtml");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        product = Context.getBean("productEntity");
+        price=0.0;
+    }
     public DomainDao getDaoService() {
         return daoService;
     }
@@ -63,18 +77,11 @@ public class AddProductBean implements Serializable {
         this.daoService = daoService;
     }
 
-    private void closeDialogAndShowMessageAndResetProduct(FacesMessage.Severity severity, String summaryMessage, String detailMessage) {
-        RequestContext.getCurrentInstance().execute("PF('add-product-dialog').hide();");
-        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
-        if (current.getProducts().size() == 0) {
-            try {
-                Context.getExternalContext().redirect(Constants.SITE_CHAPTER_ADDRESS + "/navi.xhtml");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        product = Context.getBean("product");
+    public Double getPrice() {
+        return price;
     }
 
-
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 }

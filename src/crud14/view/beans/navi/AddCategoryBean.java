@@ -76,9 +76,7 @@ public class AddCategoryBean implements Serializable {
     private void closeDialogAndShowMessageAndResetCategory(FacesMessage.Severity severity, String summaryMessage, String detailMessage) {
         RequestContext.getCurrentInstance().execute("PF('add-category-dialog').hide();");
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
-        if (current.getSubCategories().size() != 0) {
-            //current.getSubCategories().add(0, category);
-        }else{
+        if (current.getSubCategories().size() == 0) {
             try {
                 Context.getExternalContext().redirect(Constants.SITE_CHAPTER_ADDRESS+"/navi.xhtml");
             } catch (IOException e) {
