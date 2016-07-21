@@ -33,7 +33,12 @@
                     </p:column>
                     <p:column width="20%" style="text-align: center">
                         <h:form>
-                            <p:commandButton value="Edit" type="button"/>
+                            <p:commandButton value="Edit" update="edit-category-dialog">
+                                <f:setPropertyActionListener target="#{editCategoryBean.category()}"
+                                                             value="#{subCategory}"/>
+                                <f:actionListener binding="#{editCategoryBean.showDialog()}"/>
+                            </p:commandButton>
+
                             <p:commandButton value="Remove" update="body">
                                 <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
                                                              value="#{subCategory}"/>
@@ -73,7 +78,9 @@
                     </p:column>
                     <p:column width="20%" style="text-align: center">
                         <h:form>
-                            <p:commandButton value="Edit" type="button"/>
+                            <p:commandButton value="Edit">
+
+                            </p:commandButton>
                             <p:commandButton value="Remove" update="body">
                                 <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
                                                              value="#{product}"/>
@@ -97,6 +104,7 @@
                 </h:form>
             </div>
         </h:panelGroup>
+        <ui:include src="edit-category-dialog.xhtml"/>
     </ui:composition>
 
 </h:body>
