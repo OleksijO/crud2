@@ -10,15 +10,18 @@
 
     <ui:composition>
         <div align="center" style="width: 100%; padding: 0;">
-            <p:panel style="text-align: center; padding:0; margin:0" >
+            <p:panel style="text-align: center; padding:0; margin:0">
                 <h:form>
-                    <p:commandButton value="Add new category" type="button" onclick="PF('add-category-dialog').show();"/>
+                    <p:commandButton value="Add new category" type="button"
+                                     onclick="PF('add-category-dialog').show();"/>
                     <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
-                    <p:commandButton action="navi-add-product" value="Add new product"/>
-                    </h:form>
+                    <p:commandButton value="Add new product" type="button"
+                                     onclick="PF('add-product-dialog').show();"/>
+                </h:form>
             </p:panel>
         </div>
-    <ui:include src="add-category-dialog.xhtml"/>
+        <ui:include src="add-category-dialog.xhtml"/>
+        <ui:include src="add-product-dialog.xhtml"/>
 
     </ui:composition>
 

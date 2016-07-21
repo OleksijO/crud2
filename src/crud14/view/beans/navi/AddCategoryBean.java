@@ -65,10 +65,6 @@ public class AddCategoryBean implements Serializable {
         this.daoService = daoService;
     }
 
-    public void reset() {
-        RequestContext.getCurrentInstance().reset("form");
-    }
-
     public SessionBean getSessionBean() {
         return sessionBean;
     }
@@ -81,7 +77,7 @@ public class AddCategoryBean implements Serializable {
         RequestContext.getCurrentInstance().execute("PF('add-category-dialog').hide();");
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
         if (current.getSubCategories().size() != 0) {
-            current.getSubCategories().add(0, category);
+            //current.getSubCategories().add(0, category);
         }else{
             try {
                 Context.getExternalContext().redirect(Constants.SITE_CHAPTER_ADDRESS+"/navi.xhtml");

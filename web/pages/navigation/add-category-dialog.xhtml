@@ -16,7 +16,7 @@
                             <p:outputLabel value="Name: "/>
                         </td>
                         <td width="50%">
-                            <p:inputText id="name" value="#{addCategoryBean.category.name}" style="width: 100%"
+                            <p:inputText id="add-category-input-name" value="#{addCategoryBean.category.name}" style="width: 100%"
                                          required="true" requiredMessage="Please, enter name" maxlength="255"
                                          validatorMessage="Name must contain only letters">
                                 <f:validateRegex pattern="[A-Za-zА-Яа-я]+"/>
@@ -24,7 +24,7 @@
                         </td>
 
                         <td>
-                            <h:message for="name"/>
+                            <h:message for="add-category-input-name"/>
                         </td>
                     </tr>
                     <tr>
@@ -32,12 +32,12 @@
                             <p:outputLabel value="Description: "/>
                         </td>
                         <td width="300px">
-                            <p:inputTextarea id="descr" value="#{addCategoryBean.category.description}" style="width: 100%"
+                            <p:inputTextarea id="add-category-input-descr" value="#{addCategoryBean.category.description}" style="width: 100%"
                                              required="true" requiredMessage="Please, enter description"
                                              maxlength="255"/>
                         </td>
                         <td>
-                            <h:message for="descr"/>
+                            <h:message for="add-category-input-descr"/>
                         </td>
                     </tr>
                     <tr>

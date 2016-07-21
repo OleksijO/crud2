@@ -18,7 +18,7 @@
 
     <bean id="entity-category" name="category" class="crud14.entities.Category" scope="prototype"/>
 
-    <bean id="entity-product" class="crud14.entities.Product" scope="prototype"/>
+    <bean id="entity-product" name="product" class="crud14.entities.Product" scope="prototype"/>
 
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">

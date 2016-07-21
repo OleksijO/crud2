@@ -44,8 +44,8 @@
 
         <navigation-case>
             <display-name>navi</display-name>
-            <from-outcome>navi-add-category</from-outcome>
-            <to-view-id>/navi-add-category.xhtml</to-view-id>
+            <from-outcome>navi-add-product</from-outcome>
+            <to-view-id>/navi-add-product.xhtml</to-view-id>
             <redirect/>
         </navigation-case>
     </navigation-rule>
