@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:body style="background: #CAEAFF">
+    <ui:composition>
+        <p:dialog id="edit-product-dialog" header="Edit product:" widgetVar="edit-product-dialog" modal="true" showEffect="clip"
+                  hideEffect="clip">
+            <h:form >
+                <h:inputHidden id="edit-product-id" value="#{editProductBean.product.id}"/>
+                <table width="100%" cellpadding="10">
+                    <tr>
+                        <td width="15%">
+                            <p:outputLabel value="Name: "/>
+                        </td>
+                        <td width="50%">
+                            <p:inputText id="edit-product-input-name" value="#{editProductBean.product.name}" style="width: 100%"
+                                         required="true" requiredMessage="Please, enter the name of Product"
+                                         maxlength="255">
+                            </p:inputText>
+                        </td>
+
+                        <td>
+                            <h:message for="edit-product-input-name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="15%">
+                            <p:outputLabel value="Description: "/>
+                        </td>
+                        <td width="300px">
+                            <p:inputTextarea id="edit-product-input-descr" value="#{editProductBean.product.description}"
+                                             style="width: 100%"
+                                             maxlength="255"/>
+                        </td>
+                        <td>
+                            <h:message for="edit-product-input-descr"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="15%">
+                            <p:outputLabel value="Price: "/>
+                        </td>
+                        <td width="300px">
+                            <p:inputNumber id="edit-product-input-price" value="#{editProductBean.price}" decimalPlaces="2"
+                                             decimalSeparator="," thousandSeparator=" "
+                                             style="width: 75px"
+                                             minValue="0"/>
+                            <p:outputLabel value=" USD"/>
+                        </td>
+                        <td>
+                            <h:message for="edit-product-input-price"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="15%">
+                            <p:outputLabel value="Quantity: "/>
+                        </td>
+                        <td width="300px">
+                            <p:inputNumber id="edit-product-input-quantity" value="#{editProductBean.product.quantity}" decimalPlaces="0"
+                                           style="width: 75px"
+                                           minValue="0"/>
+                            <p:outputLabel value=" pcs"/>
+                        </td>
+                        <td>
+                            <h:message for="edit-product-input-quantity"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div align="center" style="width: 100%">
+                                <p:commandButton value="Cancel" immediate="true"
+                                                 onclick="PF('edit-product-dialog').hide();" update="edit-product-dialog">
+                                    <p:resetInput target="edit-product-dialog" process="@this"/>
+                                </p:commandButton>
+                                <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                                <p:commandButton actionListener="#{editProductBean.update()}"
+                                                 value="edit product" update="edit-product-dialog body">
+                                    <f:actionListener binding="#{navigationBean.renew()}"/>
+                                </p:commandButton>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </h:form>
+        </p:dialog>
+    </ui:composition>
+</h:body>
+</html>

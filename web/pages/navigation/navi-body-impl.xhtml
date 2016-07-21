@@ -34,11 +34,10 @@
                     <p:column width="20%" style="text-align: center">
                         <h:form>
                             <p:commandButton value="Edit" update="edit-category-dialog">
-                                <f:setPropertyActionListener target="#{editCategoryBean.category()}"
+                                <f:setPropertyActionListener target="#{editCategoryBean.category}"
                                                              value="#{subCategory}"/>
                                 <f:actionListener binding="#{editCategoryBean.showDialog()}"/>
                             </p:commandButton>
-
                             <p:commandButton value="Remove" update="body">
                                 <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
                                                              value="#{subCategory}"/>
@@ -70,16 +69,19 @@
                         <h:outputText value="#{product.price/100}">
                             <f:convertNumber groupingUsed="true" minFractionDigits="2"/></h:outputText>
                     </p:column>
-                    <p:column width="10%" style="text-align: right">
+                    <p:column width="10%" style="text-align: center">
                         <f:facet name="header">
-                            <h:outputText value="Quantity, pcs"/>
+                            <h:outputText value="Quantity,"/><br/>
+                            <h:outputText value="pcs"/>
                         </f:facet>
                         <h:outputText value="#{product.quantity}"/>
                     </p:column>
                     <p:column width="20%" style="text-align: center">
                         <h:form>
-                            <p:commandButton value="Edit">
-
+                            <p:commandButton value="Edit" update="edit-product-dialog">
+                                <f:setPropertyActionListener target="#{editProductBean.product}"
+                                                             value="#{product}"/>
+                                <f:actionListener binding="#{editProductBean.showDialog()}"/>
                             </p:commandButton>
                             <p:commandButton value="Remove" update="body">
                                 <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
@@ -105,6 +107,7 @@
             </div>
         </h:panelGroup>
         <ui:include src="edit-category-dialog.xhtml"/>
+        <ui:include src="edit-product-dialog.xhtml"/>
     </ui:composition>
 
 </h:body>

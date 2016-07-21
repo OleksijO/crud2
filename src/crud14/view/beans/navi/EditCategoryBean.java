@@ -22,17 +22,15 @@ public class EditCategoryBean implements Serializable {
     @ManagedProperty("#{navigationBean.current}")
     private Category current;
 
-    private Integer id;
-    private Category parent;
+
 
     public void update() {
-       // category.setId(id);
-       // category.setParent(parent);
+
         category.setParent(current);
         try {
             daoService.update(category);
         } catch (Exception e) {
-            closeDialogAndShowMessageAndResetCategory(FacesMessage.SEVERITY_ERROR, "Can't update category with id = " + category.getId() + ". "+e.getMessage(), null);
+            closeDialogAndShowMessageAndResetCategory(FacesMessage.SEVERITY_ERROR, "Can't update category with id = " + category.getId() + ". " + e.getMessage(), null);
             return;
         }
         closeDialogAndShowMessageAndResetCategory(FacesMessage.SEVERITY_INFO, "Category with id = " + category.getId() + " updated to database", null);
@@ -46,6 +44,7 @@ public class EditCategoryBean implements Serializable {
     public void setDaoService(DomainDao daoService) {
         this.daoService = daoService;
     }
+
     public Category getCategory() {
         return category;
     }
@@ -58,9 +57,8 @@ public class EditCategoryBean implements Serializable {
         RequestContext.getCurrentInstance().execute("PF('edit-category-dialog').hide();");
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(severity, summaryMessage, detailMessage));
     }
-    public void showDialog(){
-        //id=category.getId();
-       // parent=category.getParent();
+
+    public void showDialog() {
         RequestContext.getCurrentInstance().execute("PF('edit-category-dialog').show();");
     }
 

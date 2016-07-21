@@ -69,7 +69,7 @@ public class DomainDaoImpl implements DomainDao {
     public void update(DomainObject transientObject) {
         if (transientObject.getId() == null) throw new IllegalArgumentException("Can't update item with id = NULL!");
         Session session = getSession();
-        DomainObject detachedObject = (Category) session.load(transientObject.getClass(), transientObject.getId());
+        DomainObject detachedObject = (DomainObject) session.load(transientObject.getClass(), transientObject.getId());
         copyFromTransientToDetached(transientObject, detachedObject);
         session.update(detachedObject);
     }
