@@ -87,9 +87,12 @@ public class NavigationBean implements Serializable {
         this.sessionBean = sessionBean;
     }
 
-    public String renew() {
+    public NavigationBean getInstance(){
+        return this;
+    }
+
+    public void renew() {
         init();
-        return null;
     }
 
 

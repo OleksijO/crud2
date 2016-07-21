@@ -79,8 +79,8 @@ public class DomainDaoImpl implements DomainDao {
     public void delete(DomainObject transientObject) {
         if (transientObject.getId() == null) throw new IllegalArgumentException("Can't delete item with id = NULL!");
         Session session = getSession();
-        Product product = (Product) session.load(transientObject.getClass(), transientObject.getId());
-        session.delete(product);
+        DomainObject detached = (DomainObject) session.load(transientObject.getClass(), transientObject.getId());
+        session.delete(detached);
     }
 
     @Override

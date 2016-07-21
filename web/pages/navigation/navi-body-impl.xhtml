@@ -7,11 +7,9 @@
       xmlns:p="http://primefaces.org/ui">
 
 <h:body style="background: #CAEAFF">
-
     <ui:composition>
         <h:panelGroup id="body">
             <div align="center" style="width: 100%">
-
                 <p:dataTable value="#{navigationBean.current.subCategories}" var="subCategory"
                              rendered="#{navigationBean.hasSubcategories}">
                     <p:column width="10%" style="text-align: center">
@@ -35,8 +33,13 @@
                     </p:column>
                     <p:column width="20%" style="text-align: center">
                         <h:form>
-                        <p:commandButton value="Edit"  type="button"/>
-                        <p:commandButton value="Remove" type="button"/>
+                            <p:commandButton value="Edit" type="button"/>
+                            <p:commandButton value="Remove" update="body">
+                                <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
+                                                             value="#{subCategory}"/>
+                                <f:actionListener binding="#{deleteBean.deleteCategory()}"/>
+                                <f:actionListener binding="#{navigationBean.renew()}"/>
+                            </p:commandButton>
                         </h:form>
                     </p:column>
                 </p:dataTable>
@@ -70,8 +73,13 @@
                     </p:column>
                     <p:column width="20%" style="text-align: center">
                         <h:form>
-                        <p:commandButton value="Edit" type="button"/>
-                        <p:commandButton value="Remove" type="button"/>
+                            <p:commandButton value="Edit" type="button"/>
+                            <p:commandButton value="Remove" update="body">
+                                <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
+                                                             value="#{product}"/>
+                                <f:actionListener binding="#{deleteBean.deleteProduct()}"/>
+                                <f:actionListener binding="#{navigationBean.renew()}"/>
+                            </p:commandButton>
                         </h:form>
                     </p:column>
                 </p:dataTable>
