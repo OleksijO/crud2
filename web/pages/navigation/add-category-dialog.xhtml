@@ -8,8 +8,8 @@
 
 <h:body style="background: #CAEAFF">
     <ui:composition>
-        <p:dialog id="add-category-dialog" header="Add new category" widgetVar="add-category-dialog" modal="true" showEffect="clip" hideEffect="clip" >
-            <h:form >
+        <p:dialog  header="Add new category" widgetVar="add-category-dialog" modal="true" showEffect="clip" hideEffect="clip" >
+            <h:form id="add-category-dialog">
                 <table width="100%" cellpadding="10">
                     <tr>
                         <td width="15%">
@@ -18,8 +18,8 @@
                         <td width="50%">
                             <p:inputText id="add-category-input-name" value="#{addCategoryBean.category.name}" style="width: 100%"
                                          required="true" requiredMessage="Please, enter name" maxlength="255"
-                                         validatorMessage="Name must contain only letters">
-                                <f:validateRegex pattern="[A-Za-zА-Яа-я]+"/>
+                                         validatorMessage="Name must contain only letters and space">
+                                <f:validateRegex pattern="[A-Za-zА-Яа-я\s]+"/>
                             </p:inputText>
                         </td>
 

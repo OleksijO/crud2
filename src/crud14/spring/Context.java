@@ -1,6 +1,7 @@
 package crud14.spring;
 
 import crud14.Logger.Logger;
+import org.springframework.beans.BeansException;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.jsf.FacesContextUtils;
 
@@ -23,8 +24,12 @@ public class Context {
     }
 
     public static <T> T getBean(String beanId) {
-        T obj = (T) context.getBean(beanId);
-        Logger.log("SPRING:\tloaded bean '" + beanId + "' [" + obj.toString() + "]\tOK.");
+        T obj = null;
+        try {
+            obj = (T) context.getBean(beanId);
+        } catch (BeansException e) {
+            Logger.log("SPRING:\tERROR\t Can't load bean with id = '" + beanId + "'");
+        }
         return obj;
     }
 /*

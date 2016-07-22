@@ -1,5 +1,6 @@
 package crud14.service;
 
+import crud14.entities.DomainObject;
 import crud14.service.dao.Dao;
 import crud14.entities.Category;
 import crud14.entities.Product;
@@ -12,19 +13,29 @@ import static crud14.Constants.*;
 public class TablesRefiller {
     private Map<Integer, Product> products = new HashMap<>();
     private Map<Integer, Category> categories = new TreeMap<>();
-    private Dao<Category, Integer> daoService;
+    private Dao<DomainObject, Integer> daoService;
+    private int maximumDepth = DATABASE_MANAGEMENT_REFILL_MAX_DEPTH;
+    private int maximumInCategory = DATABASE_MANAGEMENT_REFILL_MAX_IN_CATEGORY;
 
 
-    public TablesRefiller(Dao<Category, Integer> daoService) {
+    public TablesRefiller() {
+    }
+
+    public TablesRefiller(Dao<DomainObject, Integer> daoService) {
         this.daoService = daoService;
-
     }
 
     public void refillDatabase() {
-        fillFakeTables(DATABASE_MANAGEMENT_REFILL_MAX_DEPTH, DATABASE_MANAGEMENT_REFILL_MAX_IN_CATEGORY);
+        fillFakeTables(maximumDepth, maximumInCategory);
         daoService.recreateTables();
         daoService.createList(categories.values());
         daoService.createList(products.values());
+    }
+
+    public void refillDatabase(int maxDepth, int maxInCat) {
+        maximumDepth = maxDepth;
+        maximumInCategory = maxInCat;
+        refillDatabase();
     }
 
     private void fillFakeTables(int maxDepth, int maxInList) {
@@ -93,4 +104,7 @@ public class TablesRefiller {
         return new String(name);
     }
 
+    public void setDaoService(Dao<DomainObject, Integer> daoService) {
+        this.daoService = daoService;
+    }
 }

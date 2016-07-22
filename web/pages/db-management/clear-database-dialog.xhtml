@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:body style="background: #CAEAFF">
+    <ui:composition>
+        <p:dialog style="text-align: center"  header="Clear database" widgetVar="clear-database-dialog" modal="true" showEffect="clip" hideEffect="clip" >
+            <h:form id="clear-database-dialog">
+                <br/>
+                Are You sure to clear database?
+                <br/>
+                <br/>
+                                <p:commandButton value="Cancel" immediate="true"
+                                                 actionListener="#{databaseManagementBean.init()}"
+                                                 onclick="PF('clear-database-dialog').hide();"
+                                                 update="database-info"/>
+                                <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                                <p:commandButton value="Clear"
+                                        actionListener="#{databaseManagementBean.clear()}"
+                                                 onclick="PF('clear-database-dialog').hide();"
+                                                 update="database-info"/>
+            </h:form>
+        </p:dialog>
+    </ui:composition>
+</h:body>
+</html>

@@ -8,8 +8,7 @@
 
 
 
-    <bean id="refiller" class="crud14.service.TablesRefiller" lazy-init="true" scope="request">
-        <constructor-arg ref="dao-service"/>
+    <bean id="refiller" name="refiller" class="crud14.service.TablesRefiller" lazy-init="true" scope="request">
     </bean>
 
     <bean id="dao-service" name="dao" class="crud14.service.dao.DomainDaoImpl" scope="request">

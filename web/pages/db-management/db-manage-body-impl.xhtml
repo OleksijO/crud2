@@ -11,10 +11,42 @@
 <!-- Body-impl for welcome page-->
 
 <ui:composition>
+    <div align="center" style="width: 100%">
+        <p:panel header="Database management">
+            <br/>
+            <p:panel header="Description">
+                <div align="justify" style="width: 100%">
+                    Here You can clear database or refill it with fake items with specified depth and quantity.<br/>
+                    To delete all records and recreate tables to reset id counters, please, press button "Clear".
+                    In next pop-up dialog approve or cancel Your decision.<br/>
+                    To clear database and fill it with fake items, please, press button "Refill".
+                    In next pop-up dialog specify desirebale max depth of category tree and max number of items in every category.
+                    Note, that depth limited between 0 and 5, because of long time generation.
+                    Number of items also limited by max value 50.
+                </div>
+            </p:panel>
+            <br/>
+            <p:panel id="database-info" header="Info" style="text-align: center">
+                <h:outputLabel>Total number of categories: <b>#{databaseManagementBean.countCategory}</b></h:outputLabel>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h:outputLabel>Total number of products: <b>#{databaseManagementBean.countProduct}</b></h:outputLabel>
 
-    <p:panel>
-        This is implementation of body DB Management
-    </p:panel>
+            </p:panel>
+            <br/>
+            <p:panel header="Database Management" style="text-align: center">
+                <h:form>
+                    <p:commandButton value="Clear" type="button"
+                                     onclick="PF('clear-database-dialog').show();"/>
+                    <p:outputLabel>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                    <p:commandButton value="Refill" type="button"
+                                     onclick="PF('refill-database-dialog').show();"/>
+                </h:form>
+            </p:panel>
+        </p:panel>
+    </div>
+    <ui:include src="refill-database-dialog.xhtml"/>
+    <ui:include src="clear-database-dialog.xhtml"/>
+    <ui:include src="please-wait-dialog.xhtml"/>
 
 </ui:composition>
 

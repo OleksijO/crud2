@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.math.BigInteger;
 import java.util.Collection;
 import java.util.List;
-
+@Transactional
 public class DomainDaoImpl implements DomainDao {
     protected int productCount = -1;
     protected int categoryCount = -1;
@@ -43,7 +43,7 @@ public class DomainDaoImpl implements DomainDao {
     @Transactional(readOnly = true)
     @SuppressWarnings("unchecked")
     public <T> T retrieve(T transientObject) {
-        DomainObject trans=(DomainObject) transientObject;
+        DomainObject trans = (DomainObject) transientObject;
         if (trans.getId() == null) throw new IllegalArgumentException();
         Session session = getSession();
         T detach = (T) session.get(trans.getClass(), trans.getId());
@@ -85,6 +85,9 @@ public class DomainDaoImpl implements DomainDao {
 
     @Override
     public int getTotalCount(Class entityClass) {
+        if ((categoryCount == -1) || (productCount == -1)) {
+            updateCounts();
+        }
         if (entityClass.equals(Category.class)) {
             return categoryCount;
         } else if ((entityClass.equals(Product.class))) {

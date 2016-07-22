@@ -8,9 +8,9 @@
 
 <h:body style="background: #CAEAFF">
     <ui:composition>
-        <p:dialog id="edit-product-dialog" header="Edit product:" widgetVar="edit-product-dialog" modal="true" showEffect="clip"
+        <p:dialog  header="Edit product:" widgetVar="edit-product-dialog" modal="true" showEffect="clip"
                   hideEffect="clip">
-            <h:form >
+            <h:form id="edit-product-dialog">
                 <h:inputHidden id="edit-product-id" value="#{editProductBean.product.id}"/>
                 <table width="100%" cellpadding="10">
                     <tr>

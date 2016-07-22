@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:body style="background: #CAEAFF">
+    <ui:composition>
+        <p:dialog  header="Refill Database" widgetVar="refill-database-dialog"
+                  modal="true" showEffect="clip" hideEffect="clip" style="text-align: center">
+            <h:form id="refill-database-dialog">
+                <br/>
+                Please, specify desired parameters: <br/>
+                <br/>
+                <table width="100%" cellpadding="10">
+                    <tr>
+                        <td>
+                            <p:outputLabel value="Maximum depth: "/>
+                        </td>
+                        <td>
+                            <p:inputText id="refill-database-input-depth"
+                                         value="#{databaseManagementBean.depth}"
+                                         required="true" validatorMessage="Depth must be: 0 &lt;= value &lt;= 5">
+                                <f:validateLongRange minimum="0" maximum="5"/>
+                            </p:inputText>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p:outputLabel value="Maximum number of items per category: "/>
+                        </td>
+                        <td>
+                            <p:inputText id="refill-database-input-items-per-category"
+                                         value="#{databaseManagementBean.itemsPerCategory}"
+                                         required="true" validatorMessage="Quantity must be: 1 &lt;= value &lt;= 50">
+                                <f:validateLongRange minimum="1" maximum="50"/>
+                            </p:inputText>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td colspan="2" align="center">
+                        <h:message for="refill-database-input-depth"/><br/>
+                        <h:message for="refill-database-input-items-per-category"/>
+                    </td></tr>
+                    <tr>
+                        <td colspan="2">
+                            <div align="center" style="width: 100%">
+                                <p:commandButton value="Cancel" immediate="true"
+                                                 actionListener="#{databaseManagementBean.init()}"
+                                                 onclick="PF('refill-database-dialog').hide();"
+                                                 update="database-info"/>
+                                <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                                <p:commandButton value="Refill" immediate="false"
+                                                 actionListener="#{databaseManagementBean.refill()}"
+                                                 update="refill-database-dialog database-info"/>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </h:form>
+        </p:dialog>
+    </ui:composition>
+</h:body>
+</html>

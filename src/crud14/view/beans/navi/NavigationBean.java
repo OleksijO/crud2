@@ -1,13 +1,16 @@
 package crud14.view.beans.navi;
 
+import crud14.Constants;
 import crud14.entities.Category;
 import crud14.service.dao.DomainDao;
 import crud14.view.beans.SessionBean;
 
 import javax.annotation.PostConstruct;
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
 import java.io.Serializable;
 import java.util.List;
 
@@ -38,13 +41,30 @@ public class NavigationBean implements Serializable {
     @PostConstruct
     public void init() {
         current.setId(sessionBean.getCurrentId());
-        setCurrent(daoService.retrieve(current));
+        try {
+            setCurrent(daoService.retrieve(current));
+        } catch (Exception e) {
+            e.printStackTrace();
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(
+                    FacesMessage.SEVERITY_WARN, "OOPS!...Something is broken. " + e.getMessage() +
+                    "Redirecting to category '" + Constants.ROOT_CATEGORY_NAME + "'", null));
+            current.setId(Constants.ROOT_CATEGORY_ID);
+            try {
+                setCurrent(daoService.retrieve(current));
+            } catch (Exception e1) {
+                e.printStackTrace();
+                FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(
+                        FacesMessage.SEVERITY_ERROR, "OOPS!...Something is broken. " + e1.getMessage() +
+                        "Category '" + Constants.ROOT_CATEGORY_NAME + "' not found. It's very bad....", null));
+            }
+        }
         hasSubcategories = current.getSubCategories().size() > 0;
         hasProducts = current.getProducts().size() > 0;
         pathList = current.getPathList();
         notRoot = current.getId() != 0;
         noSubItems = !hasProducts && !hasSubcategories;
     }
+
 
     public DomainDao getDaoService() {
         return daoService;
@@ -87,7 +107,7 @@ public class NavigationBean implements Serializable {
         this.sessionBean = sessionBean;
     }
 
-    public NavigationBean getInstance(){
+    public NavigationBean getInstance() {
         return this;
     }
 

@@ -8,9 +8,9 @@
 
 <h:body style="background: #CAEAFF">
     <ui:composition>
-        <p:dialog id="edit-category-dialog" header="Edit category with id = #{editCategoryBean.category.id}:"
+        <p:dialog  header="Edit category with id = #{editCategoryBean.category.id}:"
                   widgetVar="edit-category-dialog" modal="true" showEffect="clip" hideEffect="clip">
-            <h:form>
+            <h:form id="edit-category-dialog">
                 <h:inputHidden id="edit-category-id" value="#{editCategoryBean.category.id}"/>
                 <table width="100%" cellpadding="10">
                     <tr>
@@ -21,8 +21,8 @@
                             <p:inputText id="edit-category-input-name" value="#{editCategoryBean.category.name}"
                                          style="width: 100%"
                                          required="true" requiredMessage="Please, enter name" maxlength="255"
-                                         validatorMessage="Name must contain only letters">
-                                <f:validateRegex pattern="[A-Za-zА-Яа-я]+"/>
+                                         validatorMessage="Name must contain only letters and space">
+                                <f:validateRegex pattern="[A-Za-zА-Яа-я\s]+"/>
                             </p:inputText>
                         </td>
 

@@ -38,5 +38,6 @@ public interface Dao<T, PrKey extends Serializable> {
      * Delete and create tables
      */
     void recreateTables();
+
 }
 
