@@ -31,7 +31,7 @@
                             <h:outputText value="#{subCategory.description}"/>
                         </h:form>
                     </p:column>
-                    <p:column width="20%" style="text-align: center">
+                    <p:column width="20%" style="text-align: center" rendered="#{sessionBean.logged}">
                         <h:form>
                             <p:commandButton value="Edit" update="edit-category-dialog">
                                 <f:setPropertyActionListener target="#{editCategoryBean.category}"
@@ -76,7 +76,7 @@
                         </f:facet>
                         <h:outputText value="#{product.quantity}"/>
                     </p:column>
-                    <p:column width="20%" style="text-align: center">
+                    <p:column width="20%" style="text-align: center;" rendered="#{sessionBean.logged}">
                         <h:form>
                             <p:commandButton value="Edit" update="edit-product-dialog">
                                 <f:setPropertyActionListener target="#{editProductBean.product}"

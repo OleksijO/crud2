@@ -9,17 +9,21 @@
 <h:body style="background: #CAEAFF">
 
     <ui:composition>
-        <div align="center" style="width: 100%; padding: 0;">
-            <p:panel style="text-align: center; padding:0; margin:0">
-                <h:form>
-                    <p:commandButton value="Add new category" type="button"
-                                     onclick="PF('add-category-dialog').show();"/>
-                    <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
-                    <p:commandButton value="Add new product" type="button"
-                                     onclick="PF('add-product-dialog').show();"/>
-                </h:form>
-            </p:panel>
-        </div>
+        <h:form id="add-buttons" >
+            <h:form rendered="#{sessionBean.logged}">
+                <div align="center" style="width: 100%; padding: 0;">
+                    <p:panel style="text-align: center; padding:0; margin:0">
+
+                        <p:commandButton value="Add new category" type="button"
+                                         onclick="PF('add-category-dialog').show();"/>
+                        <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                        <p:commandButton value="Add new product" type="button"
+                                         onclick="PF('add-product-dialog').show();"/>
+
+                    </p:panel>
+                </div>
+            </h:form>
+        </h:form>
         <ui:include src="add-category-dialog.xhtml"/>
         <ui:include src="add-product-dialog.xhtml"/>
 

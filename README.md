@@ -9,8 +9,8 @@ Future implementations:
 - JSF Database management page - DONE
 - JSF Welcome page - DONE
 - JSF Technical data informer - SKIPPED
-- JSF Change template from table to layots - now
-- JSF CRUD Refactor (create + update DRY)
-- Security Authentification (?)
+- JSF Change template from table to layots - SKIPPED
+- JSF CRUD Refactor (create + update DRY) - SKIPPED
+- Security Authentification (?) - NOW
 - Logger (Log4j)
 

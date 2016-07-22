@@ -14,10 +14,19 @@
             Unredefined title
         </title>
     </ui:insert>
+    <style type="text/css">
+        .noScrolllayoutUnit .ui-layout-unit-content {
+            overflow: hidden;
+        }
+    </style>
 </h:head>
+
+
 <h:body style="background: #E4F5FF; margin:0; padding: 0">
     <div align="center" style="min-width: 960px; max-width: 75%; margin: 0 auto; padding: 0">
-        <div id="header-holder" align="center" style="min-width: 960px; max-width: 1400px; padding: 0">
+        <div id="page-holder" align="center" style="min-width: 960px; max-width: 1400px; padding: 0">
+
+
             <table border="0" cellspacing="0" cellpadding="1" width="100%">
                 <tr valign="top">
                     <td colspan="2" width="100%">
@@ -28,6 +37,7 @@
                 </tr>
                 <tr valign="top">
                     <td width="15%">
+
                         <div style="width: 100%; height: auto; margin-top: 0px">
                             <ui:insert name="login-info">
                                 <p:panel>Unredefined login</p:panel>
@@ -57,6 +67,7 @@
                     </td>
                 </tr>
             </table>
+
         </div>
     </div>
 

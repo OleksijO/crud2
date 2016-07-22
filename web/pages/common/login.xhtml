@@ -12,8 +12,34 @@
 
 <ui:composition>
 
-    <p:panel>
-        This is implementation of login-info element
+    <p:panel header="Login">
+        <h:form id="logged-in">
+            <div style="width: 100%">
+                <p:outputLabel value="Hello, #{sessionBean.loggedUserName}."/><br/>
+                <h:form rendered="#{sessionBean.logged}">
+                    <br/>
+                    <div style="width: 100%" align="center">
+                        <p:commandButton value="Logout" action="#{authBean.logOut}" update="logged-in"/>
+                    </div>
+                </h:form>
+                <h:form rendered="#{!sessionBean.logged}">
+                    <p:outputLabel value="Login to access CRUD functions."/><br/><br/>
+                    <p:outputLabel value="Login:"/><br/>
+                    <p:inputText id="login-input" value="#{authBean.login}" style="width: 100%"
+                                 validatorMessage="Login must contain 3-16 symbols: only letters, numbers, '_' and '.'">
+                        <f:validateRegex pattern="[A-Za-z0-9_.]{3,16}"/>
+                    </p:inputText><br/>
+                    <p:outputLabel value="Password:" style="margin-top: 5px"/><br/>
+                    <p:password id="password-input" mask="*" value="#{authBean.password}" style="width: 100%"
+                                validatorMessage="Password must contain 3-16 symbols: only letters and numbers">
+                        <f:validateRegex pattern="[A-Za-z0-9_.]{3,16}"/>
+                    </p:password><br/>
+                    <p:commandButton value="Login" action="#{authBean.logIn}" update="logged-in"
+                                     style="margin-top: 5px"/>
+                </h:form>
+            </div>
+        </h:form>
+
     </p:panel>
 
 </ui:composition>
