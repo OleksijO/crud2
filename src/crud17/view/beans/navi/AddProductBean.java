@@ -60,6 +60,7 @@ public class AddProductBean implements Serializable {
         }
         product = Context.getBean("productEntity");
         price=0.0;
+
     }
     public DomainDao getDaoService() {
         return daoService;

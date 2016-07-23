@@ -12,10 +12,19 @@
 
 <ui:composition>
 
-    <p:panel>
-        This is implementation of tech-info element
+    <p:panel header="Tech data:">
+        <h:form id="tech-info">
+            <p:poll interval="10" listener="#{techInfoBean.init()}" update="tech-info"/>
+            <div style="width: 100%" align="center">
+                <p:panel header="Free RAM:" style="text-align: center">
+                    <p:outputLabel value="#{techInfoBean.memory} kb."/>
+                </p:panel>
+                <p:panel header="Active sessions:" style="text-align: center">
+                    <p:outputLabel value="#{techInfoBean.numberOfActiveSessions}"/>
+                </p:panel>
+            </div>
+        </h:form>
     </p:panel>
-
 </ui:composition>
 
 </html>

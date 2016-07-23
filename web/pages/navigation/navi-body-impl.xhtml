@@ -97,7 +97,7 @@
                 </p:panel>
                 <h:form rendered="#{navigationBean.notRoot}">
                     <p:panel>
-                        <h:commandButton value="&uarr;&nbsp;back to parent category">
+                        <h:commandButton value="&uarr;&nbsp;back to parent category" update="body">
                             <f:setPropertyActionListener target="#{sessionBean.currentId}"
                                                          value="#{navigationBean.current.parent.id}"/>
                             <f:actionListener binding="#{navigationBean.renew()}"/>

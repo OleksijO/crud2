@@ -23,7 +23,7 @@
                             <p:inputText id="refill-database-input-depth"
                                          value="#{databaseManagementBean.depth}"
                                          required="true" validatorMessage="Depth must be: 0 &lt;= value &lt;= 5">
-                                <f:validateLongRange minimum="0" maximum="5"/>
+                                <f:validateLongRange minimum="0" maximum="3"/>
                             </p:inputText>
                         </td>
                     </tr>
@@ -35,7 +35,7 @@
                             <p:inputText id="refill-database-input-items-per-category"
                                          value="#{databaseManagementBean.itemsPerCategory}"
                                          required="true" validatorMessage="Quantity must be: 1 &lt;= value &lt;= 50">
-                                <f:validateLongRange minimum="1" maximum="50"/>
+                                <f:validateLongRange minimum="1" maximum="35"/>
                             </p:inputText>
                         </td>
                     </tr>
@@ -53,6 +53,7 @@
                                                  update="database-info"/>
                                 <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
                                 <p:commandButton value="Refill" immediate="false"
+                                                 onclick="PF('refill-database-dialog').hide(); PF('please-wait-dialog').show();"
                                                  actionListener="#{databaseManagementBean.refill()}"
                                                  update="refill-database-dialog database-info"/>
                             </div>

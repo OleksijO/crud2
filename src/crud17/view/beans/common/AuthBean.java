@@ -63,8 +63,7 @@ public class AuthBean implements Serializable {
                 new FacesMessage(FacesMessage.SEVERITY_WARN, "You have been logout... Hello, " + sessionBean.getLoggedUserName() + "!", null));
         refreshNeededComponents();
     }
-
-    private void refreshNeededComponents() {
+    public void refreshNeededComponents() {
         try {
             FacesContext.getCurrentInstance().getPartialViewContext().getRenderIds().add("body");
             FacesContext.getCurrentInstance().getPartialViewContext().getRenderIds().add("add-buttons");
@@ -73,6 +72,7 @@ public class AuthBean implements Serializable {
             e.printStackTrace();
         }
     }
+
 
     public UsersDao getDaoService() {
         return daoService;

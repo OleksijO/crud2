@@ -4,10 +4,11 @@ import crud17.settings.Constants;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import java.io.Serializable;
 
 @ManagedBean
 @RequestScoped
-public class TitleBean {
+public class TitleBean implements Serializable{
     private String title= Constants.TITLE;
 
     private String additionalTitle=Constants.PROGRAM_NAME;

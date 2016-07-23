@@ -21,6 +21,8 @@ public class DatabaseManagementBean implements Serializable {
     private static final long serialVersionUID = 1L;
     @ManagedProperty("#{dao}")
     private DomainDao daoService;
+    @ManagedProperty("#{sessionBean}")
+    private SessionBean sessionBean;
     private Integer countCategory;
     private Integer countProduct;
     private Integer depth = 3;
@@ -45,7 +47,7 @@ public class DatabaseManagementBean implements Serializable {
     }
 
     public void refill() {
-        RequestContext.getCurrentInstance().execute("PF('refill-database-dialog').hide(); PF('please-wait-dialog').show();");
+        //RequestContext.getCurrentInstance().execute("PF('refill-database-dialog').hide(); PF('please-wait-dialog').show();");
         long timeStamp=System.currentTimeMillis();
         try {
 
@@ -97,5 +99,13 @@ public class DatabaseManagementBean implements Serializable {
 
     public void setItemsPerCategory(Integer itemsPerCategory) {
         this.itemsPerCategory = itemsPerCategory;
+    }
+
+    public SessionBean getSessionBean() {
+        return sessionBean;
+    }
+
+    public void setSessionBean(SessionBean sessionBean) {
+        this.sessionBean = sessionBean;
     }
 }

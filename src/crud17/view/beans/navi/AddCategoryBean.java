@@ -84,6 +84,7 @@ public class AddCategoryBean implements Serializable {
             }
         }
         category = Context.getBean("category");
+
     }
 
 
