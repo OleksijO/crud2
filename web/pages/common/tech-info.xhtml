@@ -18,8 +18,11 @@
                 <p:panel header="Free RAM:" style="text-align: center">
                     <p:outputLabel value="#{techInfoBean.memory} kb."/>
                 </p:panel>
-                <p:panel header="Active sessions:" style="text-align: center">
+                <p:panel header="Active sessions:" style="text-align: center; margin-top:2px">
                     <p:outputLabel value="#{techInfoBean.numberOfActiveSessions}"/>
+                </p:panel>
+                <p:panel header="Logged in user:" style="text-align: center; margin-top:2px">
+                    <p:outputLabel value="#{techInfoBean.numberOfLoggedInUsers}"/>
                 </p:panel>
             </div>
         </h:form>

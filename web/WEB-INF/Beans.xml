@@ -8,22 +8,22 @@
 
 
 
-    <bean id="refiller" name="refiller" class="crud18.service.TablesRefiller" lazy-init="true" scope="request">
+    <bean id="refiller" name="refiller" class="crud19.service.TablesRefiller" lazy-init="true" scope="request">
     </bean>
 
-    <bean id="dao-service" name="dao" class="crud18.service.dao.DomainDaoImpl" scope="request">
+    <bean id="dao-service" name="dao" class="crud19.service.dao.DomainDaoImpl" scope="request">
         <property name="sessionFactory" ref="hibernate-session-factory"/>
     </bean>
 
-    <bean id="dao-user" name="daoUser" class="crud18.service.dao.UserDaoImpl" scope="request">
+    <bean id="dao-user" name="daoUser" class="crud19.service.dao.UserDaoImpl" scope="request">
         <constructor-arg name="sessionFactory" ref="hibernate-session-factory"/>
     </bean>
 
-    <bean id="userEntity" name="userEntity" class="crud18.entities.secure.User" scope="prototype"/>
+    <bean id="userEntity" name="userEntity" class="crud19.entities.secure.User" scope="prototype"/>
 
-    <bean id="entity-category" name="category" class="crud18.entities.Category" scope="prototype"/>
+    <bean id="entity-category" name="category" class="crud19.entities.Category" scope="prototype"/>
 
-    <bean id="entity-product" name="productEntity" class="crud18.entities.Product" scope="prototype"/>
+    <bean id="entity-product" name="productEntity" class="crud19.entities.Product" scope="prototype"/>
 
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
@@ -47,9 +47,9 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>crud18.entities.Category</value>
-                <value>crud18.entities.Product</value>
-                <value>crud18.entities.secure.User</value>
+                <value>crud19.entities.Category</value>
+                <value>crud19.entities.Product</value>
+                <value>crud19.entities.secure.User</value>
             </list>
         </property>
         <property name="hibernateProperties">

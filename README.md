@@ -9,10 +9,8 @@ Future implementations:
 - JSF Database management page - DONE
 - JSF Welcome page - DONE
 - JSF Technical data informer - DONE
-- JSF Change template from table to layots - TO DO
-- JSF CRUD Refactor (create + update DRY) - TO DO
 - Security Authentification (via database) - DONE
-- Sec. Auth. (Relogin disabling) - NOW
+- Sec. Auth. (Relogin disabling) - DONE
 - Logger (Log4j) - DONE
 
 
