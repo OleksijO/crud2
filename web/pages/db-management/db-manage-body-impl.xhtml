@@ -26,25 +26,28 @@
                 </div>
             </p:panel>
             <br/>
-            <p:panel id="database-info" header="Info" style="text-align: center">
-                <h:outputLabel>Total number of categories: <b>#{databaseManagementBean.countCategory}</b></h:outputLabel>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <h:outputLabel>Total number of products: <b>#{databaseManagementBean.countProduct}</b></h:outputLabel>
-
+            <p:panel  header="Info" style="text-align: center">
+                <h:form id="database-info">
+                    <h:outputLabel>Total number of categories:
+                        <b>#{databaseManagementBean.countCategory}</b></h:outputLabel>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <h:outputLabel>Total number of products:
+                        <b>#{databaseManagementBean.countProduct}</b></h:outputLabel>
+                </h:form>
             </p:panel>
             <br/>
             <p:panel header="Database Management" style="text-align: center">
                 <h:form id="db-management">
-                <h:form rendered="#{sessionBean.logged}">
-                    <p:commandButton value="Clear" type="button"
-                                     onclick="PF('clear-database-dialog').show();"/>
-                    <p:outputLabel>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p:outputLabel>
-                    <p:commandButton value="Refill" type="button"
-                                     onclick="PF('refill-database-dialog').show();"/>
-                </h:form>
-                <h:form rendered="#{!sessionBean.logged}">
-                    <p:outputLabel> You have to login first to access database management functions</p:outputLabel>
-                </h:form>
+                    <h:form rendered="#{sessionBean.logged}">
+                        <p:commandButton value="Clear" type="button"
+                                         onclick="PF('clear-database-dialog').show();"/>
+                        <p:outputLabel>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p:outputLabel>
+                        <p:commandButton value="Refill" type="button"
+                                         onclick="PF('refill-database-dialog').show();"/>
+                    </h:form>
+                    <h:form rendered="#{!sessionBean.logged}">
+                        <p:outputLabel> You have to login first to access database management functions</p:outputLabel>
+                    </h:form>
                 </h:form>
             </p:panel>
         </p:panel>

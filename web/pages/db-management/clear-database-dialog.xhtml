@@ -17,12 +17,12 @@
                                 <p:commandButton value="Cancel" immediate="true"
                                                  actionListener="#{databaseManagementBean.init()}"
                                                  onclick="PF('clear-database-dialog').hide();"
-                                                 update="database-info"/>
+                                                 update="database-info  messages"/>
                                 <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
                                 <p:commandButton value="Clear"
                                         actionListener="#{databaseManagementBean.clear()}"
                                                  onclick="PF('clear-database-dialog').hide();"
-                                                 update="database-info"/>
+                                                 update="database-info messages"/>
             </h:form>
         </p:dialog>
     </ui:composition>

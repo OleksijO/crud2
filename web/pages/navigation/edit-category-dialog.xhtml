@@ -53,7 +53,7 @@
                                     <p:resetInput target="edit-category-dialog" process="@this"/>
                                 </p:commandButton>
                                 <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
-                                <p:commandButton value="Update category" update="edit-category-dialog body">
+                                <p:commandButton value="Update category" update="edit-category-dialog body messages">
                                     <f:actionListener binding="#{editCategoryBean.update()}"/>
                                     <f:actionListener binding="#{navigationBean.renew()}"/>
                                 </p:commandButton>

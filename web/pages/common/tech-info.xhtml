@@ -11,10 +11,9 @@
 <!-- Tech-info impl for any page-->
 
 <ui:composition>
-
     <p:panel header="Tech data:">
         <h:form id="tech-info">
-            <p:poll interval="10" listener="#{techInfoBean.init()}" update="tech-info"/>
+            <p:poll interval="1" listener="#{techInfoBean.renew()}" update="tech-info"/>
             <div style="width: 100%" align="center">
                 <p:panel header="Free RAM:" style="text-align: center">
                     <p:outputLabel value="#{techInfoBean.memory} kb."/>
