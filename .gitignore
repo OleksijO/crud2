@@ -1,3 +1,4 @@
 out
 CRUD.iml
-/idea
+/.idea
+.gitignore

@@ -1,17 +1,17 @@
+Refacting of Simple CRUD, based on servlets and JDBC finished.
 
-Starting CRUD 2 developing
+Now Simple CRUD 2 is Java web-app, based on SpringFramework, Hibernate and PrimeFaces. 
 
-Future implementations:
-- JPA (Hibernate) - DONE
-- IoC (SpringFramework) - DONE
-- JTA (Spring, JTA, annotations) - DONE
-- JSF (Primefaces) CRUD - DONE
-- JSF Database management page - DONE
-- JSF Welcome page - DONE
-- JSF Technical data informer - DONE
-- Security Authentification (via database) - DONE
-- Sec. Auth. (Relogin disabling) - DONE
-- Logger (Log4j) - DONE
+
+In Simple CRUD ver.2 next features implemented:
+- navigating through category tree,
+- authorization check,
+- creating, updating and deleting category and products if logged in,
+- clear, refill database with fake items if logged in,
+- event messages,
+- entire page do not refreshes until it is neccesary,
+- processing session 'session expired' event,
+- logging of frameworks' and application events.
 
 
 
