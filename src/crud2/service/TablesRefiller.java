@@ -33,7 +33,7 @@ public class TablesRefiller {
         daoService.createList(products.values());
     }
 
-    public void refillDatabase(int maxDepth, int maxInCat) {
+    public synchronized void refillDatabase(int maxDepth, int maxInCat) {
         maximumDepth = maxDepth;
         maximumInCategory = maxInCat;
         refillDatabase();
