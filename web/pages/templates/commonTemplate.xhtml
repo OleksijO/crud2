@@ -9,15 +9,19 @@
       xmlns:p="http://primefaces.org/ui">
 
 <h:head>
+    <!--   Tag below automatically starts new session withowt any message....(
+    <meta http-equiv="refresh" content="#{facesContext.externalContext.sessionMaxInactiveInterval};url=#{request.contextPath}/index.xhtml"/>
+    -->
     <ui:insert name="title">
         <title>
             Unredefined title
         </title>
+
     </ui:insert>
 </h:head>
 
-
 <h:body style="background: #E4F5FF; margin:0; padding: 0">
+    <div id="sessionTimer"></div>
     <div align="center" style="min-width: 960px; max-width: 75%; margin: 0 auto; padding: 0">
         <div id="page-holder" align="center" style="min-width: 960px; max-width: 1400px; padding: 0">
 

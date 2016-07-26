@@ -13,7 +13,6 @@
 <ui:composition>
     <p:panel header="Tech data:">
         <h:form id="tech-info">
-            <p:poll interval="1" listener="#{techInfoBean.renew()}" update="tech-info"/>
             <div style="width: 100%" align="center">
                 <p:panel header="Free RAM:" style="text-align: center">
                     <p:outputLabel value="#{techInfoBean.memory} kb."/>
@@ -21,9 +20,14 @@
                 <p:panel header="Active sessions:" style="text-align: center; margin-top:2px">
                     <p:outputLabel value="#{techInfoBean.numberOfActiveSessions}"/>
                 </p:panel>
-                <p:panel header="Logged in user:" style="text-align: center; margin-top:2px">
+                <p:panel header="Logged in users:" style="text-align: center; margin-top:2px">
                     <p:outputLabel value="#{techInfoBean.numberOfLoggedInUsers}"/>
                 </p:panel>
+            </div>
+            <div style="width: 100%" align="center">
+                <p:commandButton value="refresh" actionListener="#{techInfoBean.renew()}"
+                                 style="margin-top:2px"
+                                 update="tech-info"/>
             </div>
         </h:form>
     </p:panel>

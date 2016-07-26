@@ -7,45 +7,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ecb7a-9f76-4522-a966-73ff7fdf01fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud19/logger/SessionListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud19/service/dao/DomainDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud19/service/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud19/settings/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud19/utils/InfoHolder.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud18/service/dao/DomainDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud18/service/dao/UsersDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud18/settings/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud18/utils/InfoHolder.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud2/service/dao/DomainDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud2/service/dao/UsersDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud2/view/handlers/CustomExceptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crud2/view/handlers/CustomExceptionHandlerFactory.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud19/service/dao/DomainDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud19/service/dao/UsersDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/todo/Settings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/todo/settings.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/Beans.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/Beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/common/login.xhtml" afterPath="$PROJECT_DIR$/web/pages/common/login.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/common/tech-info.xhtml" afterPath="$PROJECT_DIR$/web/pages/common/tech-info.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/db-management/clear-database-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/db-management/clear-database-dialog.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml" afterPath="$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/edit-category-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/edit-category-dialog.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/edit-product-dialog.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/edit-product-dialog.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml" afterPath="$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml" afterPath="$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml" afterPath="$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/entities/Category.java" afterPath="$PROJECT_DIR$/src/crud19/entities/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/entities/DomainObject.java" afterPath="$PROJECT_DIR$/src/crud19/entities/DomainObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/entities/Product.java" afterPath="$PROJECT_DIR$/src/crud19/entities/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/entities/secure/User.java" afterPath="$PROJECT_DIR$/src/crud19/entities/secure/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/logger/Listener.java" afterPath="$PROJECT_DIR$/src/crud19/logger/Listener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/service/TablesRefiller.java" afterPath="$PROJECT_DIR$/src/crud19/service/TablesRefiller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/service/dao/Dao.java" afterPath="$PROJECT_DIR$/src/crud19/service/dao/Dao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/service/dao/DomainDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud19/service/dao/DomainDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/service/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud19/service/dao/UserDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/utils/CharsetFilter.java" afterPath="$PROJECT_DIR$/src/crud19/utils/CharsetFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/utils/Context.java" afterPath="$PROJECT_DIR$/src/crud19/utils/Context.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/DatabaseManagementBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/DatabaseManagementBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/SessionBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/SessionBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/common/AuthBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/common/AuthBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/common/TechInfoBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/common/TechInfoBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/common/TitleBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/common/TitleBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/navi/AddCategoryBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/navi/AddCategoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/navi/AddProductBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/navi/AddProductBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/navi/DeleteBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/navi/DeleteBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/navi/EditCategoryBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/navi/EditCategoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/navi/EditProductBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/navi/EditProductBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud18/view/beans/navi/NavigationBean.java" afterPath="$PROJECT_DIR$/src/crud19/view/beans/navi/NavigationBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/entities/Category.java" afterPath="$PROJECT_DIR$/src/crud2/entities/Category.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/entities/DomainObject.java" afterPath="$PROJECT_DIR$/src/crud2/entities/DomainObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/entities/Product.java" afterPath="$PROJECT_DIR$/src/crud2/entities/Product.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/entities/secure/User.java" afterPath="$PROJECT_DIR$/src/crud2/entities/secure/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/logger/Listener.java" afterPath="$PROJECT_DIR$/src/crud2/logger/Listener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/logger/SessionListener.java" afterPath="$PROJECT_DIR$/src/crud2/logger/SessionListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/service/TablesRefiller.java" afterPath="$PROJECT_DIR$/src/crud2/service/TablesRefiller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/service/dao/Dao.java" afterPath="$PROJECT_DIR$/src/crud2/service/dao/Dao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/service/dao/DomainDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud2/service/dao/DomainDaoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/service/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/crud2/service/dao/UserDaoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/settings/Constants.java" afterPath="$PROJECT_DIR$/src/crud2/settings/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/utils/CharsetFilter.java" afterPath="$PROJECT_DIR$/src/crud2/utils/CharsetFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/utils/Context.java" afterPath="$PROJECT_DIR$/src/crud2/utils/Context.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/utils/InfoHolder.java" afterPath="$PROJECT_DIR$/src/crud2/utils/InfoHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/DatabaseManagementBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/DatabaseManagementBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/SessionBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/SessionBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/common/AuthBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/common/AuthBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/common/TechInfoBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/common/TechInfoBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/common/TitleBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/common/TitleBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/navi/AddCategoryBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/navi/AddCategoryBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/navi/AddProductBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/navi/AddProductBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/navi/DeleteBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/navi/DeleteBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/navi/EditCategoryBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/navi/EditCategoryBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/navi/EditProductBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/navi/EditProductBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/crud19/view/beans/navi/NavigationBean.java" afterPath="$PROJECT_DIR$/src/crud2/view/beans/navi/NavigationBean.java" />
     </list>
     <ignored path="CRUD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,31 +94,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commonTemplate.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml">
+      <file leaf-file-name="refill-database-dialog.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.730769">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state vertical-scroll-proportion="-6.9615383">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddCategoryBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/AddCategoryBean.java">
+      <file leaf-file-name="db-manage-body-impl.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="114" selection-start-line="79" selection-start-column="114" selection-end-line="79" selection-end-column="114" />
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/utils/Context.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navi-body-impl.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.02972028">
+              <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crud2/view/handlers/CustomExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,74 +146,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigationBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/NavigationBean.java">
+      <file leaf-file-name="add-product-dialog.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7692308">
+              <caret line="63" column="84" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddProductBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/AddProductBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+              <caret line="55" column="88" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseManagementBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/DatabaseManagementBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
               <folding>
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TablesRefiller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/service/TablesRefiller.java">
+      <file leaf-file-name="CustomExceptionHandlerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crud2/view/handlers/CustomExceptionHandlerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-              <folding />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/service/dao/UserDaoImpl.java">
+      <file leaf-file-name="add-category-dialog.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome-body-impl.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.730769">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/crud19/entities/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45057034">
-              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/common/AuthBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DomainObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crud19/entities/DomainObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state vertical-scroll-proportion="-17.115385">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -215,24 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/crud14/view/beans/SessionBean.java" />
-        <option value="$PROJECT_DIR$/src/crud14/view/beans/AuthBean.java" />
-        <option value="$PROJECT_DIR$/web/pages/navigation/add-buttons.xhtml" />
-        <option value="$PROJECT_DIR$/web/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/crud17/Logger/Listener.java" />
-        <option value="$PROJECT_DIR$/src/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/pages/common/messages.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/navigation/edit-category-dialog.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/navigation/edit-product-dialog.xhtml" />
-        <option value="$PROJECT_DIR$/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/crud17/spring/Context.java" />
-        <option value="$PROJECT_DIR$/src/crud17/service/dao/DomainDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/crud17/service/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/crud17/service/TablesRefiller.java" />
-        <option value="$PROJECT_DIR$/src/crud17/view/beans/common/TitleBean.java" />
         <option value="$PROJECT_DIR$/src/crud17/entities/Category.java" />
         <option value="$PROJECT_DIR$/src/crud17/utils/Context.java" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/navi/DeleteBean.java" />
@@ -241,31 +237,49 @@
         <option value="$PROJECT_DIR$/src/crud17/view/beans/navi/EditCategoryBean.java" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/navi/EditProductBean.java" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/DatabaseManagementBean.java" />
-        <option value="$PROJECT_DIR$/web/pages/db-management/clear-database-dialog.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml" />
         <option value="$PROJECT_DIR$/web/pages/db-management/please-wait-dialog.xhtml" />
         <option value="$PROJECT_DIR$/src/crud17/utils/InfoHolder.java" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/common/AuthBean.java" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/common/TechInfoBean.java" />
-        <option value="$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/SessionBean.java" />
         <option value="$PROJECT_DIR$/src/crud17/entities/DomainObject.java" />
         <option value="$PROJECT_DIR$/src/crud17/view/beans/navi/NavigationBean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/crud18/view/beans/SessionBean.java" />
         <option value="$PROJECT_DIR$/src/crud18/logger/SessionListener.java" />
         <option value="$PROJECT_DIR$/src/crud18/utils/InfoHolder.java" />
         <option value="$PROJECT_DIR$/src/crud18/view/beans/common/TechInfoBean.java" />
-        <option value="$PROJECT_DIR$/web/pages/common/login.xhtml" />
-        <option value="$PROJECT_DIR$/web/pages/common/tech-info.xhtml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml" />
         <option value="$PROJECT_DIR$/src/crud18/settings/Constants.java" />
         <option value="$PROJECT_DIR$/src/crud18/utils/Context.java" />
-        <option value="$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml" />
         <option value="$PROJECT_DIR$/src/crud18/view/beans/common/AuthBean.java" />
         <option value="$PROJECT_DIR$/src/crud18/view/beans/navi/NavigationBean.java" />
         <option value="$PROJECT_DIR$/src/crud19/entities/Category.java" />
+        <option value="$PROJECT_DIR$/src/crud19/view/beans/navi/NavigationBean.java" />
+        <option value="$PROJECT_DIR$/src/crud19/view/handlers/CustomExceptionHandlerFactory.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/crud19/view/handlers/CustomExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/crud19/view/beans/common/TechInfoBean.java" />
+        <option value="$PROJECT_DIR$/web/pages/common/login.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/db-management/clear-database-dialog.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/navigation/edit-category-dialog.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/navigation/edit-product-dialog.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml" />
+        <option value="$PROJECT_DIR$/src/crud19/view/beans/SessionBean.java" />
+        <option value="$PROJECT_DIR$/src/crud19/view/beans/common/AuthBean.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/64011456-bf1d-4db9-b5ff-52f98895c9e4/console.sql" />
+        <option value="$PROJECT_DIR$/web/pages/common/tech-info.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml" />
+        <option value="$PROJECT_DIR$/src/crud2/settings/Constants.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/crud2/view/beans/DatabaseManagementBean.java" />
+        <option value="$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml" />
+        <option value="$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -361,7 +375,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRUD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navigation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,10 +416,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crud19" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1072,6 +1108,8 @@
       <workItem from="1469188809236" duration="27616000" />
       <workItem from="1469232942608" duration="1816000" />
       <workItem from="1469430258618" duration="31430000" />
+      <workItem from="1469516552567" duration="225000" />
+      <workItem from="1469516883081" duration="13370000" />
     </task>
     <task id="LOCAL-00001" summary="implemented but not connected CategoryDaoImpl - hibernate dao implementation.">
       <created>1468365194169</created>
@@ -1083,7 +1121,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="571775000" />
+    <option name="totallyTimeSpent" value="585370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1097,16 +1135,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32286024" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5232936" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206934" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3217768" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.67942584" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.67942584" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15565032" sideWeight="0.32057416" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32675907" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14552239" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4914712" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1156,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1150,243 +1188,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/crud19/service/dao/UsersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/service/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/service/dao/DomainDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/64011456-bf1d-4db9-b5ff-52f98895c9e4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.56666666">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5636363">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4230769">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/db-manage.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.faces-2.2.1.jar!/com/sun/faces/lifecycle/RestoreViewPhase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4074073">
-          <caret line="120" column="85" selection-start-line="120" selection-start-column="85" selection-end-line="120" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/common/messages.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3846154">
-          <caret line="75" column="118" selection-start-line="75" selection-start-column="118" selection-end-line="75" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/edit-product-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.653846">
-          <caret line="81" column="111" selection-start-line="81" selection-start-column="111" selection-end-line="81" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/edit-category-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/common/TitleBean.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/common/TitleBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/service/dao/DomainDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/service/dao/DomainDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <marker date="1469462872754" expanded="true" signature="3970:3998" placeholder="SELECT COUNT... product" />
-            <marker date="1469462872754" expanded="true" signature="4092:4121" placeholder="SELECT COUNT... category" />
-            <marker date="1469462872754" expanded="true" signature="4681:4709" placeholder="DROP TABLE I... " />
-            <marker date="1469462872754" expanded="true" signature="4762:4791" placeholder="DROP TABLE I... " />
-            <marker date="1469462872754" expanded="true" signature="4844:5203" placeholder="CREATE TABLE... category" />
-            <marker date="1469462872754" expanded="true" signature="5273:5640" placeholder="CREATE TABLE... product" />
-            <marker date="1469462872754" expanded="true" signature="5710:5914" placeholder="INSERT INTO category... " />
+            <element signature="e#876#877#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <marker date="1469522764894" expanded="true" signature="3965:3993" placeholder="SELECT COUNT... product" />
+            <marker date="1469522764894" expanded="true" signature="4087:4116" placeholder="SELECT COUNT... category" />
+            <marker date="1469522764894" expanded="true" signature="4676:4704" placeholder="DROP TABLE I... " />
+            <marker date="1469522764894" expanded="true" signature="4757:4786" placeholder="DROP TABLE I... " />
+            <marker date="1469522764894" expanded="true" signature="4839:5198" placeholder="CREATE TABLE... category" />
+            <marker date="1469522764894" expanded="true" signature="5268:5635" placeholder="CREATE TABLE... product" />
+            <marker date="1469522764894" expanded="true" signature="5705:5909" placeholder="INSERT INTO category... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.076923">
-          <caret line="46" column="120" selection-start-line="46" selection-start-column="120" selection-end-line="46" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-buttons.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0384617">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <marker date="1469223570413" expanded="true" signature="572:650" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/AddProductBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/EditCategoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/EditProductBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/entities/secure/User.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/entities/secure/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#449#450#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/db-management/clear-database-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.961538">
-          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0384617">
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/db-management/please-wait-dialog.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,108 +1224,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-56.666668">
           <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/logger/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4615386">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/logger/SessionListener.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/logger/SessionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/utils/InfoHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/utils/InfoHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/SessionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/DeleteBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/DatabaseManagementBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/common/TechInfoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="100" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
-          <folding>
-            <element signature="e#2603#2604#0" expanded="true" />
-            <element signature="e#2647#2648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/common/login.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.576923">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/common/tech-info.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,37 +1245,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/settings/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/utils/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/utils/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.730769">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/AddCategoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/AddCategoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="114" selection-start-line="79" selection-start-column="114" selection-end-line="79" selection-end-column="114" />
@@ -1541,34 +1264,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/common/AuthBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/entities/DomainObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/view/beans/navi/NavigationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding>
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/service/TablesRefiller.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/service/TablesRefiller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
@@ -1576,7 +1272,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/service/dao/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/service/dao/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
@@ -1584,18 +1280,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml">
+    <entry file="jar://$PROJECT_DIR$/lib/javax.faces-2.2.8.jar!/com/sun/faces/mgbean/ManagedBeanBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.730769">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state vertical-scroll-proportion="-20.148148">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud19/entities/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/crud2/entities/DomainObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45057034">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/entities/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/EditCategoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/logger/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.654546">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/EditProductBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/DeleteBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/common/TechInfoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/NavigationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/common/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.307693">
+          <caret line="36" column="97" selection-start-line="36" selection-start-column="97" selection-end-line="36" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/templates/common.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.038462">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/db-manage.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/navi.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/common/messages.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/db-management/clear-database-dialog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.192308">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-buttons.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.192308">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-tree.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.346154">
+          <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/edit-category-dialog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.384615">
+          <caret line="51" column="87" selection-start-line="51" selection-start-column="87" selection-end-line="51" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/edit-product-dialog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.269231">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/templates/commonTemplate.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.961538">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/SessionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/common/AuthBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/64011456-bf1d-4db9-b5ff-52f98895c9e4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/common/tech-info.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/welcome/welcome-body-impl.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.461538">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.038462">
+          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/settings/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-category-dialog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.115385">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/add-product-dialog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7692308">
+          <caret line="63" column="84" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/navi/AddProductBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="88" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/handlers/CustomExceptionHandlerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/handlers/CustomExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud2/view/beans/DatabaseManagementBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/db-management/refill-database-dialog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9615383">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/db-management/db-manage-body-impl.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/navigation/navi-body-impl.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02972028">
+          <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
           <folding />
         </state>
       </provider>

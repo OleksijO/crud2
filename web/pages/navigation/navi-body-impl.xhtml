@@ -23,7 +23,7 @@
                         <f:facet name="header">
                             <h:outputText value="Category's Name / Description"/>
                         </f:facet>
-                            <h:commandLink value="#{subCategory.name}" update="body">
+                            <h:commandLink value="#{subCategory.name}" update="body tech-info">
                                 <f:setPropertyActionListener target="#{sessionBean.currentId}"
                                                              value="#{subCategory.id}"/>
                                 <f:actionListener binding="#{navigationBean.renew()}"/>
@@ -32,12 +32,12 @@
                     </p:column>
                     <p:column width="20%" style="text-align: center" rendered="#{sessionBean.logged}">
 
-                            <p:commandButton value="Edit" update="edit-category-dialog">
+                            <p:commandButton value="Edit" update="edit-category-dialog tech-info">
                                 <f:setPropertyActionListener target="#{editCategoryBean.category}"
                                                              value="#{subCategory}"/>
                                 <f:actionListener binding="#{editCategoryBean.showDialog()}"/>
                             </p:commandButton>
-                            <p:commandButton value="Remove" update="body messages">
+                            <p:commandButton value="Remove" update="body messages tech-info">
                                 <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
                                                              value="#{subCategory}"/>
                                 <f:actionListener binding="#{deleteBean.deleteItem()}"/>
@@ -78,12 +78,12 @@
                     </p:column>
                     <p:column width="20%" style="text-align: center;" rendered="#{sessionBean.logged}">
 
-                            <p:commandButton value="Edit" update="edit-product-dialog">
+                            <p:commandButton value="Edit" update="edit-product-dialog  tech-info">
                                 <f:setPropertyActionListener target="#{editProductBean.product}"
                                                              value="#{product}"/>
                                 <f:actionListener binding="#{editProductBean.showDialog()}"/>
                             </p:commandButton>
-                            <p:commandButton value="Remove" update="body messages">
+                            <p:commandButton value="Remove" update="body messages  tech-info">
                                 <f:setPropertyActionListener target="#{deleteBean.itemToDelete}"
                                                              value="#{product}"/>
                                 <f:actionListener binding="#{deleteBean.deleteItem()}"/>
@@ -98,7 +98,7 @@
                 </p:panel>
 
                     <p:panel rendered="#{navigationBean.notRoot}">
-                        <h:commandButton value="&uarr;&nbsp;back to parent category" update="body">
+                        <h:commandButton value="&uarr;&nbsp;back to parent category" update="body tech-info">
                             <f:setPropertyActionListener target="#{sessionBean.currentId}"
                                                          value="#{navigationBean.current.parent.id}"/>
                             <f:actionListener binding="#{navigationBean.renew()}"/>

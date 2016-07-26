@@ -19,7 +19,7 @@
                 <h:form rendered="#{sessionBean.logged}">
                     <br/>
                     <div style="width: 100%" align="center">
-                        <p:commandButton value="Logout" action="#{authBean.logOut}" update="login-form messages"/>
+                        <p:commandButton value="Logout" action="#{authBean.logOut}" update="login-form messages tech-info"/>
                     </div>
                 </h:form>
                 <h:form rendered="#{!sessionBean.logged}">
@@ -34,7 +34,7 @@
                                 validatorMessage="Password must contain 3-16 symbols: only letters and numbers">
                         <f:validateRegex pattern="[A-Za-z0-9_.]{3,16}"/>
                     </p:password><br/>
-                    <p:commandButton value="Login" action="#{authBean.logIn}" update="login-form messages"
+                    <p:commandButton value="Login" action="#{authBean.logIn}" update="login-form messages tech-info"
                                      style="margin-top: 5px"/>
                 </h:form>
             </div>

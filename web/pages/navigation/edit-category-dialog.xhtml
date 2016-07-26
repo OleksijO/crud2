@@ -49,11 +49,11 @@
                             <div align="center" style="width: 100%">
                                 <p:commandButton value="Cancel" immediate="true"
                                                  onclick="PF('edit-category-dialog').hide();"
-                                                 update="edit-category-dialog">
+                                                 update="edit-category-dialog tech-info">
                                     <p:resetInput target="edit-category-dialog" process="@this"/>
                                 </p:commandButton>
                                 <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
-                                <p:commandButton value="Update category" update="edit-category-dialog body messages">
+                                <p:commandButton value="Update category" update="edit-category-dialog body messages tech-info">
                                     <f:actionListener binding="#{editCategoryBean.update()}"/>
                                     <f:actionListener binding="#{navigationBean.renew()}"/>
                                 </p:commandButton>

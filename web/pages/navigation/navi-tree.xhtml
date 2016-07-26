@@ -11,18 +11,17 @@
     <ui:composition>
 
         <div align="center" style="width: 100%">
+            <h:form id="navi-tree">
             <p:dataTable value="#{navigationBean.pathList}" var="pathItem">
                 <p:column>
-                    <h:form>
-                        <h:commandLink value="&rarr;&nbsp;#{pathItem.name}" update="body">
+                        <h:commandLink value="&rarr;&nbsp;#{pathItem.name}" update="body tech-info">
                             <f:setPropertyActionListener target="#{sessionBean.currentId}"
                                                          value="#{pathItem.id}"/>
                             <f:actionListener binding="#{navigationBean.renew()}"/>
                         </h:commandLink><br/>
-                    </h:form>
                 </p:column>
             </p:dataTable>
-
+            </h:form>
         </div>
 
     </ui:composition>

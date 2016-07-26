@@ -62,7 +62,7 @@
                         </td>
                         <td width="300px">
                             <p:inputNumber id="edit-product-input-quantity" value="#{editProductBean.product.quantity}" decimalPlaces="0"
-                                           style="width: 75px"
+                                           style="width: 75px" thousandSeparator=" "
                                            minValue="0"/>
                             <p:outputLabel value=" pcs"/>
                         </td>
@@ -74,12 +74,12 @@
                         <td colspan="3">
                             <div align="center" style="width: 100%">
                                 <p:commandButton value="Cancel" immediate="true"
-                                                 onclick="PF('edit-product-dialog').hide();" update="edit-product-dialog">
+                                                 onclick="PF('edit-product-dialog').hide();" update="edit-product-dialog tech-info">
                                     <p:resetInput target="edit-product-dialog" process="@this"/>
                                 </p:commandButton>
                                 <p:outputLabel>&nbsp;&nbsp;&nbsp;</p:outputLabel>
                                 <p:commandButton actionListener="#{editProductBean.update()}"
-                                                 value="edit product" update="edit-product-dialog body messages">
+                                                 value="edit product" update="edit-product-dialog body messages tech-info">
                                     <f:actionListener binding="#{navigationBean.renew()}"/>
                                 </p:commandButton>
                             </div>
