@@ -1,4 +1,4 @@
-Refactoring of Simple CRUD, based on servlets and JDBC finished.
+Refactoring of and implementing frameworks in Simple CRUD, based on servlets and JDBC finished.
 
 Now Simple CRUD 2 is Java web-app, based on SpringFramework, Hibernate and PrimeFaces. 
 
